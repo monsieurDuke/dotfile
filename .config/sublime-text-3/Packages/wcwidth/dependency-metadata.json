@@ -1,0 +1,1 @@
+{"url": "https://github.com/packagecontrol/wcwidth/issues", "platforms": ["*"], "sublime_text": ">=3000", "description": "Python wcwidth module", "version": "0.1.7"}
