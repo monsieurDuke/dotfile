@@ -1,6 +1,3 @@
-hugo new site shared-consulting && cd shared-consulting
-clear
-ll
 ll con
 ll content/
 clear
@@ -1998,3 +1995,6 @@ clear
 ssh icat@192.168.1.11
 ssh-keygen -f "/home/icat/.ssh/known_hosts" -R "192.168.1.11"
 ssh icat@192.168.1.11
+sudo apt-get install compton
+sudo apt-get install exa
+sudo apt-get install kitty
