@@ -1,7 +1,3 @@
-ll con
-ll content/
-clear
-ll
 git init
 clear
 ll
@@ -1998,3 +1994,7 @@ ssh icat@192.168.1.11
 sudo apt-get install compton
 sudo apt-get install exa
 sudo apt-get install kitty
+cd Script/
+clear
+ll
+bash touchpad-speed.sh 
