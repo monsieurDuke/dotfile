@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Qtile
+Comment=Qtile Session
+Exec=/home/icat/.local/bin/qtile start
+Type=Application
+X-GDM-SessionRegisters=true
+Keywords=wm;tiling
