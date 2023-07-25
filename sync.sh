@@ -15,19 +15,18 @@ usage() {
 	echo -e "OPTIONS:\
          \n  -s (sync)\n\tSyncing local dotfiles to the repository\
          \n  -r (run)\n\tInstalling all dependencies, as well as debloating the host\
-         \n  -h (help)\n\tDisplaying possible usage of the script"
-}
+         \n  -h (help)\n\tDisplaying possible usage of the script"; }
 #----------
 sync() {
 	prc=2
 	checker
-	backup_sync
-}
+	backup_sync; }
 run() {
-	prc=2
-	checker	
-	install_app
-}
+	prc=9
+# -->	checker	
+# -->	install_app
+	install_qtile
+	import_config; }
 #----------
 checker() {
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Checking basic requirements ..."
@@ -52,32 +51,56 @@ backup_sync() {
 	((inc++)); }
 #----------
 install_app() {
-	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential apps and dependencies ..."	
-	apps="bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential programs & utilities ..."	
+	apps="python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
 	sudo apt-get update & wait
-	sudo apt-get install $apps -y & wait	
+	sudo apt-get install $apps -y & wait
+	((inc++))
 	#
-	git clone https://github.com/89luca89/distrobox.git & wait
-	bash distrobox/install & wait
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing DistroBox ..."		
+	git clone https://github.com/89luca89/distrobox.git
+	bash distrobox/install
+	((inc++))
 	#
-	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null & wait
-	echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list & wait
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing Sublime Text 4 ..."			
+	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+	echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 	sudo apt-get update -y & wait
-	sudo apt-get install sublime-text -y & wait
+	# --> sudo apt-get install sublime-text -y & wait
+	((inc++))
 	#
-	bash .etc/burpsuite_community_linux_v2023_6_2.sh & wait
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing BurpSuite Community Edition ..."
+	bash .etc/burpsuite_community_linux_v2023_6_2.sh
+	((inc++))	
 	#
-	tar xjf .etc/firefox-*.tar.bz2 & wait
-	sudo mv firefox /opt & wait
-	sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox & wait
-	sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications & wait
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing Firefox ..."
+	tar xjf .etc/firefox-*.tar.bz2
+	sudo mv firefox /opt
+	sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+	sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
 	((inc++)); }
+#----------
+install_qtile() {
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing Qtile and its dependencies from source ..."
+	[[ ! -d "$home/.local/bin" ]] && mkdir $home/.local/bin	
+	python3 -m venv .
+	source bin/activate
+	git clone https://github.com/qtile/qtile.git
+	pip install qtile/./
+	cp bin/qtile $home/.local/bin/
+	export PATH="$HOME/.local/bin:$PATH"
+	cp .config/qtile.desktop /usr/share/xsessions	
+	((inc++)); }
+#----------
+import_config() {
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Copying dotfiles from ${GREEN}dotfile/.config${ENDCOLOR} to ${GREEN}$home${ENDCOLOR} ..."
+	cp -r .config/* $home/.config/
+	source $home/.bashrc
+	((inc++))
 
-## 4. removing bloated apps 
-##    --> 
-## 5. installing qtile
-## 6. importing dots to ~/ dir
-
+	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installation finished ${GREEN}successfully${ENDCOLOR} ..."
+	echo -e "[${GREEN}---${ENDCOLOR}]: Please log out from current session to use the Qtile DE ..."	
+	((inc++)); }
 #----------
 while getopts ":s :r :h" opt; do
 	case $opt in
@@ -86,9 +109,6 @@ while getopts ":s :r :h" opt; do
 		h)	usage ;;
 	esac
 	done
-#----------
-
-
 
 #sudo find $src -maxdepth 1 -type d -regex '^.*/[\.]\w+' -exec cp -r {} $dst/dots \;
 #sudo find $src -maxdepth 1 -type f -regex '^.*/[\.]\w+' -exec cp -r {} $dst/dots \;
