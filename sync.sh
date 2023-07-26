@@ -1,5 +1,6 @@
 #!/bin/bash
 #----------
+user="icat"
 home="/home/icat"
 inc=1
 #----------
@@ -23,14 +24,15 @@ sync() {
 	backup_sync; }
 run() {
 	prc=9
-# -->	checker	
-# -->	install_app
+	checker	
+	install_app
 	install_qtile
 	import_config; }
 #----------
 checker() {
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Checking basic requirements ..."
 	[[ ! -d "./.config" ]] && mkdir .config
+	[[ ! -d "./.home" ]] && mkdir .home	
 	[[ ! -d "./.etc" ]] && mkdir .etc
 	if [[ $(id -u) -ne 0 ]]; then 
 		echo -e "[${RED}ext${ENDCOLOR}]: Please run the script in a root privilege"
@@ -42,8 +44,9 @@ backup_sync() {
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Copying dotfiles from ${GREEN}$home${ENDCOLOR} to ${GREEN}dotfile/.config${ENDCOLOR} ..."
 	bu_files=(.bash_history .bashrc .gitconfig .profile .selected_editor .info .dialogrc)
 	for i in ${bu_files[@]}; do
-		cp $home/$i ./.config
+		cp $home/$i ./.home
 		done
+		sudo cp /usr/share/xsessions/qtile.desktop ./.home
 	bu_dirs=(asciinema gtk-3.0 kitty neofetch qtile ranger sublime-text-3)
 	for j in ${bu_dirs[@]}; do
 		cp -r $home/.config/$j ./.config
@@ -52,7 +55,7 @@ backup_sync() {
 #----------
 install_app() {
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential programs & utilities ..."	
-	apps="python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
+	apps="neofetch spd python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
 	sudo apt-get update & wait
 	sudo apt-get install $apps -y & wait
 	((inc++))
@@ -66,11 +69,11 @@ install_app() {
 	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 	echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 	sudo apt-get update -y & wait
-	# --> sudo apt-get install sublime-text -y & wait
+	sudo apt-get install sublime-text -y & wait
 	((inc++))
 	#
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing BurpSuite Community Edition ..."
-	bash .etc/burpsuite_community_linux_v2023_6_2.sh
+	bash .etc/burpsuite_community_linux_v2023_6_2.sh -q -varfile response.varfile
 	((inc++))	
 	#
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing Firefox ..."
@@ -86,15 +89,22 @@ install_qtile() {
 	python3 -m venv .
 	source bin/activate
 	git clone https://github.com/qtile/qtile.git
+	pip install psutil
 	pip install qtile/./
 	cp bin/qtile $home/.local/bin/
 	export PATH="$HOME/.local/bin:$PATH"
-	cp .config/qtile.desktop /usr/share/xsessions	
 	((inc++)); }
 #----------
 import_config() {
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Copying dotfiles from ${GREEN}dotfile/.config${ENDCOLOR} to ${GREEN}$home${ENDCOLOR} ..."
-	cp -r .config/* $home/.config/
+	cp -r .config/. $home/.config/
+	cp -r .home/. $home/
+	sudo mv $home/nanorc /etc
+	sudo mv $home/qtile.desktop /usr/share/xsessions
+	sudo chmod -x /usr/share/xsessions/qtile.desktop
+	sudo chmod +r /usr/share/xsessions/qtile.desktop
+	mv $home/jetbrains $home/.local/share/fonts/
+	sudo chown -R $user:$user $home/./
 	source $home/.bashrc
 	((inc++))
 
