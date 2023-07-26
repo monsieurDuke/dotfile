@@ -1,45 +1,3 @@
-git init
-clear
-ll
-clear
-ll
-clear
-l
-clear
-l -a
-git submodule add https://github.com/hotpotcookie/nord-hugo-book.git themes/nord-hugo-book
-clear
-ll
-ll themes/
-clear
-hugo server --minify --theme nord-hugo-book 
-clear
-cd Git/
-clear
-ll
-;;
-clear
-ll
-git clone https://github.com/monsieurDuke/shared-consulting.git
-cd shared-consulting/
-clear
-ll
-touch setup.txt
-clear
-ll
-rm setup.txt 
-clear
-nano README.md 
-clear
-ll
-clear
-ll
-git clone https://github.com/monsieurDuke/hugo-book.git
-clear
-ll
-rm -r hugo-book/
-sudo rm -r hugo-book/
-clear
 ll
 clear
 git clone https://github.com/hotpotcookie/nord-hugo-book.git
@@ -1998,3 +1956,45 @@ cd Script/
 clear
 ll
 bash touchpad-speed.sh 
+sudo apt-get install calcurse 
+sudo apt-get install alsamixer
+sudo apt-get install nmcli
+sudo apt-get install network-manager
+sudo apt-get install x11-session-utils 
+sudo apt-get install x11-xserver-utils 
+sudo apt-get install bluez
+sudo apt-get install mplayer
+sudo apt-get install ffmpeg
+clear
+apt list --installed
+apt list --installed | wc -l
+readme 
+cd Downloads/temp/
+clear
+cat burpsuite_community_linux_v2023_6_2.sh | wc -l
+cat burpsuite_community_linux_v2023_6_2.sh | wc -l -h
+cat burpsuite_community_linux_v2023_6_2.sh | wc -l
+mv burpsuite_community_linux_v2023_6_2.sh ~/Git/dotfile/.etc/
+readme 
+ll firefox-115.0.2.tar.bz2 
+mv firefox-115.0.2.tar.bz2 ~/Git/dotfile/.etc/
+readme 
+nano ~/.info 
+readme 
+nano ~/.info 
+clear
+readme 
+clear
+readme 
+cd
+clear
+cd OpenVPN/
+clear
+ll
+cp hotpotcookie-IN-REG-1.ovpn ~/Git/dotfile/.etc/
+cd ..
+clear
+ll
+cd Script/
+clear
+ll
