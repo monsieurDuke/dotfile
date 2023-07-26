@@ -1,0 +1,6 @@
+# install4j response file for Burp Suite Community Edition 2023.6.2
+sys.adminRights$Boolean=false
+sys.installationDir=/home/icat/BurpSuiteCommunity
+sys.languageId=en
+sys.programGroupDisabled$Boolean=false
+sys.symlinkDir=/usr/local/bin
