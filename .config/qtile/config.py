@@ -169,13 +169,13 @@ screens = [
                 widget.TextBox("CAM", name="default",foreground="#bd93f9",
                     mouse_callbacks = {
                         'Button1': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c start'),
-                        'Button2': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c stop')                 
+                        'Button3': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c stop')                 
                     }, 
                 ),                
                 widget.TextBox("REC", name="default",foreground="#bd93f9",
                     mouse_callbacks = {
                         'Button1': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f start'),
-                        'Button2': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f stop') 
+                        'Button3': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f stop') 
                     },                    
                 ),                                
                 widget.TextBox("]]", name="default",foreground="#ffffff"),                           
