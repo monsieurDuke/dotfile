@@ -1,24 +1,3 @@
-ll
-clear
-git clone https://github.com/hotpotcookie/nord-hugo-book.git
-clear
-ll
-nano README.md 
-clear
-ll
-hugo mod init .
-hugo new site .
-clear
-ll
-ll public/
-l
-ll
-ll public/
-ll resources/
-ll
-rm -r public/
-clear
-ll
 sudo rm -r resources/
 clear
 ll
@@ -1998,3 +1977,24 @@ ll
 cd Script/
 clear
 ll
+neofetch 
+htop
+killall ffmpeg 
+clear
+ll
+cd Vi
+cd Videos/
+clear
+ll
+xdg-open 16_27_35--27_07_23.flv 
+cd
+cd .config/qtile/
+clear
+ll
+cd scripts/
+clear
+ll
+nano widget.sh 
+nano sub-deviceconf.sh 
+nano sub-deviceconf.sh qtile 
+nano ../config.py 
