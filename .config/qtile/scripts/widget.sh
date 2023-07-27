@@ -15,9 +15,12 @@ mplayer_cam() { ## -c
 }
 #==========================
 ffmpeg_record() { ## -f \\ start & stop
+	wid=$(cat /sys/class/graphics/fb0/virtual_size | cut -d ',' -f 1)
+	hei=$(cat /sys/class/graphics/fb0/virtual_size | cut -d ',' -f 2)
+	res=$(echo $wid\x$hei)
 	case $1 in
 		"start")
-			ffmpeg -video_size 1366x768 -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/Videos/$(date +"%H_%M_%S--%d_%m_%y").flv & nohup
+			ffmpeg -video_size $res -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/Videos/$(date +"%H_%M_%S--%d_%m_%y").flv & nohup
 			spd-say "recording started"
 			;;
 		"stop")
