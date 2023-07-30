@@ -1,0 +1,4 @@
+#!/bin/bash
+asciinema rec /tmp/demo.cast
+/home/icat/Git/agg/target/release/./agg /tmp/demo.cast "$1" --font-size 16 --font-family "JetBrains Mono Medium" & wait
+rm /tmp/demo.cast
