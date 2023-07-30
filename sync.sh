@@ -17,6 +17,7 @@ usage() {
 	echo -e "OPTIONS:\
          \n  -s (sync)\n\tSyncing local dotfiles to the repository\
          \n  -r (run)\n\tInstalling all dependencies, as well as debloating the host\
+         \n  -x (bare)\n\tRun barebone directory modification if only the host is freshly installed\
          \n  -h (help)\n\tDisplaying possible usage of the script"; }
 #----------
 sync() {
@@ -25,10 +26,13 @@ sync() {
 	backup_sync; }
 run() {
 	prc=9
-	post_checker	
+	post_checker
 	install_app
 	install_qtile
 	import_config; }
+bare() {
+	mod_dir
+}
 #----------
 pre_checker() {
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Checking basic ${GREEN}requirements${ENDCOLOR} ... ${BLUE}"
@@ -66,19 +70,23 @@ backup_sync() {
 		for j in ${bu_dirs[@]}; do
 			cp -r $home/.config/$j ./.config
 			done
+		bu_fox=(.mozilla/extensions .mozilla/firefox/zooa6hgr.default-release/chrome)
+		for k in ${bu_fox[@]}; do
+			cp -r $home/$k ./.etc
+			done
 		((inc++)); } ; echo -en "${ENDCOLOR}" ; }
 #----------
 install_app() {
 	echo -e "--------------------\n$(date)\n--------------------" >> error.log
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential ${GREEN}utilities${ENDCOLOR} ... ${BLUE}"
 	time {
-		apps="neofetch espeak mpv python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
+		apps="neofetch espeak x11-xserver-utils mpv python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
 		sudo apt-get update 2>> error.log > /dev/null
 		sudo apt-get install $apps -y 2>> error.log > /dev/null
 		((inc++)); } ; echo -en "${ENDCOLOR}"
-	
+
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing ${GREEN}DistroBox${ENDCOLOR} ... ${BLUE}"
-	time {	
+	time {
 		git clone https://github.com/89luca89/distrobox.git 2>> error.log > /dev/null
 		bash distrobox/install 2>> error.log > /dev/null
 		((inc++)); } ; echo -en "${ENDCOLOR}"
@@ -98,10 +106,9 @@ install_app() {
 	
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing ${GREEN}Firefox${ENDCOLOR} ... ${BLUE}"
 	time {			
-		tar xjf .etc/firefox-*.tar.bz2
-		sudo mv firefox /opt
-		sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
-		sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications 2>> error.log > /dev/null
+		[[ ! -d $home/.mozilla ]] && mkdir $home/.mozilla
+		tar xjf .etc/firefox-*.tar.bz2 -C $home/.mozilla
+		sudo ln -s $home/.mozilla/firefox/firefox /usr/local/bin/firefox
 		((inc++)); } ; echo -en "${ENDCOLOR}" ; }
 #----------
 install_qtile() {
@@ -112,7 +119,7 @@ install_qtile() {
 		source bin/activate
 		git clone https://github.com/qtile/qtile.git 2>> error.log > /dev/null
 		pip install psutil 2>> error.log > /dev/null
-		pip install qtile/./ 2>> error.log > /dev/null
+		pip install qtile/ 2>> error.log > /dev/null
 		cp bin/qtile $home/.local/bin/
 		export PATH="$HOME/.local/bin:$PATH"
 		((inc++)); } ; echo -en "${ENDCOLOR}" ; }
@@ -130,21 +137,34 @@ import_config() {
 		sudo chown -R $user:$user $home/./
 		source $home/.bashrc
 		((inc++)); } ; echo -en "${ENDCOLOR}"
-
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installation finished ${GREEN}successfully${ENDCOLOR}"
-	echo -e "[${GREEN}---${ENDCOLOR}]: Please log out from current session to use the ${GREEN}Qtile WM${ENDCOLOR}"	; }
+	echo -e "[${GREEN}---${ENDCOLOR}]: Please log out from current session to use the ${GREEN}Qtile WM${ENDCOLOR}"
+	echo -e "[${GREEN}---${ENDCOLOR}]: Please copy ${GREEN}.etc/chrome/${ENDCOLOR} and ${GREEN}.etc/extensions/${ENDCOLOR} to your home directory\
+			\nwhile enabling these config preferences on Firefox as it would load the custom css\
+			\n1. ${GREEN}layout.css.prefers-color-scheme.content-override${ENDCOLOR}\t0\
+			\n2. ${GREEN}toolkit.legacyUserProfileCustomizations.stylesheetse${ENDCOLOR}\ttrue\
+			\n3. ${GREEN}layers.acceleration.force-enablede${ENDCOLOR}\t\t\ttrue\
+			\n4. ${GREEN}gfx.webrender.alle${ENDCOLOR}\t\t\t\t\ttrue\
+			\n5. ${GREEN}svg.context-properties.content.enablede${ENDCOLOR}\t\ttrue" ; }
 #----------
-while getopts ":s :r :h" opt; do
+mod_dir() {
+	[[ -d "$home/Public" ]] && rmdir $home/Public	
+	[[ -d "$home/Documents" ]] && mv $home/Documents $home/doc
+	[[ -d "$home/Videos" ]] && mv $home/Videos $home/media
+	[[ -d "$home/Pictures" ]] && mv $home/Pictures $home/pic
+	[[ -d "$home/Downloads" ]] && mv $home/Downloads $home/download	
+	[[ ! -d "$home/git" ]] && mkdir $home/git
+	[[ ! -d "$home/tool" ]] && mkdir $home/tool
+	[[ ! -d "$home/temp" ]] && mkdir $home/temp
+	event="@reboot rm $home/temp/* && rm -r $home/temp/*"
+	(crontab -l; printf "$event\n") | crontab - ; }
+#----------
+while getopts ":s :r :h :x :t" opt; do
 	case $opt in
 		s)  sync ;;
 		r)  run ;;
-		h)	usage ;;
+		x)  bare ;;
+		h)  usage ;;
+		t)  install_app ;;
 	esac
 	done
-
-#sudo find $src -maxdepth 1 -type d -regex '^.*/[\.]\w+' -exec cp -r {} $dst/dots \;
-#sudo find $src -maxdepth 1 -type f -regex '^.*/[\.]\w+' -exec cp -r {} $dst/dots \;
-#sudo cp -r $src/Script/ $src/OpenVPN/ main/
-#sudo rm -r dots/.cache/ 2>> /dev/null
-#sudo rm -r dots/.local/share/Trash 2>> /dev/null
-#sudo du -h $dst/dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
