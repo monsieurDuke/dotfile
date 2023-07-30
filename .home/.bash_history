@@ -1,1125 +1,3 @@
-sudo rm -r resources/
-clear
-ll
-cd ..
-clear
-ll
-hugo mod init shared-consulting/
-hugo mod init shared-consulting
-ll
-rm -r go.mod 
-ll
-cd  shared-consulting/
-clear
-ll
-hugo mod init .
-hugo mod init ../shared-consulting/
-clear
-ll
-rm -r go.mod 
-rm -r public/
-rm -r resources/
-clear
-ll
-cat README.md 
-clear
-ll
-git submodule add https://github.com/hotpotcookie/nord-hugo-book themes/nord-hugo-book
-ll
-clear
-ll
-hugo server --minify --theme nord-hugo-book
-hugo help new
-claer
-clear
-ll
-hugo new site docs
-ll
-cd docs/
-ll
-cd ..
-clear
-ll
-cp README.md ../
-clear
-ll
-cd ..
-clear
-l
-clear
-ll
-rm -r public/
-clear
-ll
-rm -r resources/
-clear
-ll
-rm -r shared-consulting/
-sudo rm -r shared-consulting/
-clear
-ll
-nano README.md 
-subl shared-consulting/
-cd Go
-cd Git/
-clear
-ll
-mv README.md shared-consulting/
-cd Git/hotpotcookie/
-clear
-ll
-subl config.toml 
-cd Git/hotpotcookie/
-clear
-ll
-cd static/
-clear
-l
-ll
-xdg-open favicon.png 
-cd Downloads/
-ll
-cd temp/q
-cd temp/
-clear
-ll
-clear
-ll
-cp Slide\ 16_9\ -\ 1\ \(1\).webp ~/Git/shared-consulting/static/home-banner.webp 
-cd Git/shared-consulting/themes/nord-hugo-book/
-clear
-ll
-clear
-find -name "scroll" .
-find assets/ -name 'scroll'
-find assets/ -name 'scss'
-find assets/ -type -d -name 'scss'
-find assets/ -type f\ -name 'scss'
-find assets/ -type f -name 'scss'
-ll assets/
-find assets/ -type f -name '.'
-cd Git/hotpotcookie/content/posts/blog/
-ll
-subl _temp.md 
-clear
-hugo server --minify --theme nord-hugo-book
-ll themes/
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-clear
-ll static/
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-cd ~/Downloads/
-clear
-ll
-cd temp/
-clear
-ll
-cp ezgif.com-gif-maker.png ~/Git/shared-consulting/static/favicon.png
-cd ~/Git/shared-consulting/
-ll static/
-hugo server --minify --theme nord-hugo-book
-cd Downloads/temp/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf ~/Documents/CAREER/Resume.pdf 
-cd Downloads/
-clear
-ll
-cd temp/
-clear
-ll
-cp Slide\ 16_9\ -\ 1.webp ~/Git/shared-consulting/static/home-banner.webp 
-xdg-open Slide\ 16_9\ -\ 1.webp 
-cp Full-As-Banner.webp ~/Git/shared-consulting/static/home-banner.webp 
-cp Full-As-Banner-_1_.webp ~/Git/shared-consulting/static/home-banner.webp 
-cp Full-As-Banner-_2_.webp ~/Git/shared-consulting/static/home-banner.webp 
-cd Git/hotpotcookie/
-clear
-ll
-cd content/
-clear
-ll
-ll docs/
-tree .
-cd docs/org/
-clear
-ll
-cat _index.md 
-ll
-cat about-us/_index.md 
-cp about-us/_index.md ~/Git/shared-consulting/content/docs/org/about-us/
-ll
-cp -r privacy-policy/ ~/Git/shared-consulting/content/docs/org/
-ll
-cd ..
-ll
-ll gg/
-clear
-ll
-cd gg/
-ll
-cd payload/
-clear
-ll
-cat _index.md 
-clear
-ll
-cat _index.md 
-cp _index.md ~/Git/shared-consulting/content/docs/service/_index.md 
-clear
-ll
-cd ..
-clear
-ll
-cat _index.md 
-ll
-cp _index.md ~/Git/shared-consulting/content/docs/service/_index.md 
-cd payload/
-clear
-ll
-cp _index.md ~/Git/shared-consulting/content/docs/service/training-development/
-ll
-clear
-ll
-cd ../..
-clear
-ll
-cd ..
-clear
-ll
-cd ..
-clear
-ll
-cd po
-cd content/posts/
-clear
-ll
-cd blog/
-ll
-cd ..
-clear
-ll
-cp -r blog/ ~/Git/shared-consulting/content/posts/
-cd Downloads/temp/
-clear
-ll
-cp Untitled-Diagram.drawio.webp ~/Git/shared-consulting/static/org-structure.webp
-cd Downloads/temp/
-clear
-ll
-mv Frame\ 6.svg org-structure.svg
-cp org-structure.svg ~/Git/shared-consulting/static/
-cd Git/shared-consulting/static/
-clear
-ll
-rm org-structure.webp 
-clear
-ll
-ifconfig 
-cd Downloads/temp/
-ll
-mv Frame\ 6.svg org-structure.svg
-cp org-structure.svg ~/Git/shared-consulting/static/
-mv Frame-6.webp org-structure.webp
-cp org-structure.webp ~/Git/shared-consulting/static/
-clear
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-cd content/
-clear
-ll
-cd docs/
-lear
-clear
-ll
-cd
-ll
-cp Downloads/temp/Frame\ 3.webp Git/shared-consulting/static/small-logo.webp
-cd Git/hotpotcookie/content/docs/org/
-clear
-ll
-subl about-us/_index.md 
-cd ~/Git/shared-consulting/static/
-clear
-ll
-rm org-structure.webp 
-clear
-ll
-cd Git/shared-consulting/
-clear
-ll
-hugo server --minify --theme nord-hugo-book
-reboot 
-cd Downloads/temp/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad\ \(1\)-1.pdf ~/Documents/CAREER/Resume.pdf 
-gnome-screenshot
-sudo apt-get install gnome-screenshot 
-gnome-screenshot 
-gnome-screenshot -a -c
-gnome-screenshot -a -C
-gnome-screenshot -a -c
-xfce4-screenshooter 
-sudo apt-get remove --purge gnome-screenshot 
-neofetch 
-sudo shutdown -h now
-sudo shutdown -f
-sudo shutdown -h now
-xinput --list --short
-xinput --list-props "ELAN1300:00 04F3:3057 Touchpad"
-xset mouse 3 0
-xset mouse 6 0
-xset mouse 10 0
-xinput --list-props "ELAN1300:00 04F3:3057 Touchpad"
-xinput --set-props "ELAN1300:00 04F3:3057 Touchpad" 2.3
-xinput --set-prop "ELAN1300:00 04F3:3057 Touchpad" 2.3
-xinput set-prop "ELAN1300:00 04F3:3057 Touchpad" 2.3
-xinput set-prop "ELAN1300:00 04F3:3057 Touchpad" 8
-xfce4-mouse-settings 
-xset mouse 10 0
-sudo xset mouse 10 0
-https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}
-curl https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}
-curl "https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}"
-curl https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}
-ll
-clear
-ll
-curl https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}
-curl -X  https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}
-curl "https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}"
-curl -g "https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}"
-curl -g "https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={}" | jq .
-ll
-cd Script/
-clear
-ll
-cve-list.sh
-touch cve-list.sh
-echo "curl -g https://api.github.com/search/repositories?q=CVE-{}&sort=updated&per_page=100&page={} | jq ." > cve-list.sh 
-chmod +x cve-list.sh 
-clear
-./cve-list.sh 
-ll
-cat cve-list.sh 
-clear
-xinput --list --short
-xinput --set-prop
-xinput --set-prop 13 267 1.5
-xinput --list-props 13
-xinput --list-props 13 | grep const
-xinput --list-props 13 | grep Decel
-xinput --list-props 13 | grep Accel
-xinput --set-prop 13 326 1.5
-xinput --set-prop 13 326 1.0
-xinput --set-prop 13 326 0.5
-xinput --set-prop 13 326 0.0
-xinput --set-prop 13 326 0.5
-xinput --set-prop 13 326 0.3
-xinput --set-prop 13 326 0.45
-echo "xinput --set-prop 13 326 0.45" > Script/touchpad-speed.sh
-chmod +x Script/touchpad-speed.sh 
-clear
-ll
-cd SC
-cd Script/
-clear
-ll
-cat testfile 
-clear
-ll
-nano touchpad-speed.sh 
-./touchpad-speed.sh 
-cp Downloads/temp/Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf Documents/CAREER/Resume.pdf 
-subl Git/hotpotcookie/
-cp Downloads/temp/Frame\ 8.png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Group\ 9.png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(1\).png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Vector\ \(1\).png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Vector\ \(2\).png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/logo\ 1.png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/logo\ \(1\)\ 1.png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Group\ 10.png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/logo\ \(1\)\ 1.png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Group\ 10.png Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/logo\ \(1\)\ 1.png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(2\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(3\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(4\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(5\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(6\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(7\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(8\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(9\).png  Git/hotpotcookie/static/favicon.png 
-cp Downloads/temp/Frame\ 8\ \(10\).png  Git/hotpotcookie/static/favicon.png 
-readme 
-cd Git/shared-consulting/
-clear
-git status
-cd themes/nord-hugo-book/
-clear
-git status
-git add assets/
-clear
-git status
-git commit -m "finalizing color scheme + table format"
-clear
-git status
-git add static/svg/
-clear
-git status
-git commit -m "update svg color to match the scheme"
-clear
-git status
-git push
-clear
-git status
-cd ..
-clear
-ll
-cd ..
-clear
-git status
-git add themes/nord-hugo-book/
-clear
-git status
-git config --global user.name "monsieurDuke"
-git config --global user.email "icatmuhammad2@gmail.com"
-git status
-git add themes/nord-hugo-book/
-clear
-git status
-clear
-git status
-git commit -m "update latest theme from main repo"
-clear
-git status
-ncurses
-clear
-git status
-cat README.md 
-clear
-ll
-clear
-ll
-clear
-git status
-git add config.toml README.md .hugo_build.lock archetypes/
-clear
-git status
-git commit -m "init files"
-clear
-git status
-ll static/
-clear
-cd static/
-clear
-ll
-rm home-banner.png 
-clear
-ll
-rm small-logo.webp 
-clear
-ll
-git add .
-clear
-cd ..
-clear
-ll
-git status
-git commit -m "adding base images"
-clear
-git status
-cd resources/
-clear
-ll
-cd ..
-clear
-ll
-cd content/
-clear
-ll
-cat _index.md.bak 
-clear
-ll
-git add _index.md
-git commit -m "shortcodes + markdown testing"
-clear
-git status
-clear
-ll
-git status
-git _index.md.bak
-git add _index.md.bak
-git commit -m "shortcodes + markdown testing"
-cd ..
-clear
-ll
-git status
-cd content/docs/
-clear
-ll
-cd ../..
-clear
-ll
-git add content/
-clear
-git status
-git commit -m "publishing base sections on navbar"
-clear
-git status
-ll resources/
-git add resources/
-git commit -m "gen on netlify build"
-clear
-git status
-git push
-clear
-git remote add origin https://github.com/monsieurDuke/shared-consulting.git
-git branch -M main
-git push -u origin main
-neofetch 
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh -n icat -s male -a 23
-./testflag-1.sh -n icat -s male -a 23 -g
-./testflag-1.sh -n icat -s male -a 23 -z
-./testflag-1.sh -n icat -s male -a 23 -v
-clear
-ll
-clear
-htop
-clear
-ll
-cd Git/hotpotcookie/
-clear
-ll
-cd script/
-clear
-ll
-cd blog/
-clear
-lll
-clear
-ll
-cp * ~/
-c
-cd
-clea
-clear
-ll
-clear
-./testflag-
-./testflag-1.sh 
-clear
-./testflag-1.sh -h
-clear
-ll
-clear
-asciinema 
-clear
-cd Script/
-clear
-ll
-cat recascii 
-clear
-cd
-clear
-cat Script/recascii 
-clear
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh -m icat -s male -a 23
-./testflag-1.sh -n icat -s male -a 23
-clear
-./testflag-1.sh -n icat -s male -a 23
-./testflag-1.sh -n icat -s male -a 23 -g
-./testflag-1.sh -n icat -s male -a 23 -z
-./testflag-1.sh -n icat -s male -a 23 -h
-./testflag-1.sh -n icat -s male -a 23 -b
-clear
-recascii 1.gif
-xdg-open 1.gif 
-clear
-ll
-clear
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh -n icat -s male -a 23
-./testflag-1.sh -n icat -s male -a 23 -g
-clear
-./testflag-1.sh -n icat -s male -a 23 -z
-./testflag-1.sh -n icat -s male -a 23 -y
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh -a 23 -n irsyad -s male
-./testflag-1.sh -a 23 -n irsyad -s male -g
-clear
-./testflag-1.sh -a 23 -n irsyad -s male -z
-./testflag-1.sh -a 23 -n irsyad -s male -y
-cat Script/recascii 
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh -n icat -a 23 -s male
-./testflag-1.sh -n icat -a 23 -s male -g
-./testflag-1.sh 
-./testflag-1.sh -h
-./testflag-1.sh -n icat -s male -a 23
-./testflag-1.sh -n icat -s male -a 23 -g
-clear
-./testflag-1.sh -n icat -s male -a 23 -z
-./testflag-1.sh -n icat -s male -a 23 -y
-./testflag-2.sh 
-./testflag-2.sh -h
-./testflag-2.sh --help
-./testflag-2.sh -n icat -s male -a 23
-./testflag-2.sh -n icat -s male -a 23 -g
-./testflag-2.sh --name icat -s male -a 23 -g
-./testflag-2.sh --name icat --sex male -a 23 -g
-./testflag-2.sh --name icat --sex male --age 23 -g
-clear
-./testflag-2.sh --name icat --sex male --age 23 -z
-./testflag-2.sh --name icat --sex male --age 23 -y
-nano .bashrc 
-source .bashrc 
-clear
-rm 1.gif 
-clear
-recascii 1.gif
-rm 1.gif 
-recascii 1.gif
-cler
-clear
-rm 1.gif 
-clear
-recascii 1.gif
-cp 1.gif Git/hotpotcookie/static/images/data/blog/
-clear
-rm 1.gif 
-clear
-recascii 1.gif
-rm 1.gif 
-recascii 1.gif
-cp 1.gif Git/hotpotcookie/static/images/data/blog/
-clear
-./testflag-2.sh 
-./testflag-2.sh -h
-./testflag-2.sh --help
-./testflag-2.sh -n icat -s male -a 23
-./testflag-2.sh -n icat -s male -a 23 -g
-./testflag-2.sh --name icat -s male -a 23 -g
-./testflag-2.sh --name icat --sex male -a 23 -g
-./testflag-2.sh --name icat --sex male --age 23 -g
-./testflag-2.sh --name icat --sex male --age 23 -x
-./testflag-2.sh --name icat --sex male --age 23 -z
-./testflag-2.sh --name icat --sex male --age 23 -y
-clear
-recascii 2.gif
-cp 2.gif Git/hotpotcookie/static/images/data/blog/
-clear
-cd Git/hotpotcookie/
-clear
-ll
-cd static/images/data/blog/
-clear
-ll
-cp 1.gif suoofibs-1.gif 
-cp 2.gif suoofibs-2.gif 
-rm 1.gif 2.gif 
-claer
-clear
-ll
-cd Git/hotpotcookie/static/
-clear
-ll
-file favicon.png 
-clear
-cd Git/hotpotcookie/static/images/
-clear
-l
-ll
-ccd ..
-cd ..
-clear
-ll
-cd images/data/blog/
-ll
-clear
-ll
-cp ~/Downloads/temp/Frame\ 1.webp suoofibs-banner.webp 
-xdg-open ~/Downloads/temp/Frame\ 1.webp 
-cp ~/Downloads/temp/Frame\ 1.webp suoofibs2-banner.webp 
-clear
-ll
-rm suoofibs-banner.webp 
-clear
-ll
-clear
-ll
-clear
-cd themes/
-clear
-ll
-git clone https://github.com/hotpotcookie/nord-hugo-book.git
-cd 
-cd -
-cd ..
-clear
-ll
-nano .hugo_build.lock 
-clear
-ll
-nano config.toml 
-clear
-ll
-cat .gitmodules 
-nano .gitmodules 
-cp ~/Downloads/temp/_index.md content/
-cp ~/Downloads/temp/Frame\ 8\ \(11\).webp static/home-banner2.webp 
-cp ~/Downloads/temp/Frame\ 8\ \(12\).webp static/home-banner2.webp 
-cp ~/Downloads/temp/Frame\ 8\ \(14\).webp static/home-banner2.webp 
-cp ~/Downloads/temp/Group\ 12.png static/favicon.png 
-cp ~/Downloads/temp/Group\ 12\ \(1\).png static/favicon.png 
-cp ~/Downloads/temp/Group\ 12\ \(2\).png static/favicon.png 
-cp ~/Downloads/temp/Group\ 12\ \(3\).png static/favicon.png 
-cp ~/Downloads/temp/Frame\ 8\ \(15\).webp static/home-banner2.webp 
-cp ~/Downloads/temp/Frame\ 8\ \(16\).webp static/home-banner2.webp 
-cp ~/Downloads/temp/Frame\ 8\ \(17\).webp static/home-banner2.webp 
-clear
-ll
-cd content/posts/
-clear
-ll
-mv writeup/ write-up/
-clear
-clear
-ll
-cd content/
-clear
-ll
-cd docs/
-clear
-ll
-cd org/
-clear
-ll
-cp career/ register-now
-cp -r career/ register-now
-mv register-now/ contact-us
-mv career/ careers/
-clear
-ll
-mv about-us/ about
-cd ..
-clear
-ll
-cd ../posts/
-clear
-ll
-ll article/_index.md 
-cat article/_index.md 
-nano article/_index.md 
-nano webinar/_index.md 
-cd ../docs/org/privacy-policy/
-clear
-ll
-ll _index.md 
-cd ../../
-cd ~/Git/hotpotcookie/
-clear
-ll
-subl content/docs/org/privacy-policy/_index.md 
-cd ../shared-consulting/
-clear
-ll
-cd content/docs/org/
-clear
-ll
-rm -r careers/
-cd Git/
-clear
-ll
-cd Script/
-clear
-ll
-./touchpad-speed.sh 
-neofetch 
-cd Git/hotpotcookie/
-clear
-ll
-cp .gitignore /home/icat/Git/polarpwn.gg
-clear
-ll
-cp .gitmodules /home/icat/Git/polarpwn.gg
-cp .hugo_build.lock /home/icat/Git/polarpwn.gg
-clear
-ll
-ll archetypes/
-clear
-ll
-cp -r archetypes/ /home/icat/Git/polarpwn.gg
-clear
-ll
-cp config.toml content/ hotpotcookie.github.io.png README.md resources/ script/ static/ /home/icat/Git/polarpwn.gg
-clear
-ll
-cp cp -r resources/ /home/icat/Git/polarpwn.gg
-clear
-ll
-cp -r script/ /home/icat/Git/polarpwn.gg
-cp -r static/ /home/icat/Git/polarpwn.gg
-clear
-ll
-cp -r themes/ /home/icat/Git/polarpwn.gg
-clear
-ll
-cd content/
-ll
-clear
-ll
-clear
-ll
-cd ..
-clear
-ll
-cp -r content/ /home/icat/Git/polarpwn.gg
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-cd ..
-cd polarpwn.gg/
-clear
-subl Git/polarpwn.gg/
-readme 
-cd Git/hotpotcookie/
-clear
-ll
-cd ..
-clear
-ll
-mkdir polarpwn.gg
-cear
-ll
-clear
-ll
-cd polarpwn.gg/
-clear
-ll
-clear
-git init
-clear
-ll
-clear
-ll
-clear
-pwd
-ll
-clear
-pwd
-ll
-clear
-ll
-pwd
-clear
-pwd
-ll
-ll resources/
-clear
-ll
-cd themes/
-clear
-ll
-rm -r hugo-book/
-sudo rm -r hugo-book/
-clear
-hugo server --minify --theme nord-hugo-book
-cd ..
-clear
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-clear
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-hugo server --minify --theme nord-hugo-book
-clear
-git status
-clear
-git status
-nano config.toml 
-hugo server --minify --theme nord-hugo-book
-clear
-ll
-git status
-clear
-git status
-cat .gitignore 
-clear
-ll
-git status
-clear
-git status
-git add .git*
-clear
-git status
-git add .hugo_build.lock 
-clear
-git status
-git add config.toml 
-clear
-git status
-git commit -m "init hugo config"
-clear
-git status
-cat README.md 
-rm README.md 
-clear
-ll
-git status
-git add archetypes/ resources/ themes/
-clear
-git status
-git commit -m "add build project + theme"
-clear
-git status
-cd themes/nord-hugo-book/
-clear
-git status
-git add .
-clear
-git status
-git commit -m "change some scheme to pink"
-clear
-git status
-git push
-c,ear
-clear
-git status
-cd ..
-clear
-cd ..
-clear
-git status
-git add themes/nord-hugo-book/
-clear
-git status
-git commit -m "adding latest nord theme"
-clear
-git status
-git add static/
-git commit -m "add default  images"
-clear
-git status
-git add script/
-glt
-clear
-git status
-git commit -m "main script from blog"
-clear
-git status
-git add content/h
-rm hotpotcookie.github.io.png 
-clear
-ll
-git status
-git add content/
-clear
-git commit -m "add current default content"
-clear
-git status
-git branch -M main
-git remote add origin https://github.com/polarpwn/polarpwn.gg.git
-git push -u origin main
-cd Git/polarpwn.gg/
-clear
-ll
-cat .gitignore 
-clear
-ll
-cat .gitmodules 
-cat .hugo_build.lock 
-cat config.toml 
-clear
-ll
-cat .gitmodules 
-clear
-cat .git/config 
-clear
-git submodule add https://github.com/hotpotcookie/nord-hugo-book themes/nord-hugo-book/
-rm -r themes/nord-hugo-book/
-sudo rm -r themes/nord-hugo-book/
-clear
-ll
-git submodule add https://github.com/hotpotcookie/nord-hugo-book themes/nord-hugo-book/
-clear
-ll
-nano .gitmodules 
-git submodule add https://github.com/hotpotcookie/nord-hugo-book themes/nord-hugo-book/
-ll themes/
-cat .hugo_build.lock 
-ll archetypes/
-cat archetypes/default.md 
-clear
-git status
-git add .
-git commit -m "readding nords"
-clear
-git status
-ll themes/
-git submodule add https://github.com/hotpotcookie/nord-hugo-book themes/nord-hugo-book/
-clear
-git status
-git add .
-git commit -m "importing custom hugo theming for netlify"
-clear
-git status
-readme 
-git push
-clear
-nano Git/polarpwn.gg/
-nano Git/polarpwn.gg/config.toml 
-cd Git/polarpwn.gg/content/
-clear
-git status
-cd ..
-clear
-git status
-git add config.toml 
-git commit -m "explicitly rename the theme"
-clear
-readme 
-git push
-cat config.toml 
-cat config.toml | grep book
-cd Git/polarpwn.gg/
-clear
-ll
-cd content/posts/
-clear
-ll
-cd
-cd -
-cd ..
-cat .gitignore 
-ll content/posts/blog/
-nano content/posts/blog/simple-usage-of-optflag-in-bash-script.md 
-git status
-git add .
-clear
-git status
-git commit -m "remove link on temp.md"
-clear
-git status
-readme 
-git push
-readme 
-cd Git/polarpwn.gg/
-clear
-git status
-clear
-git status
-cd themes/nord-hugo-book/
-clear
-git status
-git add assets/
-clear
-git status
-git commit -m "update width on book-menu from viewport"
-clear
-git status
-git push
-clear
-git status
-cd ../..
-clear
-git status
-git add themes/nord-hugo-book/
-git commit -m "updating book-menu sidebar width"
-clear
-git status
-git add .
-clear
-git status
-git commit -m "adding seperator on each h2"
-clear
-git status
-readme 
-git push
-clear
-git status
-cd Git/polarpwn.gg/
-hugo server --minify --theme nord-hugo-book
-cd Git/polarpwn.gg/
-clear
-hugo server --minify --theme nord-hugo-book
-cd Git/polarpwn.gg/
-clear
-ll
-clear
-cd themes/nord-hugo-book/
-clear
-ll
-cd ../..
-clear
-ll
-nano content/docs/org/contribution/_index.md 
-clear
-ll
-cd OpenVPN/
-clear
-sudo openvpn hotpotcookie-IN-REG-1.ovpn 
-cd OpenVPN/
-clear
-ll
-cd
-clear
-ll
-cd OpenVPN/
-clear
-ll
-mkdir Beginner
-clear
-ll
-cd ..
-clear
-ll
-subl OpenVPN/
-clear
-cd OpenVPN/Beginner/
-clear
-ll
-cd ..
-rmdir Beginner/
-clear
-ll
-touch Beginner.md
-mdless
-sudo apt-get install mdless
-gem
-clear
-ncurses-utils
-clear
-pandoc
-lynx
-clear
-grip
-sudo apt-get install pandoc lynx
-clear
-ll
-neofetch 
-clear
-ll
-clear
-rm Beginner.html 
 clear
 pandoc Beginner.md | lynx -stdin
 pandoc Beginner.md 
@@ -1998,3 +876,1125 @@ nano widget.sh
 nano sub-deviceconf.sh 
 nano sub-deviceconf.sh qtile 
 nano ../config.py 
+cd Downloads/temp/
+mv ARTIKEL\ ILMIAH\ -\ BOGOR\ 2023\ \(1\).docx ARTIKEL\ ILMIAH\ -\ BOGOR\ 2023\ -\ NEW.docx
+clear
+ll
+./ sync.sh 
+./sync.sh 
+clear
+sudo bash sync.sh 
+clear
+sudo bash sync.sh 
+cd dots/.config/
+clear
+du -h
+clear
+sudo du -h
+clear
+ll
+du -h
+du -h | awk '.'
+du -h | awk '.*'
+clear
+du -h | awk '/.'
+du -h | awk '.*'
+du -h
+cd ..
+clear
+du -h
+clear
+sudo du -h $dst/dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
+cd ..
+clear
+sudo du -h $dst/dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
+sudo du -h dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
+cd dots/.config/
+clear
+ll
+ll VirtualBox/
+sudo ll VirtualBox/
+sudo ls VirtualBox/
+clear
+ll
+du -h .
+du -h 
+sudo du -h 
+sudo du -h | grep G
+sudo du -h | cut -f 1
+sudo du -h | cut -f 1 | uniq
+sudo du -h | grep "2,3G"
+sudo du -h | cut -f 1 | uniq | sort
+sudo du -h | cut -f 1 | uniq | sort -r
+clear
+ll
+clear
+ll
+cd ..
+clear
+ll
+clear
+ll
+cd ..
+clear
+ll
+sudo rm -r dots/
+clear
+ll
+sudo rm -r main/
+clear
+composer
+clear
+ll
+./sync.sh 
+clear
+ll
+clear
+./sync.sh 
+ll
+clear
+ll
+rm -r etc/
+clear
+ll
+./sync.sh 
+clear
+ll
+rm -r etc/
+clear
+ll
+./sync.sh 
+clear
+ll
+./sync.sh 
+clear
+./sync.sh 
+clear
+ll
+./sync.sh 
+ll .config/
+cat inf
+clear
+ll
+ll .git/
+clear
+ll
+ll .config/
+clear
+./sync.sh 
+clear
+./sync.sh 
+clear
+./sync.sh 
+ll 
+./sync.sh 
+du -h
+du -h | tail -n 1
+clear
+echo $ID
+echo 
+echo $EUID
+sudo echo $EUID
+su
+sudo su
+clear
+echo $EUID
+id -u
+sudo id -u
+clear
+./sync.sh 
+clear
+./sync.sh 
+clera
+clear
+clera
+./sync.sh 
+ranger 
+clear
+./sync.sh 
+clear
+./sync.sh 
+clear
+./sync.sh 
+clear
+./sync.sh 
+sudo ./sync.sh 
+clear
+sudo ./sync.sh 
+./sync.sh 
+clear
+./sync.sh 
+sudo ./sync.sh 
+clear
+git status
+git add sync.sh 
+git commit --date="1 day ago" -m "adding backup sync main outline"
+clear
+git status
+git add .config/
+clear
+git status
+ll
+git commit --date="1 day ago" -m "add current layout for .config dotfiles"
+clear
+git status
+git add .bashrc qtile vbox 
+clear
+git status
+git commit --date="1 day ago" -m "remove old file structure"
+clear
+git status
+git push
+./sync.sh -h
+lcear
+clear
+./sync.sh -h
+lear
+clear
+lear
+./sync.sh -h
+clear
+./sync.sh -h
+clear
+./sync.sh -h
+clear
+./sync.sh -h
+clear
+./sync.sh 
+./sync.sh -s
+sudo ./sync.sh -s
+clear
+l
+ll
+ll .config/
+clear
+sudo ./sync.sh -s
+distrobox
+sudo apt-get install distrobox
+git lfs install
+sudo apt-get install git-lfs 
+git-lfs install
+clear
+ll
+ll distrobox/
+clear
+ll
+rm -r distrobox/
+sudo rm -r distrobox/
+clear
+ll
+clear
+git status
+clear
+ll .etc/
+chmod +x .etc/burpsuite_community_linux_v2023_6_2.sh 
+clear
+ll
+git lfs track .etc/burpsuite_community_linux_v2023_6_2.sh
+clear
+ll
+cat .gitattributes 
+clear
+git status
+git add .gitattributes .etc/burpsuite_community_linux_v2023_6_2.sh 
+clear
+git status
+git commit -m "adding burpsuite installer in Git LFS"
+clear
+git status
+clear
+ll
+sudo ./sync.sh -s
+cear
+clear
+ll
+sudo rm -r .config/
+clear
+sudo ./sync.sh -s
+clear
+ll
+ll .config/
+clear
+ll .etc/
+clear
+ll
+git status
+clear
+git lfs track .etc/firefox-115.0.2.tar.bz2
+clear
+git status
+clear
+git status
+clear
+ll
+cat .gitattributes 
+clear
+git status
+clear
+ll
+rm wget-log 
+clear
+ll
+clear
+git status
+git add .gitattributes .etc/firefox-115.0.2.tar.bz2 
+clear
+git status
+git commit -m "avoiding snap on unattended firefox installer"
+clear
+git status
+clear
+git status
+./sync.sh -s
+sudo ./sync.sh -s
+clear
+git status
+sudo git status
+git add .config/
+sudo git add .config/
+clear
+git status
+sudo git commit -m "latest build. about to ignore some of the session files"
+git commit -m "latest build. about to ignore some of the session files"
+sudo git commit -m "latest build. about to ignore some of the session files"
+sudo git config --global user.email "icatmuhammad2@gmail.com"
+sudo git config --global user.name "monsieurDuke"
+sudo git commit -m "latest build. about to ignore some of the session files"
+sudo git add sync.sh
+git commit -m "pre testing auto installer"
+clear
+git status
+clear
+git push
+sudo git push
+git config --global user.name "monsieurDuke"
+git config --global user.email "icatmuhammad2@gmail.com"
+git push
+ll
+cd .git/
+clear
+ll
+cat config 
+git push origin master
+sudo git push origin master
+git status
+cd ..
+clear
+git status
+clear
+ll
+sudo chown icat:icat .config/
+clear
+ll
+git status
+ll
+ll .config/
+clear
+sudo chown -R icat:icat .config/
+ll .config/
+clear
+git status
+git push
+ll .config/
+git config --global user.email "icatmuhammad2@gmail.com"
+git config --global user.name "monsieurDuke"
+git push
+cat .git/config 
+git push
+clear
+which python3
+pip
+clear
+nano ~/.bashrc 
+echo $HOME
+sudo echo $HOME
+nano ~/.bashrc 
+cd /usr/share/xsessions/
+clear
+ll
+bat qtile.desktop 
+clear
+nano qtile.desktop 
+clear
+ll
+cp qtile.desktop ~/Git/dotfile/.config/
+cd -
+clear
+ll
+cd .config/
+clear
+ll
+cd -
+clear
+cd /usr/share/xsessions/
+ll
+pwd
+nano qtile.desktop 
+clear
+cd -
+clear
+cd /tmp/
+mkdir lmao
+cp -r ~/Git/dotfile/.config/ /tmp/lmao/
+ll lmao/
+sudo rm -r lmao/.config/
+cp -r ~/Git/dotfile/.config/* /tmp/lmao/
+ll lmao/
+pip3 install xcffib
+pip3 install --no-cache-dir cairocffi
+sudo apt-get install libpangocairo-1.0-0 
+pip3 install libpangocairo-1.0-0 
+cd ~/Git/dotfile/
+clear
+git status
+clear
+git status
+clear
+sudo ./sync.sh -s
+clear
+ll
+ll .config/
+clear
+git status
+touch .gitignore
+nano .gitignore 
+clear
+ll
+clear
+git status
+rm .config/sublime-text-3/Local/Auto\ Save\ Session.sublime_session 
+clear
+git status
+clear
+which qtile 
+cat ~/.bashrc | top -n 10
+cat ~/.bashrc | top 10
+cat ~/.bashrc | head -n 10
+which qtile 
+clear
+git status
+clear
+git status
+git add .gitignore .config/sublime-text-3/
+clear
+git status
+git commit -m "ignoring sublime temp session"
+clear
+git status
+git add ll
+clear
+ll
+rm .config/.info 
+clear
+git status
+git add .config/.bash_history .config/.info 
+clear
+git status
+git commit -m "removing sensitive info"
+clear
+git status
+git add .config/qtile.desktop 
+git commit -m "adding qtile shortcut on login session"
+clear
+git status
+clear
+git status
+git add sync.sh 
+git commit -m "fix python dependencies on qtile"
+clear
+git status
+git add .etc/hotpotcookie-IN-REG-1.ovpn 
+git commit -m "add thm openvpn connection"
+clear
+git status
+readme 
+git push
+ll
+ll .config/
+ll /usr/share/xsessions/
+ll
+git status
+clear
+ll
+sudo rm -r .config/
+clear
+sudo bash sync.sh -s
+ll
+ll .home/
+ll
+ll .home/
+git status
+clear
+l
+ll
+sudo chown -R icat:icat .config/
+sudo chown -R icat:icat .home/
+clear
+git status
+clear
+ll
+ll .config/
+ll ~/.config/
+clear
+ll
+ll .home/
+mkdir /tmp/lmao
+mkdir /tmp/lmao2
+ll /tmp/lmao
+ll /tmp/lmao2/
+cp .home/* /tmp/lmao2/
+cp -r .home/* /tmp/lmao2/
+cd /tmp/lmao
+cd /tmp/lmao2/
+clear
+ll
+cp -r .home/. /tmp/lmao2/
+cp -r .home/./ /tmp/lmao2/
+cp -ra .home/ /tmp/lmao2/
+cp -ra .home/* /tmp/lmao2/
+cd -
+cp -ra ~/Git/dotfile/.home/* /tmp/lmao2/
+ll
+cp -ra ~/Git/dotfile/.home/{.,}* /tmp/lmao2/
+cp -r ~/Git/dotfile/.home/{.,}* /tmp/lmao2/
+clear
+ll
+cp -r ~/Git/dotfile/.home/{.,}* /tmp/lmao2/
+ll
+ll ~/Git/dotfile/.home/
+cd ..
+rm -r lmao2/
+sudo rm -r lmao2/
+mkdir lmao2
+cd lmao2
+clear
+cp -r ~/Git/dotfile/.home/. /tmp/lmao2/
+ll
+clear
+cd ~/Git/dotfile/
+clear
+git status
+clear
+psutil
+pip install psutil
+ll /usr/share/xsessions/
+ll .home/
+clear
+ifconfig >&1
+a=&1
+a="&1"
+ifconfig 
+ifconfig >&1
+ifconfig >$a
+ifconfig > /dev/null 
+ifconfig 
+ifconfig > /dev/null 
+ifconfig >$1
+ifconfig >&1
+a=">&1"
+ifconfig >&1
+ifconfig $a
+ifconfig >&1
+clear
+cd .etc/
+clea
+clear
+ll
+cat response.varfile 
+time ifconfig
+
+time ifconfig | grep real
+time ifconfig
+time sleep 5s
+time sudo apt-get update > /dev/null 
+time sudo apt-get update > /dev/null | grep real
+time `sudo apt-get update > /dev/null`
+time `sudo apt-get update > /dev/null` > /tmp/pase
+cat /tmp/pase 
+cd ..
+clear
+git status
+ll .home/
+clear
+sudo apt-get install speech-dispatcher
+which spd-say 
+ll /usr/bin/spd-say 
+clear
+git status
+git add .config/
+clear
+git status
+git add .home/
+git status
+cd .home/
+clear
+ll
+ll jetbrains/
+ll jetbrains/ttf/
+ll jetbrains/variable/
+ll jetbrains/webfonts/
+cd ..
+clear
+git status
+git add .home/
+cd .home/jetbrains/webfonts/
+ll
+mv JetBrainsMono-LightItalic.woff2 JetBrainsMono-LightItalic.woff2.bak
+clear
+ll
+cd ../..
+cd ..
+clear
+git status
+git add .home/
+cat .git/objects/
+cd .git/
+clear
+l
+ll
+cd objects/
+clear
+ll
+ls -al
+sudo chown -R icat:icat *
+cd ../..
+clear
+git status
+git add .home/
+clear
+git status
+git commit -m "moving based file to its own directory + font + desktop session
+"
+clear
+git status
+git add sync.sh 
+git commit -m "fixing desktop session issue + changing burpsuite installer into unattended"
+clear
+git status
+git add .etc/response.varfile 
+git commit -m "default installation config on provisioning the STDIN"
+clear
+git status
+readme 
+git push
+date
+echo $(date)
+echo "aa" >> ok.txt ok2.txt
+cat ok.txt 
+rm ok.txt 
+	echo -e "\n--------------------$(date)\n--------------------" >> error.log
+cat error.log 
+rm error.log 
+	echo -e "\n--------------------\n$(date)\n--------------------" >> error.log
+cat error.log 
+rm error.log 
+	echo -e "--------------------\n$(date)\n--------------------" >> error.log
+cat error.log 
+time ifconfig
+2> error.log > /dev/null
+TIMEFORMAT=%0lR
+time ifconfig 
+time htop
+clear
+ll
+time htop
+TIMEFORMAT=%R
+time htop
+time sudo apt-get update 
+TIMEFORMAT=%0lR
+time sudo apt-get update 
+ll
+rm error.log 
+cd
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+nano /tmp/ok.sh
+bash /tmp/ok.sh 
+cd -
+clear
+sudo bash sync.sh -s
+clear
+sudo bash sync.sh -s
+cler
+clear
+sudo bash sync.sh -s
+git status
+sudo bash sync.sh -s
+clear
+sudo bash sync.sh -s
+say
+sudo apt-get install say
+sudo apt-get install gnustep-gui-runtime 
+sudo apt-get install festival
+sudo apt-get install espeak
+espeak "hello i-joy"
+espeak --help
+espeak "hello i-joy" --voices=Indonesian
+espeak "hello i-joy" --voices=Indonesia
+espeak "hello i-joy" --voices=Indonesian
+espeak --voices=Indonesian
+espeak --voice
+espeak --voices
+espeak --voices=id
+espeak --voices=id 
+espeak --help
+espeak "hello jarvis"
+espeak "recording started"
+espeak "recording stopped"
+espeak "recording started"
+nano .config/qtile/config.py 
+clear
+ll
+bash sync.sh -s
+sudo bash sync.sh -s
+clear
+git status
+vlc
+mpv
+sudo apt-get install mpv
+xrandr -q
+cat /sys/class/graphics/fb0/mode
+cat /sys/class/graphics/fb0/modes 
+cat /sys/class/graphics/fbcon/modes 
+cat /sys/class/graphics/fb0/mode
+cat /sys/class/graphics/fb0/modes 
+cat /sys/class/graphics/fb0/virtual_size 
+cat /sys/class/graphics/fb0/virtual_size | cut -d -f 1
+cat /sys/class/graphics/fb0/virtual_size | cut -f 1
+cat /sys/class/graphics/fb0/virtual_size | awk 'PRINT $1'
+cat /sys/class/graphics/fb0/virtual_size | awk -d ',' 'PRINT $1'
+cat /sys/class/graphics/fb0/virtual_size | cut -d ',' -f 1
+cat /sys/class/graphics/fb0/virtual_size | cut -d ',' -f 2
+subl .config/qtile/config.py 
+subl ~/.config/qtile/config.py 
+subl ~/.config/qtile/scripts/widget.sh 
+a="lmao"
+b="lel"
+echo $a\x$b
+clear
+git status
+sudo bash sync.sh -s
+clear
+git status
+clear
+git status
+clear
+git status
+git add .config/qtile/__pycache__/config.cpython-310.pyc .config/qtile/config.py 
+clear
+git status
+git commit -m "chaning key event from scroll wheel to right click instead"
+clear
+git status
+git add .config/qtile/scripts/widget.sh 
+git commit -m "fix incompatible resoultion with calling sys value instead"
+clear
+git status
+git add .home/.bash_history sync.sh 
+git commit -m "update latest sync + adding elapsed time for each phase taken"
+clear
+git status
+readme 
+git push
+ll
+ll .git
+clear
+ll
+git push
+cd /media/icat/
+clear
+ll
+ll TOSHIBA/
+cd TOSHIBA/
+clear
+df -h
+clear
+du -h
+du -h OTHERS/
+du -h OTHERS/ | sort
+clear
+du -h OTHERS/ | grep "G"
+lear
+ll
+clear
+ll
+cd ..
+ll
+cd
+cd /media/icat/
+clear
+ll
+ll 
+clear
+fdisk -l
+sudo fdisk -k
+sudo fdisk -l
+clear
+sudo fdisk -l
+ll
+clear
+sudo fdisk -l
+sudo mount /dev/sdb1 /media/icat/
+ll
+mount | grep sdb
+mount | grep sdb1
+cd
+cd /media/icat/
+ll
+cd
+sudo umount /media/icat 
+cd /media/icat/
+ll
+sudo mkdir TOSHIBA-64
+clear
+sudo fdisk -l
+sudo mount /dev/sdb1 /media/icat/TOSHIBA-64/
+ll TOSHIBA-64/
+cd TOSHIBA-64/
+clear
+l
+clear
+ll
+clear
+ll
+ll OTHERS/
+clear
+ll
+sudo su
+sudo cp /etc/nanorc ~/Git/dotfile/.home/
+ll
+cd Videos/
+clear
+ll
+killall ffmpeg
+mpv 16_30_32--27_07_23.flv 
+mplayer 16_30_32--27_07_23.flv 
+vlc 16_30_32--27_07_23.flv 
+mpv -fs 16_30_32--27_07_23.flv 
+neofetch 
+clear
+ll
+mpv -fs 16_46_28--27_07_23.flv 
+readme 
+cd
+nano .info 
+readme 
+nano .info 
+readme 
+nano .info 
+clear
+readme 
+readme | tr -s '\t' ' '
+readme | tr -s ' ' '\t'
+cd Documents/
+clear
+ll
+cd ~/Downloads/
+clear
+ll
+cd fonts/
+clear
+ll
+nano ~/.config/kitty/kitty.conf 
+cd jetbrains/
+clear
+ll
+ll ttf/
+clear
+cd ttf/
+clear
+ll
+cd
+ll /usr/local/share/fonts/
+ll ~/.local/share/fonts/
+cp -r Downloads/fonts/jetbrains/ ~/Git/dotfile/.home/
+ll ~/.local/share/fonts/
+ll Downloads/fonts/jetbrains/
+ll Downloads/fonts/jetbrains/ttf/
+du -h Downloads/fonts/jetbrains/
+ll ~/.local/share/fonts/
+ll
+neofetch 
+clear
+ll .config/neofetch/
+ll .config/
+l .config/
+cd /tmp/
+ll
+nano ok.sh 
+vash ok.sh 
+bash ok.sh 
+clear
+sudo bash ok.sh 
+nano ok.sh 
+cp ok.sh ~/Git/dotfile/
+mplayer 
+clear
+cd content/posts/blog/
+clear
+ll
+mv thm-cheat-sheet-complete-beginner.md thm-cheat-sheet-1-complete-beginner.md 
+clear
+cd ..
+clear
+git status
+cd themes/nord-hugo-book/
+clear
+git status
+git add assets/_markdown.scss 
+clear
+git status
+git commit -m "adding bullet point separator"
+clear
+git status
+git push
+cd ../..
+clear
+git status
+git add themes/nord-hugo-book/
+clear
+git commit -m "adding bullet point separator"
+clear
+git status
+git add content/posts/blog/thm-cheat-sheet-complete-beginner.md 
+git add content/posts/blog/thm-cheat-sheet-1-complete-beginner.md 
+clear
+git status
+git commit -m "renaming file to follow the id format"
+clear
+git status
+clear
+git status
+clear
+git status
+git add content/posts/
+clear
+git statu
+git status
+clear
+git commit -m "adding new comment section with utteranc.es"
+clear
+git status
+git add resources/
+clear
+git status
+git commit -m "latest build 07/22"
+clear
+git status
+git push
+clear
+echo "Update Whole Directory, ( doc , media , pic , download , git , tool , temp )"
+ll
+cd /tmp/
+ll
+cd
+clear
+ll
+cd Git/
+clear
+git clone https://github.com/Etesam913/slick-fox.git
+cd slick-fox/
+clear
+ll
+cp userChrome.css ~/.mozilla/firefox/skhao9zg.default/
+cd ~/.mozilla/firefox/skhao9zg.default/
+clear
+ll
+mkdir chrome
+mv userChrome.css chrome/
+sudo apt-get install firefox
+clear
+ll
+ll chrome/
+nano prefs.js 
+clear
+ll
+ll | grep .js
+cd Git/
+clear
+ll
+git clone https://github.com/migueravila/SimpleFox.git
+cd SimpleFox/
+clear
+ll
+cp chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
+cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
+cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
+cd ..
+clear
+git clone https://github.com/manilarome/blurredfox.git
+cd blurredfox/
+clear
+ll
+cp user* /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
+cp -r parts/ colors/ scrots/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
+cd ..
+git clone https://github.com/andreasgrafen/cascade.git
+cd cascade/
+clear
+ll
+cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
+ll chrome/
+cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
+cd ..
+git clone https://github.com/Godiesc/firefox-gx.git
+cd firefox-gx/
+clear
+ll
+cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
+cd ..
+clear
+ll
+cd blurredfox/
+clear
+l
+clear
+ll
+cp user* /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
+cp -r colors/ parts/ scrots/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
+cp -r colors/ parts/ scrots/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome/
+cd ..
+clear
+git clone https://github.com/AdamXweb/WhiteSurFirefoxThemeMacOS.git
+cd WhiteSurFirefoxThemeMacOS/
+clear
+ll
+cp -r chrome/ configuration/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release
+ll
+bash install.sh -c
+cd ..
+clear
+ll
+cd SimpleFox/
+clear
+ll
+cp assets/ chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release
+cp -r assets/ chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release
+which firefox 
+cd /opt/
+clear
+ll
+sudo rm firefox/
+sudo rm -r firefox/
+which firefox
+ll /usr/local/bin/firefox 
+sudo rm /usr/local/bin/firefox 
+clear
+ll
+cd
+clear
+cd .mozilla/
+clear
+ll
+cd ..
+sudo rm -r .mozilla/
+clear
+sudo apt-get update 
+clear
+sudo apt-get install firefox
+which firefox 
+ll
+cd .mozilla
+ll
+which firefox 
+cat /usr/bin/firefox 
+cd /usr/lib/firefox/
+clear
+ll
+cd /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
+clear
+ll
+mkdir chrome
+pwd
+cp ~/Git/slick-fox/userChrome.css chrome/
+ll
+cd chrome/
+clear
+ll
+pwd
+ll
+rm -r chrome/
+clear
+ll
+pwd
+ll
+pwd
+ll
+cll
+clear
+ll
+cd ..
+rm -r chrome/
+cd chrome/
+clear
+ll
+cd ..
+rm -r chrome/
+cd c
+cd chrome/
+clear
+ll
+cd ..
+rm -r chrome/
+clear
+ll
+mkdir chrome
+cd chrome/
+pwd
+ll
+cd ..
+clear
+ll
+ll crashes/
+ll chrome/
+rm -r chrome/
+ll
+pwd
+ll chrome/
+ll
+rm -r chrome/
+clear
+ll
+clear
+pwd
+ll
+cd chrome/
+clear
+ll
+clear
+ll
+nano userChrome.css 
+clear
+,,
+ll
+firefox 
