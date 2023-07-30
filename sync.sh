@@ -61,7 +61,7 @@ post_checker() {
 backup_sync() {
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Copying dotfiles from ${GREEN}$home${ENDCOLOR} to ${GREEN}dotfile/.config${ENDCOLOR} ... ${BLUE}"
 	time {
-		bu_files=(.bash_history .bashrc .gitconfig .profile .selected_editor .info .dialogrc)
+		bu_files=(.bash_history .bashrc .gitconfig .profile .selected_editor .dialogrc)
 		for i in ${bu_files[@]}; do
 			cp $home/$i ./.home
 			done
@@ -76,6 +76,7 @@ backup_sync() {
 			done
 		((inc++)); } ; echo -en "${ENDCOLOR}" ; }
 #----------
+# programming: java & go
 install_app() {
 	echo -e "--------------------\n$(date)\n--------------------" >> error.log
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential ${GREEN}utilities${ENDCOLOR} ... ${BLUE}"
@@ -140,24 +141,30 @@ import_config() {
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installation finished ${GREEN}successfully${ENDCOLOR}"
 	echo -e "[${GREEN}---${ENDCOLOR}]: Please log out from current session to use the ${GREEN}Qtile WM${ENDCOLOR}"
 	echo -e "[${GREEN}---${ENDCOLOR}]: Please copy ${GREEN}.etc/chrome/${ENDCOLOR} and ${GREEN}.etc/extensions/${ENDCOLOR} to your home directory\
-			\nwhile enabling these config preferences on Firefox as it would load the custom css\
-			\n1. ${GREEN}layout.css.prefers-color-scheme.content-override${ENDCOLOR}\t0\
-			\n2. ${GREEN}toolkit.legacyUserProfileCustomizations.stylesheetse${ENDCOLOR}\ttrue\
-			\n3. ${GREEN}layers.acceleration.force-enablede${ENDCOLOR}\t\t\ttrue\
-			\n4. ${GREEN}gfx.webrender.alle${ENDCOLOR}\t\t\t\t\ttrue\
-			\n5. ${GREEN}svg.context-properties.content.enablede${ENDCOLOR}\t\ttrue" ; }
+					\n       while enabling these config preferences on Firefox as it would load the custom css\
+					\n       1. ${GREEN}layout.css.prefers-color-scheme.content-override${ENDCOLOR}\t0\
+					\n       2. ${GREEN}toolkit.legacyUserProfileCustomizations.stylesheets${ENDCOLOR}\ttrue\
+					\n       3. ${GREEN}layers.acceleration.force-enabled${ENDCOLOR}\t\t\ttrue\
+					\n       4. ${GREEN}gfx.webrender.all${ENDCOLOR}\t\t\t\t\ttrue\
+					\n       5. ${GREEN}svg.context-properties.content.enabled${ENDCOLOR}\t\ttrue" ; }
 #----------
 mod_dir() {
-	[[ -d "$home/Public" ]] && rmdir $home/Public	
-	[[ -d "$home/Documents" ]] && mv $home/Documents $home/doc
-	[[ -d "$home/Videos" ]] && mv $home/Videos $home/media
-	[[ -d "$home/Pictures" ]] && mv $home/Pictures $home/pic
-	[[ -d "$home/Downloads" ]] && mv $home/Downloads $home/download	
-	[[ ! -d "$home/git" ]] && mkdir $home/git
-	[[ ! -d "$home/tool" ]] && mkdir $home/tool
-	[[ ! -d "$home/temp" ]] && mkdir $home/temp
-	event="@reboot rm $home/temp/* && rm -r $home/temp/*"
-	(crontab -l; printf "$event\n") | crontab - ; }
+	if [[ $(id -u) -ne 0 ]]; then
+		echo -e "[${GREEN}---${ENDCOLOR}]: Rebuilding your home directory ..."
+		[[ -d "$home/Public" ]] && rmdir $home/Public
+		[[ -d "$home/Documents" ]] && mv $home/Documents $home/doc
+		[[ -d "$home/Videos" ]] && mv $home/Videos $home/media
+		[[ -d "$home/Pictures" ]] && mv $home/Pictures $home/pic
+		[[ -d "$home/Downloads" ]] && mv $home/Downloads $home/download
+		[[ ! -d "$home/git" ]] && mkdir $home/git
+		[[ ! -d "$home/tool" ]] && mkdir $home/tool
+		[[ ! -d "$home/temp" ]] && mkdir $home/temp
+		event="@reboot rm $home/temp/* && rm -r $home/temp/*"
+		(crontab -l; printf "$event\n") | crontab - ;
+	else
+		echo -e "\n${ENDCOLOR}[${RED}ext${ENDCOLOR}]: Please run the script in your user privilege ${RED}"
+		exit 0
+	fi ; }
 #----------
 while getopts ":s :r :h :x :t" opt; do
 	case $opt in
