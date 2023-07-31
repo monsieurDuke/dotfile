@@ -159,19 +159,18 @@ mod_dir() {
 		[[ ! -d "$home/git" ]] && mkdir $home/git
 		[[ ! -d "$home/tool" ]] && mkdir $home/tool
 		[[ ! -d "$home/temp" ]] && mkdir $home/temp
-		event="@reboot rm $home/temp/* && rm -r $home/temp/*"
+		event="@daily rm $home/temp/* && rm -r $home/temp/*"
 		(crontab -l; printf "$event\n") | crontab - ;
 	else
 		echo -e "\n${ENDCOLOR}[${RED}ext${ENDCOLOR}]: Please run the script in your user privilege ${RED}"
 		exit 0
 	fi ; }
 #----------
-while getopts ":s :r :h :x :t" opt; do
+while getopts ":s :r :h :x" opt; do
 	case $opt in
 		s)  sync ;;
 		r)  run ;;
 		x)  bare ;;
 		h)  usage ;;
-		t)  install_app ;;
 	esac
 	done
