@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/.local/bin:/opt/jdk/jdk1.8.0_371/jre/bin:/opt/jdk/jdk1.8.0_371/bin:/opt/go/go/bin/:$PATH"
 
 # If not running interactively, don't do anything
 case $- in
@@ -96,8 +96,7 @@ alias l='exa -F'
 alias readme='cat /home/icat/.info'
 alias burpsuite='bash /home/icat/Script/BurpSuiteCommunity/BurpSuiteCommunity & disown'
 alias zoom='zoom & disown'
-alias recascii='bash /home/icat/.recascii'
-alias touchpad-spd='bash /home/icat/.touchpad-speed'
+alias recascii='bash /home/icat/Script/recascii'
 alias bat='batcat'
 
 # Add an "alert" alias for long running commands.  Use like so:

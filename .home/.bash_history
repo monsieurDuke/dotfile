@@ -1,586 +1,3 @@
-find ~/ -type d
-find ~/ -type d -regex '^.*'
-clear
-find ~/ -type d -regex '.*'
-find ~/ -type d -regex '^.*'
-find ~/ -type d -name '^.*'
-sudo find ~/ -type d -name '^.*'
-sudo find ~/ -type d -name '.*'
-find ~/ -type d -regex '^.*' -maxdepth 1
-find ~/ -type f -regex '^.*' -maxdepth 1
-find ~/ -type d -regex '^.*' -maxdepth 1
-find ~/ -type d -regex '.*' -maxdepth 1
-find ~/ -type d -name '.*' -maxdepth 1
-find ~/ -maxdepth 1 -type d -name '.*'
-find ~/ -maxdepth 1 -type d -regex '.*'
-find ~/ -maxdepth 1 -type d -regex '\.*'
-clear
-find ~/ -maxdepth 1 -type d -regex '/home'
-find ~/ -maxdepth 1 -type d -regex '\/home'
-find ~/ -maxdepth 1 -type d -regex 'home'
-find ~/ -maxdepth 1 -type d -regex '\.'
-find ~/ -maxdepth 1 -type d -regex '.'
-find ~/ -maxdepth 1 -type d -regex '.*'
-find ~/ -maxdepth 1 -type d -regex '\.*'
-find ~/ -maxdepth 1 -type d -regex '/.*'
-find ~/ -maxdepth 1 -type d -regex '.*'
-find ~/ -maxdepth 1 -type d -regex '\\.*'
-find ~/ -maxdepth 1 -type d -regex '.\w+'
-find ~/ -type d -regex '.\w+'
-sudo find ~/ -type d -regex '.\w+'
-sudo find ~/ -type d -regex '.*'
-sudo find / -type d -regex '/home/icat'
-sudo find / -type d -regex '/home/icat/*'
-sudo find / -type d -regex '\/home\/icat\/*'
-sudo find /home -type d -regex '\/home\/icat\/*'
-sudo find /home -type d -regex 'icat*'
-sudo find /home -type d -regex 'icat'
-sudo find /home -type d -regex '.*'
-sudo find /home -type d -regex '.'
-sudo find /home -type d -regex '\w'
-find ~/ -maxdepth 1 -type d -name '.*'
-find ~/ -maxdepth 1 -type d -regex '.'
-find ~/ -maxdepth 1 -type d -regex '.*'
-find ~/ -maxdepth 1 -type d -regex '^.*'
-find ~/ -maxdepth 1 -type d -regex '^.'
-find ~/ -maxdepth 1 -type d -regex '^.+'
-find ~/ -maxdepth 1 -type d -regex '^\.'
-find ~/ -maxdepth 1 -type d -regex '^\.*'
-find ~/ -maxdepth 1 -type d -regex '^\.\w+'
-find ~/ -maxdepth 1 -type d -regex '^\.\w+&'
-find -maxdepth 1 -type d -regex '^\.\w+&'
-find -maxdepth 1 -type d -regex '/home/icat/*'
-find -maxdepth 1 -type d -regex '\/home\/icat\/*'
-find -maxdepth 1 -type d -regex '.*'
-find -maxdepth 1 -type d -regex '.*\w+'
-find -maxdepth 1 -type d -regex '.\w+'
-find -maxdepth 1 -type d -regex '\.\w+'
-find -maxdepth 1 -type d -regex '^.\w+'
-find -maxdepth 1 -type d -regex '^.*'
-find ~/ -maxdepth 1 -type d -regex '^.*'
-find ~/ -maxdepth 1 -type d -regex '\/\w+'
-find ~/ -maxdepth 1 -type d -regex '/\w+'
-find ~/ -maxdepth 1 -type d -regex '^/\w+'
-find ~/ -maxdepth 1 -type d -regex '^\/\w+'
-find ~/ -maxdepth 1 -type d -regex '^\\/\w+'
-find ~/ -maxdepth 1 -type d -regex '^\w+'
-find ~/ -maxdepth 1 -type d -regex 'w+'
-find ~/ -maxdepth 1 -type d -regex '\w+'
-find ~/ -maxdepth 1 -type d -regex '/\w+'
-find ~/ -maxdepth 1 -type d -regex '/\w+/'
-find ~/ -maxdepth 1 -type d -regex '^.'
-find ~/ -maxdepth 1 -type d -regex '^.file'
-find ~/  -type d -regex '^.file'
-find ~/  -type d -regex '^.*.sh'
-find ~/  -type d -regex '^.*\.sh'
-sudo find ~/  -type d -regex '^.*\.sh'
-sudo find ~/  -type d -regex '^.*.sh'
-sudo find ~/  -type d -regex '^.\w+.sh'
-ll
-sudo find ~/  -type d -regex '^.*vocab.*'
-sudo find ~/  -type d -regex '^.*txt'
-sudo find ~/  -type d -regex '^.*.txt'
-sudo find ~/  -type d -regex '^.*.txt$'
-sudo find ~/  -type f -regex '^.*.txt$'
-sudo find ~/  -type d -regex '^.'
-sudo find ~/  -type d -regex '^.*'
-ckear
-clear
-sudo find ~/  -type d -regex '^.*.'
-sudo find ~/  -type d -regex '*home'
-sudo find ~/  -type d -regex '*Videos'
-sudo find ~/  -type d -regex 'Videos'
-sudo find ~/  -type d -regex '/Videos/'
-sudo find ~/  -type d -regex '.*/'
-sudo find ~/  -type d -regex '.*/*'
-sudo find ~/  -type d -regex '.*/\.'
-sudo find ~/  -type d -regex '.*/.'
-sudo find ~/ -maxdepth 1 -type d -regex '.*/.'
-sudo find ~/ -maxdepth 1 -type d -regex '.*/.*'
-sudo find ~/ -maxdepth 1 -type d -regex '.*/.'
-sudo find ~/ -type d -regex '.*/.'
-sudo find ~/ -type d -regex '.*/\w+'
-sudo find ~/ -type d -regex '.*/.*/'
-sudo find ~/ -type d -regex '.*/.*/.+'
-sudo find ~/ -type d -regex '.*/.*/.*/'
-sudo find ~/ -type d -regex '.*/.*/.*/.*'
-sudo find ~/ -type d -regex '.*/[\.]'
-sudo find ~/ -type d -regex '.*/[\.]\w+'
-sudo find ~/ -type d -regeqx '^.*/[\.]\w+'
-sudo find ~/ -type d -regeq '^.*/[\.]\w+'
-sudo find ~/ -type d -regex '^.*/[\.]\w+'
-sudo find ~/ -maxdepth 2  -type d -regex '^.*/[\.]\w+'
-sudo find ~/ -maxdepth 2 -type d -regex '^.*/[\.]\w+'
-clear
-sudo find ~/ -maxdepth 2 -type d -regex '^.*/[\.]\w+'
-find ~/ -maxdepth 2 -type d -regex '^.*/[\.]\w+'
-find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+'
-find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+'- exec file {} \;
-find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+'-exec file {} \;
-find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+'-exec cp {} ~/Git/dotfile/  \;
-find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+' -exec cp {} ~/Git/dotfile/  \;
-find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+' -exec cp -r {} ~/Git/dotfile/  \;
-clear
-sudo find ~/ -maxdepth 1 -type d -regex '^.*/[\.]\w+' -exec cp -r {} ~/Git/dotfile/dots \;
-history 
-clear
-ll
-ll Script/
-clear
-ll
-mv testflag-* Script/
-clear
-ll
-clear
-find ~/ -maxdepth 2 -type f -regex '^.*/[\.]\w+'
-find ~/ -maxdepth 1 -type f -regex '^.*/[\.]\w+'
-find ~/ -maxdepth 3 -type f -regex '^.*/[\.]\w+'
-find ~/ -maxdepth 1 -type f -regex '^.*/[\.]\w+'
-clear
-ll
-clear
-l
-l go/
-clear
-echo $USER
-sudo echo $USER
-cd Git/
-clear
-ll
-cd dotfile/
-clear
-ll
-cd ..
-clear
-ll
-rm -r dotfile/
-sudo rm -r dotfile/
-clear
-ll
-cd
-clear
-mkdir dotfile
-mv dotfile/ dotfiles/
-cd dotfiles/
-clear
-ll
-mkdir main bare
-clear
-ll
-cd main/
-clear
-git init
-ll
-rm .git/
-rm -r .git/
-clear
-ll
-cd ..
-clear
-ll
-mv main/ daily
-cd daily/
-clear
-git init
-clear
-ll
-ls -a
-ll
-clear
-ll
-cd .git/
-ll
-cd
-cd -
-clear
-ll
-cd ..
-clear
-ll
-cd ../bare/
-clear
-ll
-git init --bare
-clear
-ll
-cd ../..
-rm -r dotfiles/
-clear
-ll
-clear
-cd Git/
-clear
-ll
-git clone https://github.com/monsieurDuke/dotfile.git
-clear
-ll
-cd dotfile/
-clear
-ll
-clear
-ll
-rm -r qtile/
-clear
-ll
-rm .bashrc vbox 
-clear
-ll
-clear
-ll
-nano sync.sh
-clear
-ll
-chmod +x sync.sh 
-clear
-ll
-rm -r .c*
-y
-clear
-ll
-sudo rm -r .gnome/ .icons/ .java/
-clear
-ll
-ll .local/
-ll .local/bin/
-ll .local/lib/
-ll .local/lib/python3.10/site-packages/
-clear
-ll
-sudo rm -r .local/ .mplayer/ .ssh/ .themes/ .var/
-clear
-ll
-mkdir dots
-clera
-ll
-clear
-ll
-mkdir main
-clear
-ll
-ll dots/
-du dots/.local/
-du -h dots/.local/
-clear
-sudo du -h dots/.local/
-sudo du -h dots/.local/ | grep ".*/"
-sudo du -h dots/.local/ | awk '/\w+/'
-sudo du -h dots/.local/ | awk '/\w+\//'
-sudo du -h dots/.local/ | awk '//'
-sudo du -h dots/.local/ | awk '/dots/'
-sudo du -h dots/.local/ | awk '/dots/./'
-sudo du -h dots/.local/ | awk '/dots/\./'
-sudo du -h dots/.local/ | awk '/dots/\.+/'
-sudo du -h dots/.local/ | awk '/dots/.+/'
-sudo du -h dots/.local/ | awk '/dots//'
-sudo du -h dots/.local/ | awk '/dots/'
-sudo du -h dots/.local/ | awk '/dots\/*/'
-sudo du -h dots/.local/ | awk '/dots\/\.\w+\//'
-sudo du -h dots/.local/ | awk '/dots\/\.\w+\/$/'
-sudo du -h dots/ | awk '/dots\/\.\w+\/$/'
-sudo du -h dots/ | awk '/\w+\/\.\w+\/$/'
-sudo du -h dots/
-sudo du -h dots/ | awk '/dots\/\.\w+\/$/'
-sudo du -h dots/.local/ | awk '/dots\/\.\w+\/$/'
-sudo du -h dots/ | awk '/dots\/\.\w+\/$/'
-sudo du -h dots/ | awk '/dots\/\./'
-sudo du -h dots/ | awk '/dots\/\.\w+/'
-sudo du -h dots/ | awk '/dots\/\.\w+$/'
-nano sync.sh 
-clear
-./sync.sh 
-nano sync.sh 
-./sync.sh 
-./sync.sh | grep --color ".*"
-./sync.sh | grep --color -W ".*"
-./sync.sh | grep --color -W "\.*"
-./sync.sh | grep --color -w "\.*"
-./sync.sh | grep --color -w ".*"
-./sync.sh | grep --color -nE ".*"
-./sync.sh | grep --color -nE "."
-./sync.sh | grep --color -E "."
-./sync.sh | grep --color -E "G"
-./sync.sh | grep --color -E "l"
-./sync.sh | grep --color -E "."
-clear
-./sync.sh | grep --color -E "\."
-./sync.sh | grep --color -E "\.*"
-./sync.sh | grep --color -E "\.?"
-./sync.sh | grep --color -E "\.+"
-./sync.sh | grep --color -E "\."
-./sync.sh | grep --color -oP "\."
-./sync.sh | grep --color -E "\."
-./sync.sh | grep --color -Ew ""
-./sync.sh | grep --color -Ew "G|M"
-./sync.sh | grep --color -Ew "G"
-./sync.sh | grep --color -E "G"
-./sync.sh | grep --color -E "G "
-./sync.sh | grep --color -E "G"
-./sync.sh | grep --color -E "G\t"
-clear
-./sync.sh | grep --color -E "G"
-./sync.sh | grep --color -E "dots"
-./sync.sh | grep --color -E "dots|."
-./sync.sh | grep --color -E "dots|\."
-nano sync.sh 
-clear
-./sync.sh 
-cd dots/.local/
-clear
-ll
-ll share/
-clear
-ll
-du -h share/
-du -h share/ | sort
-qc;ear
-clear
-sudo du -h share/ | sort
-clear
-ll
-cd share/
-clear
-ll
-du -h Trash/
-sudo du -h Trash/
-cd Trash/f
-sudo su
-clear
-ll
-sudo rm -r Trash/
-cd ..
-clear
-ll
-cd .
-cd ..
-clera
-ll
-clear
-./sync.sh 
-ll dots/.cache/
-ll dots/.cache/qtile/
-ll
-ll dots/.cache/qtile/
-nano sync.sh 
-cd dots/
-clear
-ll
-cd ..
-nano sync.sh 
-history 
-nano sync.sh 
-clear
-./sync.sh 
-clear
-ll
-cat sync.sh 
-bat sync.sh 
-clear
-cat sync.sh 
-nano sync.sh 
-ll
-nano sync.sh 
-clear
-./sync.sh 
-nano sync.sh 
-clear
-sudo bash sync.sh 
-./sync.sh 
-nano sync.sh 
-clear
-sudo bash sync.sh 
-ll
-clear
-ll main/
-clear
-du -h dots/
-clear
-ll
-nano sync.sh 
-clear
-nano sync.sh 
-subl sync.sh 
-cd ..
-clear
-ll
-subl dotfile/
-cd .config/
-clear
-ll
-cd qtile/scripts/
-clear
-ll
-deluge
-sudo apt-get install deluge
-deluge
-clear
-ra
-clear
-ssh icat@192.168.1.11
-ssh-keygen -f "/home/icat/.ssh/known_hosts" -R "192.168.1.11"
-ssh icat@192.168.1.11
-sudo apt-get install compton
-sudo apt-get install exa
-sudo apt-get install kitty
-cd Script/
-clear
-ll
-bash touchpad-speed.sh 
-sudo apt-get install calcurse 
-sudo apt-get install alsamixer
-sudo apt-get install nmcli
-sudo apt-get install network-manager
-sudo apt-get install x11-session-utils 
-sudo apt-get install x11-xserver-utils 
-sudo apt-get install bluez
-sudo apt-get install mplayer
-sudo apt-get install ffmpeg
-clear
-apt list --installed
-apt list --installed | wc -l
-readme 
-cd Downloads/temp/
-clear
-cat burpsuite_community_linux_v2023_6_2.sh | wc -l
-cat burpsuite_community_linux_v2023_6_2.sh | wc -l -h
-cat burpsuite_community_linux_v2023_6_2.sh | wc -l
-mv burpsuite_community_linux_v2023_6_2.sh ~/Git/dotfile/.etc/
-readme 
-ll firefox-115.0.2.tar.bz2 
-mv firefox-115.0.2.tar.bz2 ~/Git/dotfile/.etc/
-readme 
-nano ~/.info 
-readme 
-nano ~/.info 
-clear
-readme 
-clear
-readme 
-cd
-clear
-cd OpenVPN/
-clear
-ll
-cp hotpotcookie-IN-REG-1.ovpn ~/Git/dotfile/.etc/
-cd ..
-clear
-ll
-cd Script/
-clear
-ll
-neofetch 
-htop
-killall ffmpeg 
-clear
-ll
-cd Vi
-cd Videos/
-clear
-ll
-xdg-open 16_27_35--27_07_23.flv 
-cd
-cd .config/qtile/
-clear
-ll
-cd scripts/
-clear
-ll
-nano widget.sh 
-nano sub-deviceconf.sh 
-nano sub-deviceconf.sh qtile 
-nano ../config.py 
-cd Downloads/temp/
-mv ARTIKEL\ ILMIAH\ -\ BOGOR\ 2023\ \(1\).docx ARTIKEL\ ILMIAH\ -\ BOGOR\ 2023\ -\ NEW.docx
-clear
-ll
-./ sync.sh 
-./sync.sh 
-clear
-sudo bash sync.sh 
-clear
-sudo bash sync.sh 
-cd dots/.config/
-clear
-du -h
-clear
-sudo du -h
-clear
-ll
-du -h
-du -h | awk '.'
-du -h | awk '.*'
-clear
-du -h | awk '/.'
-du -h | awk '.*'
-du -h
-cd ..
-clear
-du -h
-clear
-sudo du -h $dst/dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
-cd ..
-clear
-sudo du -h $dst/dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
-sudo du -h dots | awk '/dots\/\.\w+$/' | grep --color -E "dots|\."
-cd dots/.config/
-clear
-ll
-ll VirtualBox/
-sudo ll VirtualBox/
-sudo ls VirtualBox/
-clear
-ll
-du -h .
-du -h 
-sudo du -h 
-sudo du -h | grep G
-sudo du -h | cut -f 1
-sudo du -h | cut -f 1 | uniq
-sudo du -h | grep "2,3G"
-sudo du -h | cut -f 1 | uniq | sort
-sudo du -h | cut -f 1 | uniq | sort -r
-clear
-ll
-clear
-ll
-cd ..
-clear
-ll
-clear
-ll
-cd ..
-clear
-ll
-sudo rm -r dots/
-clear
-ll
-sudo rm -r main/
-clear
-composer
-clear
-ll
-./sync.sh 
-clear
-ll
-clear
-./sync.sh 
-ll
-clear
-ll
-rm -r etc/
-clear
-ll
-./sync.sh 
-clear
-ll
-rm -r etc/
-clear
-ll
-./sync.sh 
-clear
-ll
-./sync.sh 
-clear
-./sync.sh 
 clear
 ll
 ./sync.sh 
@@ -1998,3 +1415,586 @@ sudo chmod o+w .secret/
 ll .secret/
 clear
 ll
+clear
+cd Script/
+clear
+ll
+nano ~/.bashrc 
+clear
+ll
+mv recascii .recascii 
+clear
+ll
+mv touchpad-speed.sh .touchpad-speed
+clear
+ll
+cp .recascii .touchpad-speed ~/Git/bu-dotfile/.home/
+cd Downloads/temp/
+clear
+ll
+chmod +x balenaEtcher-1.18.11-x64.AppImage 
+clear
+ll
+./balenaEtcher-1.18.11-x64.AppImage 
+cd ..
+clear
+ll
+cd CAREER/
+clear
+ll
+clear
+ll
+clear
+l
+clear
+cp -r CERT/* /media/icat/TOSHIBA-64/doc/career/cert
+clear
+sudo cp -r CERT/* /media/icat/TOSHIBA-64/doc/career/cert
+ll
+vlrst
+clear
+ll
+cd PSIKOTES/
+ll
+cd ..
+clear
+ll
+clear
+l
+l INFO/
+cd ..
+clear
+ll
+cd SYN9/
+clear
+ll
+clear
+l
+xdg-open Cyberwarrior
+xdg-open Cyberwarrior*
+clear
+ll
+clear
+ll
+ranger
+clear
+ll
+sudo cp Cyberwarrior* /media/icat/TOSHIBA-64/doc/career/cert
+ll
+cd ..
+clear
+ll
+cd SYN9/
+clear
+ll
+du -h
+ll
+du SYN9/
+clear
+ll
+cd SYN9/
+clear
+ll
+clear
+l
+clear
+ll
+cd Git/
+clear
+git lfs clone https://github.com/monsieurDuke/dotfile.git bu-dotfile/
+ll
+cd bu-dotfile/
+clear
+git status
+ll
+nano sync.sh 
+cat sync.sh 
+ll
+cd ..
+clear
+ll
+cd dotfile/
+clear
+ll
+mkdir backup
+cd ..
+cp -r bu-dotfile/ dotfile/backup/
+cd dotfile/
+clear
+ll
+cd backup/
+clear
+ll
+cd ../../bu-dotfile/
+clear
+ll
+git status
+clear
+nano sync.sh 
+ll
+sudo bash sync.sh -s
+nano sync.sh 
+sudo bash sync.sh -s
+clear
+git status
+nano sync.sh 
+ll .home/
+ll
+ll .home/
+nano .home/.bashrc 
+clear
+ll
+clear
+git status
+nano .home/.bashrc 
+nano sync.sh 
+clear
+git status
+clear
+ll
+clear
+git status
+rm .config/sublime-text-3/Local/Session.sublime_session 
+clear
+ll
+git status
+ll .config/
+ll .config/sublime-text-3/
+clear
+ll
+sudo chown -R icat:icat *
+clear
+git status
+sudo chown -R icat:icat .config/sublime-text-3/
+clear
+git status
+rm .config/sublime-text-3/Local/Session.sublime_session 
+clear
+nano .gitignore 
+clea
+clear
+git status
+git add .home/.bash*
+clear
+git status
+git add .config/sublime-text-3/
+clear
+git status
+git commit -m "update latest sync"
+clear
+git status
+git add .config/kitty/
+clear
+git status
+git commit -m "setting up current dir on new session"
+clear
+git status
+rm .home/.info 
+clear
+git status
+git add .home/
+clear
+git status
+git commit -m "adding up new custom script"
+clear
+git status
+subl sync.sh 
+git commit -m "fixing cron entry and utilities for x11"
+git add sync.sh 
+git commit -m "fixing cron entry and utilities for x11"
+clear
+git status
+readme 
+git push
+cd ..
+clear
+ll
+clear
+ll
+cd ..
+clear
+l
+cd Pictures/
+ll
+ll wallpp/
+cd
+clear
+l
+cd Documents/
+clear
+ll
+cd CAREER/
+clear
+ll
+cd ..
+clear
+ll
+ll SYN9/
+ll CAREER/
+ll
+cd SYN9/
+clear
+ll
+clear
+ll
+cp -r * /media/icat/TOSHIBA-64/doc/project/syn9-csw2023
+clear
+sudo cp -r * /media/icat/TOSHIBA-64/doc/project/syn9-csw2023
+fg
+clear
+ll
+clear
+l
+cd 
+clear
+cd -
+clear
+ll
+cd
+cd Downloads/temp/
+ll
+sudo cp Projek\ Red\ Team\ 9\ -\ CW2023.pdf /media/icat/TOSHIBA-64/doc/project/syn9-csw2023
+ll
+clear
+l
+ll
+sudo cp SKCK.pdf KTP.* Pas\ Foto\ -\ 3x4\ -\ Blue.jpg Ijazah\ -\ * Certs\ \&\ Transcripts\ -\ Muhammad\ Nur\ Irsyad.pdf Trans* /media/icat/TOSHIBA-64/doc/bio
+clear
+l
+sudo cp BPJS\ Kesehatan.pdf /media/icat/TOSHIBA-64/doc/bio
+clear
+l
+clear
+l
+l INFO/
+clear
+l
+cd ..
+clear
+ll
+cd CAREER/
+clear
+cd INFO/
+ll
+cd ..
+clear
+ll
+cd ~/Downloads/temp/
+clear
+l
+mv SIM_Irsyad.pdf sim.pdf
+sudo mv sim.pdf /media/icat/TOSHIBA-64/doc/bio
+clear
+mv Pas\ Foto_4\ x\ 6_BLUE_Irsyad.jpg foto-4x6_blue.jpg
+sudo mv foto-4x6_blue.jpg /media/icat/TOSHIBA-64/doc/bio
+mv Pas\ Foto_3\ x\ 4_BW_Irsyad.jpg foto-3x4_black.jpg
+sudo mv foto-3x4_black.jpg /media/icat/TOSHIBA-64/doc/bio
+clear
+mv KK_Irsyad.pdf kk.pdf
+sudo mv kk.pdf /media/icat/TOSHIBA-64/doc/bio
+clear
+ll
+clear
+mv KTM\ PNJ_Irsyad.pdf ktm.pdf
+clear
+ll
+sudo mv ktm.pdf /media/icat/TOSHIBA-64/doc/bio
+clear
+mv Bahasa\ -\ TOEIC_Irsyad.pdf toeic-pnj.pdf
+sudo mv toeic-pnj.pdf /media/icat/TOSHIBA-64/doc/bio
+mv Dewatalk_Automated\ Threat\ Defense.pdf Dewatalk-automated_threat_defense.pdf
+sudo mv Dewatalk-automated_threat_defense.pdf /media/icat/TOSHIBA-64/doc/career/cert
+sudo mv Google_Kickstarter\ 3.pdf /media/icat/TOSHIBA-64/doc/career/cert
+sudo mv IEEE_IC2E\ Conference.pdf /media/icat/TOSHIBA-64/doc/career/cert
+sudo mv Intern_Automate\ All.pdf /media/icat/TOSHIBA-64/doc/career/cert
+sudo mv Shopee_CodeLeague\ 2022.pdf /media/icat/TOSHIBA-64/doc/career/cert
+sudo mv SoloLearn_Go.pdf /media/icat/TOSHIBA-64/doc/career/cert
+sudo mv SoloLearn_SQL.pdf /media/icat/TOSHIBA-64/doc/career/cert
+cd /media/icat/TOSHIBA-64/
+clear
+ll
+cat .secret/.info 
+cp .secret/.info ~/Git/dotfile/
+bat
+CLEAR
+clear
+ll
+clear
+ll
+clear
+ll
+mkdir .docs
+sudo mkdir doc
+clear
+ll
+cd doc/
+clear
+l
+ll
+ll -a
+clear
+ll
+ll -a
+mkdir proj
+sudo su
+clear
+cd
+cd Git/dotfile/
+clear
+ll
+nano sync.sh 
+cd ..
+cd bu-dotfile/
+clear
+nano sync.sh 
+clear
+sudo umount /media/icat/TOSHIBA-64 
+clear
+git status
+clear
+ll
+git status
+subl sync.sh 
+clear
+git status
+git add sync.sh 
+clear
+git status
+git commit -m "final push on baremetal"
+clear
+git status
+readme 
+git push
+clear
+cd ..
+clear
+ll
+ll agg/
+nano ~/.bashrc 
+nano ~/Script/.recascii 
+which asciinema 
+clear
+ll
+nano ~/Script/.recascii 
+sudo cp -r agg/ /media/icat/TOSHIBA-64/app
+ll
+clear
+l
+cd cli-pos/
+git status
+git add .
+git commit -m "rebase on new machine"
+clear
+git status
+ll
+cat ok.
+cat ok.sh 
+ll ~/.dialogrc 
+readme 
+git push
+clear
+cd ..
+clear
+ll
+cd polarpwn.gg/
+clear
+git status
+git add content/
+clear
+git status
+git commit -m "rebase on new machine"
+clear
+git status
+readme 
+git push
+clear
+cd ..
+clear
+ll
+cd shared-consulting/
+clear
+ll
+git status
+cat README.md 
+git add .
+clear
+git status
+git commit -m "rebase on new machine"
+clea
+clear
+git status
+git push
+clear
+sudo mount /dev/sdb1 /media/icat/TOSHIBA-64/
+cd /media/icat/TOSHIBA-64/
+clear
+ll
+sudo su
+cd
+sudo umount /media/icat/TOSHIBA-64 
+cd Downloads/temp/
+clear
+ll
+clear
+cp go1.20.6.linux-amd64.tar.gz /home/icat/Git/bu-dotfile/.etc
+cp jdk-8u371-linux-x64.tar.gz /home/icat/Git/bu-dotfile/.etc
+sudo cp -rf ~/Git/bu-dotfile/.etc/jdk-8u371-linux-x64.tar.gz /opt/jdk
+clear
+sudo cp -rf ~/Git/bu-dotfile/.etc/jdk-8u371-linux-x64.tar.gz /opt/jdk/
+sudo tar -zxf /opt/jdk/jdk-8u371-linux-x64.tar.gz 
+ll
+sudo tar -zxf /opt/jdk/jdk-8u371-linux-x64.tar.gz -C /opt/jdk/
+nano .bashrc 
+ll Git/bu-dotfile/.etc/
+cd Git/bu-dotfile/
+clear
+ll
+sudo mkdir /opt/go
+sudo tar -zxf .etc/go1.20.6.linux-amd64.tar.gz -C /opt/go/
+nano ~/Script/.recascii 
+cargo
+clear
+sudo apt-get install cargo
+which cargo
+nano ~/Git/bu-dotfile/
+nano ~/Git/bu-dotfile/sync.sh 
+sudo apt-get install asciinema
+ll
+ll .cargo/
+cargo
+curl https://sh.rustup.rs -sSf | sh
+nano ~/Git/bu-dotfile/sync.sh 
+clear
+ll
+cd go/
+clear
+ll
+cd pkg/
+clear
+cd ..
+cd
+cd Git/bu-dotfile/
+clear
+git status
+clear
+cd .etc/
+clear
+ll
+clear
+l
+clear
+l
+pwd
+clear
+l
+git lfs track go1.20.6.linux-amd64.tar.gz
+clear
+git status
+clear
+ll
+rm .gitattributes 
+clear
+ll
+cd ..
+clear
+git lfs track .etc/go1.20.6.linux-amd64.tar.gz
+clear
+git lfs track .etc/jdk-8u371-linux-x64.tar.gz
+clear
+git status
+ll
+clear
+git status
+cat .gitattributes 
+nano sync.sh 
+cat /etc/environment
+echo $PATH
+cd
+cat .bashrc 
+clear
+java --version
+sudo update-alternatives --display java
+clear
+sudo update-alternatives --display java
+which java
+clear
+cd Git/dotfile/
+clear
+cd .etc/
+clear
+ll
+clear
+ll
+cd ..
+clear
+ll
+cat .info 
+cd ..
+cd bu-dotfile/
+clear
+ll
+cat sync.sh | grep java
+clear
+ll .home/
+clear
+ll
+cd .etc/
+clear
+ll
+clear
+l
+cd /opt/
+ll
+sudo rm jdk 
+clear
+ll
+mkdir /opt/jdk
+sudo mkdir /opt/jdk
+clear
+ll
+cd jdk/
+clear
+ll
+javac --version
+clear
+ll
+cd jdk1.8.0_371/
+clear
+ll
+clear
+ll
+cd ..
+clear
+ll
+cat /etc/environment
+ll
+cd jdk1.8.0_371/
+clear
+ll
+cd jre/
+clear
+ll
+cd bin/
+clear
+pwd
+cd
+cd ..
+cd -
+cd /opt/jdk/jdk1.8.0_371/bin/
+clear
+pwd
+echo GOPATH="/opt/go/"
+GOBIN="/opt/go/bin/"
+cd ..
+clear
+ll
+cd go
+ll
+ll go/
+cd go/
+ll
+pwd
+echo GOPATH="/opt/go/"
+echo GOBIN="/opt/go/bin/"
+cd
+nano .bashrc 
