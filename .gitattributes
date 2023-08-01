@@ -1,3 +1,5 @@
 .etc/burpsuite_community_linux_v2023_6_2.sh filter=lfs diff=lfs merge=lfs -text
 .etc/firefox-115.0.2.tar.bz2 filter=lfs diff=lfs merge=lfs -text
 .etc/firefox-115.0.3.tar.bz2 filter=lfs diff=lfs merge=lfs -text
+.etc/go1.20.6.linux-amd64.tar.gz filter=lfs diff=lfs merge=lfs -text
+.etc/jdk-8u371-linux-x64.tar.gz filter=lfs diff=lfs merge=lfs -text
