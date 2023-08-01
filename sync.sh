@@ -81,9 +81,18 @@ install_app() {
 	echo -e "--------------------\n$(date)\n--------------------" >> error.log
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential ${GREEN}utilities${ENDCOLOR} ... ${BLUE}"
 	time {
-		apps="neofetch espeak x11-xserver-utils mpv python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
+		apps="curl wget asciinema neofetch espeak x11-xserver-utils mpv python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
 		sudo apt-get update 2>> error.log > /dev/null
 		sudo apt-get install $apps -y 2>> error.log > /dev/null
+		wget -q https://sh.rustup.rs -O /tmp/rust-init.sh > /dev/null
+		[[ ! -d /opt/jdk ]] && sudo mkdir /opt/jdk
+		[[ ! -d /opt/go ]] && sudo mkdir /opt/go
+		sudo cp -rf .etc/jdk-8u371-linux-x64.tar.gz /opt/jdk/
+		sudo tar -zxf /opt/jdk/jdk-8u371-linux-x64.tar.gz -C /opt/jdk/
+		echo -e "JAVA_HOME=\"/opt/java/jdk1.8.0_371/\"\nJRE_HOME=\"/opt/jdk/jdk1.8.0_371/jre\"" >> /etc/environment
+		sudo tar -C /opt/go -zxf .etc/go1.20.6.linux-amd64.tar.gz
+		echo -e "GOPATH=\"/opt/go/go\"\nGOBIN=\"/opt/go/go/bin/\"" >> /etc/environment
+		source /etc/environment
 		((inc++)); } ; echo -en "${ENDCOLOR}"
 
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing ${GREEN}DistroBox${ENDCOLOR} ... ${BLUE}"
@@ -139,6 +148,7 @@ import_config() {
 		source $home/.bashrc
 		((inc++)); } ; echo -en "${ENDCOLOR}"
 	echo -e "[${BLUE}$inc/$prc${ENDCOLOR}]: Installation finished ${GREEN}successfully${ENDCOLOR}"
+	echo -e "[${GREEN}---${ENDCOLOR}]: You may continue to install ${GREEN}Rust${ENDCOLOR} and ${GREEN}Cargo manually in ${GREEN}/tmp/rust-init.sh"
 	echo -e "[${GREEN}---${ENDCOLOR}]: Please log out from current session to use the ${GREEN}Qtile WM${ENDCOLOR}"
 	echo -e "[${GREEN}---${ENDCOLOR}]: Please copy ${GREEN}.etc/chrome/${ENDCOLOR} and ${GREEN}.etc/extensions/${ENDCOLOR} to your home directory\
 					\n       while enabling these config preferences on Firefox as it would load the custom css\
