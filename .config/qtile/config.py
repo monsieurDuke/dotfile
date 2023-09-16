@@ -135,7 +135,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-		wallpaper='/home/icat/.config/qtile/wallpps/tokyo.jpg',
+		wallpaper='/home/icat/.config/qtile/wallpps/kali.jpg',
 		wallpaper_mode='fill',
         top=bar.Bar(
             [
@@ -155,45 +155,45 @@ screens = [
                 # widget.Systray(),
                 widget.TextBox("[[", name="default",foreground="#ffffff"),           
                 widget.TextBox("SET", name="default",foreground="#bd93f9", scroll=True,
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('xfce4-settings-manager')}
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-settings-manager')}
                 ),
                 widget.TextBox("SCR", name="default",foreground="#bd93f9", scroll=True,
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('xfce4-screenshooter')}
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-screenshooter')}
                 ),
                 widget.TextBox("CON", name="default",foreground="#bd93f9",
                     ## nmcli  -- wifi
                     ## arandr -- screen
                     ##        -- bluetooth
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -d')}
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -d')}
                 ),                
                 widget.TextBox("CAM", name="default",foreground="#bd93f9",
                     mouse_callbacks = {
-                        'Button1': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c start'),
-                        'Button3': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c stop')                 
+                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c start'),
+                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c stop')                 
                     }, 
                 ),                
                 widget.TextBox("REC", name="default",foreground="#bd93f9",
                     mouse_callbacks = {
-                        'Button1': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f start'),
-                        'Button3': lambda: qtile.cmd_spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f stop') 
+                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f start'),
+                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f stop') 
                     },                    
                 ),                                
                 widget.TextBox("]]", name="default",foreground="#ffffff"),                           
                 widget.Pomodoro(color_inactive='#BF616A', color_active='#50fa7b', color_break='#ffb86c'),
-				widget.Net(interface="wlp2s0", format='{down} ↓↑ {up}', prefix='M',foreground="#f1fa8c",
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('nm-connection-editor')}                    
+				widget.Net(interface="wlp2s0", format='{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}', prefix='M',foreground="#f1fa8c",
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('nm-connection-editor')} 
                 ),
                 widget.Clock(format="%Y-%m-%d | %I:%M:%S %p",foreground="#ff79c6",
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('xfce4-terminal -e calcurse')}                    
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-terminal -e calcurse')}                    
                     ),
 				widget.Battery(format='BAT {percent:2.0%} {hour:d}:{min:02d}', foreground="#88C0D0"),
 				widget.CPU(format='CPU {load_percent}%', foreground="#EBCB8B"),
 				widget.Memory(format='RAM {MemUsed:.0f}{mm}', foreground="#B48EAD"),
 				widget.Volume(fmt='VOL {}', foreground="#BEFB89",
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('xfce4-terminal -e alsamixer')}                    
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-terminal -e alsamixer')}                    
                 ),
                 widget.TextBox("Zzz", name="default",foreground="#bd93f9",
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn('systemctl suspend')}
+                    mouse_callbacks = {'Button1': lambda: qtile.spawn('systemctl suspend')}
                 ),                
                 # widget.QuickExit(foreground="#ff5555"),
             ],
@@ -205,7 +205,7 @@ screens = [
         ),
     ),
     Screen(
-        wallpaper='/home/icat/Pictures/wallpp/1084228362.jpg',
+        wallpaper='/home/icat/.config/qtile/wallpps/kali.jpg',
         wallpaper_mode='fill'
     )
 ]

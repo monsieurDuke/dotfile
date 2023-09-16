@@ -1,16 +1,29 @@
 {
 	"file_history":
 	[
+		"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_markdown.scss",
+		"/home/icat/App/polarpwn.gg/content/posts/blog/personal-penetration-testing-report-template.md",
+		"/home/icat/App/dotfile/sync.sh",
+		"/home/icat/App/polarpwn.gg/content/posts/blog/simple-usage-of-optflag-in-bash-script.md",
+		"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_main.scss",
+		"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_shortcodes.scss",
+		"/home/icat/App/docksmoll/source/run-menu.sh",
+		"/home/icat/.config/qtile/scripts/compton.conf",
+		"/home/icat/App/boxpod",
+		"/home/icat/App/boxpod.sh",
+		"/home/icat/.config/qtile/config.py",
+		"/home/icat/.config/kitty/kitty.conf",
+		"/home/icat/.config/qtile/scripts/widget.sh",
+		"/home/icat/.config/qtile/scripts/sub-deviceconf.sh",
+		"/home/icat/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/icat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/icat/Git/bu-dotfile/sync.sh",
 		"/home/icat/Git/dotfile/sync.sh",
 		"/home/icat/Git/dotfile/.config/sublime-text-3/Local/Auto Save Session.sublime_session",
 		"/home/icat/.config/sublime-text-3/Local/Auto Save Session.sublime_session",
 		"/home/icat/Git/dotfile/.config/qtile/scripts/widget.sh",
-		"/home/icat/.config/qtile/scripts/widget.sh",
 		"/home/icat/Git/dotfile/.config/qtile/config.py",
 		"/home/icat/Git/polarpwn.gg/content/docs/org/about-us/_index.md",
-		"/home/icat/.config/qtile/config.py",
-		"/home/icat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/icat/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/icat/Git/dotfile/.config/.info",
 		"/home/icat/Git/dotfile/.config/qtile.desktop",
 		"/home/icat/Git/polarpwn.gg/themes/nord-hugo-book/assets/_markdown.scss",
@@ -81,10 +94,8 @@
 		"/home/icat/.dialogrc",
 		"/home/icat/Script/tui.sh",
 		"/home/icat/Script/dialog.sh",
-		"/home/icat/.config/kitty/kitty.conf",
 		"/home/icat/Script/menu.py",
 		"/home/icat/Script/test.c",
-		"/home/icat/.config/qtile/scripts/compton.conf",
 		"/home/icat/Git/CVE-2022-44877/doc/setup.txt",
 		"/home/icat/Git/CVE-2022-44887",
 		"/home/icat/.config/neofetch/config.conf",
@@ -96,7 +107,6 @@
 		"/home/icat/qtile-cookie.sh",
 		"/home/icat/.config/sublime-text-3/Packages/Dracula Color Scheme/Dracula.tmTheme",
 		"/home/icat/.config/sublime-text-3/Packages/User/Dracula.sublime-color-scheme",
-		"/home/icat/.config/qtile/scripts/sub-deviceconf.sh",
 		"/home/icat/.bashrc",
 		"/home/icat/Git/hotpotcookie/themes/hugo-book/assets/_custom.scss",
 		"/home/icat/Git/hotpotcookie/script/blog/testflag-2.sh",
@@ -118,20 +128,11 @@
 		"/home/icat/vbox",
 		"/home/icat/adwad",
 		"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/assets/_shortcodes.scss",
-		"/home/icat/Git/hotpotcookie.github.io/content/posts/blog/tutorial.md",
-		"/home/icat/Git/hotpotcookie.github.io/resources/_gen/assets/scss/book.scss_50fc8c04e12a2f59027287995557ceff.json",
-		"/home/icat/Git/hotpotcookie.github.io/content/posts/blog/_index.md",
-		"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/assets/plugins/_scrollbars.scss",
-		"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/assets/_defaults.scss",
-		"/home/icat/Git/hotpotcookie.github.io/config.toml",
-		"/home/icat/Git/hotpotcookie.github.io/public/index.html",
-		"/home/icat/Git/hotpotcookie.github.io/public/404.html",
-		"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/assets/_fonts.scss",
-		"/home/icat/Git/hotpotcookie.github.io/data/authors/aster-max.json",
-		"/home/icat/Git/hotpotcookie.github.io/public/katex/fonts/KaTeX_SansSerif-Regular.woff"
+		"/home/icat/Git/hotpotcookie.github.io/content/posts/blog/tutorial.md"
 	],
 	"folder_history":
 	[
+		"/home/icat/App/polarpwn.gg",
 		"/home/icat/Git/dotfile",
 		"/home/icat/Git/polarpwn.gg",
 		"/home/icat/OpenVPN",
@@ -141,10 +142,10 @@
 		"/home/icat/Git/CVE-2022-44877",
 		"/home/icat/Git/CVE-2022-44877-white-box"
 	],
-	"last_version": 4143,
-	"last_window_id": 30,
+	"last_version": 4152,
+	"last_window_id": 33,
 	"log_indexing": false,
-	"next_update_check": 1690856772,
+	"next_update_check": 1694839790,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -152,7 +153,7 @@
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			689.0,
+			348.0,
 			400.0
 		],
 		"new_window_settings":
@@ -161,6 +162,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"border-bott",
+						"border-bottom-right-radius"
+					],
+					[
+						"border-top",
+						"border-top-right-radius"
+					],
 					[
 						"insta",
 						"install_app"
@@ -434,27 +443,15 @@
 				"selected_items":
 				[
 					[
-						"histroy",
-						"Sublime Merge: File History"
-					],
-					[
-						"settings",
-						"Preferences: Settings"
-					],
-					[
-						"sideba",
-						"View: Toggle Side Bar"
+						"w",
+						"Word Wrap: Toggle"
 					],
 					[
 						"wra",
 						"Word Wrap: Toggle"
 					],
 					[
-						"wrap",
-						"Word Wrap: Toggle"
-					],
-					[
-						"side",
+						"sideba",
 						"View: Toggle Side Bar"
 					],
 					[
@@ -466,8 +463,24 @@
 						"View: Toggle Menu"
 					],
 					[
-						"w",
+						"sett",
+						"Preferences: Settings"
+					],
+					[
+						"histroy",
+						"Sublime Merge: File History"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"wrap",
 						"Word Wrap: Toggle"
+					],
+					[
+						"side",
+						"View: Toggle Side Bar"
 					],
 					[
 						"wwra",
@@ -594,13 +607,26 @@
 			},
 			"file_history":
 			[
+				"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_markdown.scss",
+				"/home/icat/App/polarpwn.gg/content/posts/blog/personal-penetration-testing-report-template.md",
+				"/home/icat/App/dotfile/sync.sh",
+				"/home/icat/App/polarpwn.gg/content/posts/blog/simple-usage-of-optflag-in-bash-script.md",
+				"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_main.scss",
+				"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_shortcodes.scss",
+				"/home/icat/App/docksmoll/source/run-menu.sh",
+				"/home/icat/.config/qtile/scripts/compton.conf",
+				"/home/icat/App/boxpod",
+				"/home/icat/App/boxpod.sh",
+				"/home/icat/.config/qtile/config.py",
+				"/home/icat/.config/kitty/kitty.conf",
+				"/home/icat/.config/qtile/scripts/widget.sh",
+				"/home/icat/.config/qtile/scripts/sub-deviceconf.sh",
+				"/home/icat/Git/bu-dotfile/sync.sh",
 				"/home/icat/Git/dotfile/sync.sh",
 				"/home/icat/Git/dotfile/.config/sublime-text-3/Local/Auto Save Session.sublime_session",
 				"/home/icat/.config/sublime-text-3/Local/Auto Save Session.sublime_session",
 				"/home/icat/Git/dotfile/.config/qtile/scripts/widget.sh",
-				"/home/icat/.config/qtile/scripts/widget.sh",
 				"/home/icat/Git/dotfile/.config/qtile/config.py",
-				"/home/icat/.config/qtile/config.py",
 				"/home/icat/Git/dotfile/.config/.info",
 				"/home/icat/Git/dotfile/.config/qtile.desktop",
 				"/home/icat/Git/polarpwn.gg/themes/nord-hugo-book/assets/_markdown.scss",
@@ -668,10 +694,8 @@
 				"/home/icat/.dialogrc",
 				"/home/icat/Script/tui.sh",
 				"/home/icat/Script/dialog.sh",
-				"/home/icat/.config/kitty/kitty.conf",
 				"/home/icat/Script/menu.py",
 				"/home/icat/Script/test.c",
-				"/home/icat/.config/qtile/scripts/compton.conf",
 				"/home/icat/Git/CVE-2022-44877/doc/setup.txt",
 				"/home/icat/Git/CVE-2022-44887",
 				"/home/icat/.config/neofetch/config.conf",
@@ -679,7 +703,6 @@
 				"/home/icat/.config/neofetch/logo",
 				"/home/icat/Git/hotpotcookie/script/blog/testflag-1.sh",
 				"/home/icat/qtile-cookie.sh",
-				"/home/icat/.config/qtile/scripts/sub-deviceconf.sh",
 				"/home/icat/.bashrc",
 				"/home/icat/Git/hotpotcookie/themes/hugo-book/assets/_custom.scss",
 				"/home/icat/Git/hotpotcookie/script/blog/testflag-2.sh",
@@ -711,29 +734,17 @@
 				"/home/icat/Git/hotpotcookie.github.io/data/authors/aster-max.json",
 				"/home/icat/Git/hotpotcookie.github.io/public/katex/fonts/KaTeX_SansSerif-Regular.woff",
 				"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/assets/clipboard.js",
-				"/home/icat/Git/hotpotcookie.github.io/.gitmodules",
-				"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/layouts/_default/_markup/render-heading.html",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/pentest-tool/air-dough.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/pentest-tool/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/payload/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/payload/log4shell.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/org/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/posts/paper/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/posts/writeup/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/posts/content/_index.md"
+				"/home/icat/Git/hotpotcookie.github.io/.gitmodules"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 22.0
 			},
 			"find_in_files":
 			{
 				"height": 98.0,
 				"where_history":
 				[
-					"<current file>",
-					""
 				]
 			},
 			"find_state":
@@ -741,21 +752,12 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"cron",
-					"13",
-					"spd",
-					"spd-say",
-					"spd",
-					"2>>>",
-					"2>",
-					"> ",
-					"2>",
-					"YELLOW",
-					"yellow",
-					"-->",
-					"icat",
-					"home",
-					"distro"
+					"complex",
+					"nist",
+					"tr",
+					"scroll",
+					"body",
+					"scroll"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -763,7 +765,6 @@
 				"regex": true,
 				"replace_history":
 				[
-					"2>>"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -775,7 +776,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 22.0
 			},
 			"input":
 			{
@@ -784,7 +785,7 @@
 			"menu_visible": false,
 			"output.Terminus":
 			{
-				"height": 226.0
+				"height": 423.0
 			},
 			"output.exec":
 			{
@@ -801,7 +802,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 40.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -810,6 +811,34 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"mark",
+						"themes/nord-hugo-book/assets/_markdown.scss"
+					],
+					[
+						"simb",
+						"content/posts/blog/simple-usage-of-optflag-in-bash-script.md"
+					],
+					[
+						"markd",
+						"themes/nord-hugo-book/assets/_markdown.scss"
+					],
+					[
+						"bash",
+						"content/posts/blog/simple-usage-of-optflag-in-bash-script.md"
+					],
+					[
+						"pers",
+						"content/posts/blog/personal-penetration-testing-report-template.md"
+					],
+					[
+						"shor",
+						"themes/nord-hugo-book/assets/_shortcodes.scss"
+					],
+					[
+						"main",
+						"themes/nord-hugo-book/assets/_main.scss"
+					],
 					[
 						"local",
 						".config/sublime-text-3/Local/Auto Save Session.sublime_session"
@@ -855,28 +884,12 @@
 						"content/docs/org/about-us/_index.md"
 					],
 					[
-						"mark",
-						"themes/nord-hugo-book/assets/_markdown.scss"
-					],
-					[
 						"thm",
 						"content/posts/blog/thm-cheat-sheet-1-complete-beginner.md"
 					],
 					[
 						"rege",
 						"content/posts/blog/understanding-the-basic-regex-format.md"
-					],
-					[
-						"bash",
-						"content/posts/blog/simple-usage-of-optflag-in-bash-script.md"
-					],
-					[
-						"markd",
-						"themes/nord-hugo-book/assets/_markdown.scss"
-					],
-					[
-						"main",
-						"themes/nord-hugo-book/assets/_main.scss"
 					],
 					[
 						"about",
@@ -913,10 +926,6 @@
 					[
 						"regex",
 						"content/posts/blog/understanding-the-basic-regex-format.md"
-					],
-					[
-						"shor",
-						"themes/nord-hugo-book/assets/_shortcodes.scss"
 					],
 					[
 						"ma",
@@ -1313,14 +1322,6 @@
 					[
 						"waf",
 						"doc/bypass_waf.rules"
-					],
-					[
-						"bypas",
-						"doc/bypass_waf.rules"
-					],
-					[
-						"togg",
-						"script/toggle-modsec.sh"
 					]
 				],
 				"width": 0.0
@@ -1353,7 +1354,7 @@
 			{
 			}
 		},
-		"new_window_width": 670.0
+		"new_window_width": 1011.0
 	},
 	"windows":
 	[
@@ -1362,6 +1363,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"border-bott",
+						"border-bottom-right-radius"
+					],
+					[
+						"border-top",
+						"border-top-right-radius"
+					],
 					[
 						"insta",
 						"install_app"
@@ -1626,34 +1635,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/icat/Git/bu-dotfile/sync.sh",
-					"settings":
-					{
-						"buffer_size": 7406,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							11,
-							1,
-							"left_delete",
-							null,
-							"AQAAAOUcAAAAAAAA5RwAAAAAAAAVAAAACQl0KSAgaW5zdGFsbF9hcHAgOzsK",
-							"AQAAAAAAAAABAAAA+hwAAAAAAADlHAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							21,
-							3,
-							"left_delete",
-							null,
-							"AwAAAJQcAAAAAAAAlBwAAAAAAAABAAAAdJMcAAAAAAAAkxwAAAAAAAABAAAAOpIcAAAAAAAAkhwAAAAAAAABAAAAIA",
-							"AQAAAAAAAAABAAAAlRwAAAAAAACVHAAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -1667,27 +1648,15 @@
 				"selected_items":
 				[
 					[
-						"histroy",
-						"Sublime Merge: File History"
-					],
-					[
-						"settings",
-						"Preferences: Settings"
-					],
-					[
-						"sideba",
-						"View: Toggle Side Bar"
+						"w",
+						"Word Wrap: Toggle"
 					],
 					[
 						"wra",
 						"Word Wrap: Toggle"
 					],
 					[
-						"wrap",
-						"Word Wrap: Toggle"
-					],
-					[
-						"side",
+						"sideba",
 						"View: Toggle Side Bar"
 					],
 					[
@@ -1699,8 +1668,24 @@
 						"View: Toggle Menu"
 					],
 					[
-						"w",
+						"sett",
+						"Preferences: Settings"
+					],
+					[
+						"histroy",
+						"Sublime Merge: File History"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"wrap",
 						"Word Wrap: Toggle"
+					],
+					[
+						"side",
+						"View: Toggle Side Bar"
 					],
 					[
 						"wwra",
@@ -1827,17 +1812,30 @@
 			},
 			"expanded_folders":
 			[
-				"/home/icat/Git/dotfile"
+				"/home/icat/App/polarpwn.gg"
 			],
 			"file_history":
 			[
+				"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_markdown.scss",
+				"/home/icat/App/polarpwn.gg/content/posts/blog/personal-penetration-testing-report-template.md",
+				"/home/icat/App/dotfile/sync.sh",
+				"/home/icat/App/polarpwn.gg/content/posts/blog/simple-usage-of-optflag-in-bash-script.md",
+				"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_main.scss",
+				"/home/icat/App/polarpwn.gg/themes/nord-hugo-book/assets/_shortcodes.scss",
+				"/home/icat/App/docksmoll/source/run-menu.sh",
+				"/home/icat/.config/qtile/scripts/compton.conf",
+				"/home/icat/App/boxpod",
+				"/home/icat/App/boxpod.sh",
+				"/home/icat/.config/qtile/config.py",
+				"/home/icat/.config/kitty/kitty.conf",
+				"/home/icat/.config/qtile/scripts/widget.sh",
+				"/home/icat/.config/qtile/scripts/sub-deviceconf.sh",
+				"/home/icat/Git/bu-dotfile/sync.sh",
 				"/home/icat/Git/dotfile/sync.sh",
 				"/home/icat/Git/dotfile/.config/sublime-text-3/Local/Auto Save Session.sublime_session",
 				"/home/icat/.config/sublime-text-3/Local/Auto Save Session.sublime_session",
 				"/home/icat/Git/dotfile/.config/qtile/scripts/widget.sh",
-				"/home/icat/.config/qtile/scripts/widget.sh",
 				"/home/icat/Git/dotfile/.config/qtile/config.py",
-				"/home/icat/.config/qtile/config.py",
 				"/home/icat/Git/dotfile/.config/.info",
 				"/home/icat/Git/dotfile/.config/qtile.desktop",
 				"/home/icat/Git/polarpwn.gg/themes/nord-hugo-book/assets/_markdown.scss",
@@ -1905,10 +1903,8 @@
 				"/home/icat/.dialogrc",
 				"/home/icat/Script/tui.sh",
 				"/home/icat/Script/dialog.sh",
-				"/home/icat/.config/kitty/kitty.conf",
 				"/home/icat/Script/menu.py",
 				"/home/icat/Script/test.c",
-				"/home/icat/.config/qtile/scripts/compton.conf",
 				"/home/icat/Git/CVE-2022-44877/doc/setup.txt",
 				"/home/icat/Git/CVE-2022-44887",
 				"/home/icat/.config/neofetch/config.conf",
@@ -1916,7 +1912,6 @@
 				"/home/icat/.config/neofetch/logo",
 				"/home/icat/Git/hotpotcookie/script/blog/testflag-1.sh",
 				"/home/icat/qtile-cookie.sh",
-				"/home/icat/.config/qtile/scripts/sub-deviceconf.sh",
 				"/home/icat/.bashrc",
 				"/home/icat/Git/hotpotcookie/themes/hugo-book/assets/_custom.scss",
 				"/home/icat/Git/hotpotcookie/script/blog/testflag-2.sh",
@@ -1948,29 +1943,17 @@
 				"/home/icat/Git/hotpotcookie.github.io/data/authors/aster-max.json",
 				"/home/icat/Git/hotpotcookie.github.io/public/katex/fonts/KaTeX_SansSerif-Regular.woff",
 				"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/assets/clipboard.js",
-				"/home/icat/Git/hotpotcookie.github.io/.gitmodules",
-				"/home/icat/Git/hotpotcookie.github.io/themes/hugo-book/layouts/_default/_markup/render-heading.html",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/pentest-tool/air-dough.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/pentest-tool/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/payload/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/payload/log4shell.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/gg/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/docs/org/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/posts/paper/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/posts/writeup/_index.md",
-				"/home/icat/Git/hotpotcookie.github.io/content/posts/content/_index.md"
+				"/home/icat/Git/hotpotcookie.github.io/.gitmodules"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 22.0
 			},
 			"find_in_files":
 			{
 				"height": 98.0,
 				"where_history":
 				[
-					"<current file>",
-					""
 				]
 			},
 			"find_state":
@@ -1978,21 +1961,12 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"cron",
-					"13",
-					"spd",
-					"spd-say",
-					"spd",
-					"2>>>",
-					"2>",
-					"> ",
-					"2>",
-					"YELLOW",
-					"yellow",
-					"-->",
-					"icat",
-					"home",
-					"distro"
+					"complex",
+					"nist",
+					"tr",
+					"scroll",
+					"body",
+					"scroll"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2000,7 +1974,6 @@
 				"regex": true,
 				"replace_history":
 				[
-					"2>>"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -2013,7 +1986,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/icat/Git/dotfile"
+					"path": "/home/icat/App/polarpwn.gg"
 				}
 			],
 			"groups":
@@ -2021,44 +1994,12 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/icat/Git/bu-dotfile/sync.sh",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7406,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										7147,
-										7147
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 2272.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 22.0
 			},
 			"input":
 			{
@@ -2089,7 +2030,7 @@
 			"menu_visible": false,
 			"output.Terminus":
 			{
-				"height": 226.0
+				"height": 423.0
 			},
 			"output.exec":
 			{
@@ -2104,11 +2045,11 @@
 				"height": 108.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,687,398,1357,758,1366,768,0",
+			"position": "0,0,0,0,0,346,398,1357,758,2732,768,0",
 			"project": "",
 			"replace":
 			{
-				"height": 44.0
+				"height": 40.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -2117,6 +2058,34 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"mark",
+						"themes/nord-hugo-book/assets/_markdown.scss"
+					],
+					[
+						"simb",
+						"content/posts/blog/simple-usage-of-optflag-in-bash-script.md"
+					],
+					[
+						"markd",
+						"themes/nord-hugo-book/assets/_markdown.scss"
+					],
+					[
+						"bash",
+						"content/posts/blog/simple-usage-of-optflag-in-bash-script.md"
+					],
+					[
+						"pers",
+						"content/posts/blog/personal-penetration-testing-report-template.md"
+					],
+					[
+						"shor",
+						"themes/nord-hugo-book/assets/_shortcodes.scss"
+					],
+					[
+						"main",
+						"themes/nord-hugo-book/assets/_main.scss"
+					],
 					[
 						"local",
 						".config/sublime-text-3/Local/Auto Save Session.sublime_session"
@@ -2162,28 +2131,12 @@
 						"content/docs/org/about-us/_index.md"
 					],
 					[
-						"mark",
-						"themes/nord-hugo-book/assets/_markdown.scss"
-					],
-					[
 						"thm",
 						"content/posts/blog/thm-cheat-sheet-1-complete-beginner.md"
 					],
 					[
 						"rege",
 						"content/posts/blog/understanding-the-basic-regex-format.md"
-					],
-					[
-						"bash",
-						"content/posts/blog/simple-usage-of-optflag-in-bash-script.md"
-					],
-					[
-						"markd",
-						"themes/nord-hugo-book/assets/_markdown.scss"
-					],
-					[
-						"main",
-						"themes/nord-hugo-book/assets/_main.scss"
 					],
 					[
 						"about",
@@ -2220,10 +2173,6 @@
 					[
 						"regex",
 						"content/posts/blog/understanding-the-basic-regex-format.md"
-					],
-					[
-						"shor",
-						"themes/nord-hugo-book/assets/_shortcodes.scss"
 					],
 					[
 						"ma",
@@ -2620,14 +2569,6 @@
 					[
 						"waf",
 						"doc/bypass_waf.rules"
-					],
-					[
-						"bypas",
-						"doc/bypass_waf.rules"
-					],
-					[
-						"togg",
-						"script/toggle-modsec.sh"
 					]
 				],
 				"width": 0.0
@@ -2663,7 +2604,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 29,
+			"window_id": 33,
 			"workspace_name": ""
 		}
 	],

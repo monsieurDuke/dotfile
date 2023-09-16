@@ -70,7 +70,7 @@ backup_sync() {
 		for j in ${bu_dirs[@]}; do
 			cp -r $home/.config/$j ./.config
 			done
-		bu_fox=(.mozilla/extensions .mozilla/firefox/zooa6hgr.default-release/chrome)
+		bu_fox=(.mozilla/extensions .mozilla/firefox/9w07ygyj.default-release/chrome)
 		for k in ${bu_fox[@]}; do
 			cp -r $home/$k ./.etc
 			done

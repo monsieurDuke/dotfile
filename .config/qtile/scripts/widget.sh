@@ -18,7 +18,7 @@ ffmpeg_record() { ## -f \\ start & stop
 	res=$(xrandr | grep '*' | awk '{ print $1 }')
 	case $1 in
 		"start")
-			ffmpeg -video_size $res -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/media/$(date +"%H_%M_%S--%d_%m_%y").flv &
+			ffmpeg -video_size $res -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/Media/$(date +"%H_%M_%S--%d_%m_%y").flv &
 			espeak "recording started"
 			;;
 		"stop")

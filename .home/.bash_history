@@ -1,2000 +1,2000 @@
 clear
-ll
-./sync.sh 
-ll .config/
-cat inf
-clear
-ll
-ll .git/
-clear
-ll
-ll .config/
-clear
-./sync.sh 
-clear
-./sync.sh 
-clear
-./sync.sh 
-ll 
-./sync.sh 
-du -h
-du -h | tail -n 1
-clear
-echo $ID
-echo 
-echo $EUID
-sudo echo $EUID
-su
-sudo su
-clear
-echo $EUID
-id -u
-sudo id -u
-clear
-./sync.sh 
-clear
-./sync.sh 
-clera
-clear
-clera
-./sync.sh 
-ranger 
-clear
-./sync.sh 
-clear
-./sync.sh 
-clear
-./sync.sh 
-clear
-./sync.sh 
-sudo ./sync.sh 
-clear
-sudo ./sync.sh 
-./sync.sh 
-clear
-./sync.sh 
-sudo ./sync.sh 
-clear
-git status
-git add sync.sh 
-git commit --date="1 day ago" -m "adding backup sync main outline"
-clear
-git status
-git add .config/
-clear
-git status
-ll
-git commit --date="1 day ago" -m "add current layout for .config dotfiles"
-clear
-git status
-git add .bashrc qtile vbox 
-clear
-git status
-git commit --date="1 day ago" -m "remove old file structure"
-clear
-git status
-git push
-./sync.sh -h
-lcear
-clear
-./sync.sh -h
-lear
-clear
-lear
-./sync.sh -h
-clear
-./sync.sh -h
-clear
-./sync.sh -h
-clear
-./sync.sh -h
-clear
-./sync.sh 
-./sync.sh -s
-sudo ./sync.sh -s
-clear
-l
-ll
-ll .config/
-clear
-sudo ./sync.sh -s
-distrobox
-sudo apt-get install distrobox
-git lfs install
-sudo apt-get install git-lfs 
-git-lfs install
-clear
-ll
-ll distrobox/
-clear
-ll
-rm -r distrobox/
-sudo rm -r distrobox/
-clear
-ll
-clear
-git status
-clear
-ll .etc/
-chmod +x .etc/burpsuite_community_linux_v2023_6_2.sh 
-clear
-ll
-git lfs track .etc/burpsuite_community_linux_v2023_6_2.sh
-clear
-ll
-cat .gitattributes 
-clear
-git status
-git add .gitattributes .etc/burpsuite_community_linux_v2023_6_2.sh 
-clear
-git status
-git commit -m "adding burpsuite installer in Git LFS"
-clear
-git status
-clear
-ll
-sudo ./sync.sh -s
-cear
-clear
-ll
-sudo rm -r .config/
-clear
-sudo ./sync.sh -s
-clear
-ll
-ll .config/
-clear
-ll .etc/
-clear
-ll
-git status
-clear
-git lfs track .etc/firefox-115.0.2.tar.bz2
-clear
-git status
-clear
-git status
-clear
-ll
-cat .gitattributes 
-clear
-git status
-clear
-ll
-rm wget-log 
-clear
-ll
-clear
-git status
-git add .gitattributes .etc/firefox-115.0.2.tar.bz2 
-clear
-git status
-git commit -m "avoiding snap on unattended firefox installer"
-clear
-git status
-clear
-git status
-./sync.sh -s
-sudo ./sync.sh -s
-clear
-git status
-sudo git status
-git add .config/
-sudo git add .config/
-clear
-git status
-sudo git commit -m "latest build. about to ignore some of the session files"
-git commit -m "latest build. about to ignore some of the session files"
-sudo git commit -m "latest build. about to ignore some of the session files"
-sudo git config --global user.email "icatmuhammad2@gmail.com"
-sudo git config --global user.name "monsieurDuke"
-sudo git commit -m "latest build. about to ignore some of the session files"
-sudo git add sync.sh
-git commit -m "pre testing auto installer"
-clear
-git status
-clear
-git push
-sudo git push
-git config --global user.name "monsieurDuke"
-git config --global user.email "icatmuhammad2@gmail.com"
-git push
-ll
-cd .git/
-clear
-ll
-cat config 
-git push origin master
-sudo git push origin master
-git status
-cd ..
-clear
-git status
-clear
-ll
-sudo chown icat:icat .config/
-clear
-ll
-git status
-ll
-ll .config/
-clear
-sudo chown -R icat:icat .config/
-ll .config/
-clear
-git status
-git push
-ll .config/
-git config --global user.email "icatmuhammad2@gmail.com"
-git config --global user.name "monsieurDuke"
-git push
-cat .git/config 
-git push
-clear
-which python3
-pip
-clear
-nano ~/.bashrc 
-echo $HOME
-sudo echo $HOME
-nano ~/.bashrc 
-cd /usr/share/xsessions/
-clear
-ll
-bat qtile.desktop 
-clear
-nano qtile.desktop 
-clear
-ll
-cp qtile.desktop ~/Git/dotfile/.config/
-cd -
-clear
-ll
-cd .config/
-clear
-ll
-cd -
-clear
-cd /usr/share/xsessions/
-ll
-pwd
-nano qtile.desktop 
-clear
-cd -
-clear
-cd /tmp/
-mkdir lmao
-cp -r ~/Git/dotfile/.config/ /tmp/lmao/
-ll lmao/
-sudo rm -r lmao/.config/
-cp -r ~/Git/dotfile/.config/* /tmp/lmao/
-ll lmao/
-pip3 install xcffib
-pip3 install --no-cache-dir cairocffi
-sudo apt-get install libpangocairo-1.0-0 
-pip3 install libpangocairo-1.0-0 
-cd ~/Git/dotfile/
-clear
-git status
-clear
-git status
-clear
-sudo ./sync.sh -s
-clear
-ll
-ll .config/
-clear
-git status
-touch .gitignore
-nano .gitignore 
-clear
-ll
-clear
-git status
-rm .config/sublime-text-3/Local/Auto\ Save\ Session.sublime_session 
-clear
-git status
-clear
-which qtile 
-cat ~/.bashrc | top -n 10
-cat ~/.bashrc | top 10
-cat ~/.bashrc | head -n 10
-which qtile 
-clear
-git status
-clear
-git status
-git add .gitignore .config/sublime-text-3/
-clear
-git status
-git commit -m "ignoring sublime temp session"
-clear
-git status
-git add ll
-clear
-ll
-rm .config/.info 
-clear
-git status
-git add .config/.bash_history .config/.info 
-clear
-git status
-git commit -m "removing sensitive info"
-clear
-git status
-git add .config/qtile.desktop 
-git commit -m "adding qtile shortcut on login session"
-clear
-git status
-clear
-git status
-git add sync.sh 
-git commit -m "fix python dependencies on qtile"
-clear
-git status
-git add .etc/hotpotcookie-IN-REG-1.ovpn 
-git commit -m "add thm openvpn connection"
-clear
-git status
-readme 
-git push
-ll
-ll .config/
-ll /usr/share/xsessions/
-ll
-git status
-clear
-ll
-sudo rm -r .config/
-clear
-sudo bash sync.sh -s
-ll
-ll .home/
-ll
-ll .home/
-git status
-clear
-l
-ll
-sudo chown -R icat:icat .config/
-sudo chown -R icat:icat .home/
-clear
-git status
-clear
-ll
-ll .config/
-ll ~/.config/
-clear
-ll
-ll .home/
-mkdir /tmp/lmao
-mkdir /tmp/lmao2
-ll /tmp/lmao
-ll /tmp/lmao2/
-cp .home/* /tmp/lmao2/
-cp -r .home/* /tmp/lmao2/
-cd /tmp/lmao
-cd /tmp/lmao2/
-clear
-ll
-cp -r .home/. /tmp/lmao2/
-cp -r .home/./ /tmp/lmao2/
-cp -ra .home/ /tmp/lmao2/
-cp -ra .home/* /tmp/lmao2/
-cd -
-cp -ra ~/Git/dotfile/.home/* /tmp/lmao2/
-ll
-cp -ra ~/Git/dotfile/.home/{.,}* /tmp/lmao2/
-cp -r ~/Git/dotfile/.home/{.,}* /tmp/lmao2/
-clear
-ll
-cp -r ~/Git/dotfile/.home/{.,}* /tmp/lmao2/
-ll
-ll ~/Git/dotfile/.home/
-cd ..
-rm -r lmao2/
-sudo rm -r lmao2/
-mkdir lmao2
-cd lmao2
-clear
-cp -r ~/Git/dotfile/.home/. /tmp/lmao2/
-ll
-clear
-cd ~/Git/dotfile/
-clear
-git status
-clear
-psutil
-pip install psutil
-ll /usr/share/xsessions/
-ll .home/
-clear
-ifconfig >&1
-a=&1
-a="&1"
-ifconfig 
-ifconfig >&1
-ifconfig >$a
-ifconfig > /dev/null 
-ifconfig 
-ifconfig > /dev/null 
-ifconfig >$1
-ifconfig >&1
-a=">&1"
-ifconfig >&1
-ifconfig $a
-ifconfig >&1
-clear
-cd .etc/
-clea
-clear
-ll
-cat response.varfile 
-time ifconfig
-
-time ifconfig | grep real
-time ifconfig
-time sleep 5s
-time sudo apt-get update > /dev/null 
-time sudo apt-get update > /dev/null | grep real
-time `sudo apt-get update > /dev/null`
-time `sudo apt-get update > /dev/null` > /tmp/pase
-cat /tmp/pase 
-cd ..
-clear
-git status
-ll .home/
-clear
-sudo apt-get install speech-dispatcher
-which spd-say 
-ll /usr/bin/spd-say 
-clear
-git status
-git add .config/
-clear
-git status
-git add .home/
-git status
-cd .home/
-clear
-ll
-ll jetbrains/
-ll jetbrains/ttf/
-ll jetbrains/variable/
-ll jetbrains/webfonts/
-cd ..
-clear
-git status
-git add .home/
-cd .home/jetbrains/webfonts/
-ll
-mv JetBrainsMono-LightItalic.woff2 JetBrainsMono-LightItalic.woff2.bak
-clear
-ll
-cd ../..
-cd ..
-clear
-git status
-git add .home/
-cat .git/objects/
-cd .git/
-clear
-l
-ll
-cd objects/
-clear
-ll
-ls -al
-sudo chown -R icat:icat *
-cd ../..
-clear
-git status
-git add .home/
-clear
-git status
-git commit -m "moving based file to its own directory + font + desktop session
-"
-clear
-git status
-git add sync.sh 
-git commit -m "fixing desktop session issue + changing burpsuite installer into unattended"
-clear
-git status
-git add .etc/response.varfile 
-git commit -m "default installation config on provisioning the STDIN"
-clear
-git status
-readme 
-git push
-date
-echo $(date)
-echo "aa" >> ok.txt ok2.txt
-cat ok.txt 
-rm ok.txt 
-	echo -e "\n--------------------$(date)\n--------------------" >> error.log
-cat error.log 
-rm error.log 
-	echo -e "\n--------------------\n$(date)\n--------------------" >> error.log
-cat error.log 
-rm error.log 
-	echo -e "--------------------\n$(date)\n--------------------" >> error.log
-cat error.log 
-time ifconfig
-2> error.log > /dev/null
-TIMEFORMAT=%0lR
-time ifconfig 
-time htop
-clear
-ll
-time htop
-TIMEFORMAT=%R
-time htop
-time sudo apt-get update 
-TIMEFORMAT=%0lR
-time sudo apt-get update 
-ll
-rm error.log 
-cd
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-nano /tmp/ok.sh
-bash /tmp/ok.sh 
-cd -
-clear
-sudo bash sync.sh -s
-clear
-sudo bash sync.sh -s
-cler
-clear
-sudo bash sync.sh -s
-git status
-sudo bash sync.sh -s
-clear
-sudo bash sync.sh -s
-say
-sudo apt-get install say
-sudo apt-get install gnustep-gui-runtime 
-sudo apt-get install festival
-sudo apt-get install espeak
-espeak "hello i-joy"
-espeak --help
-espeak "hello i-joy" --voices=Indonesian
-espeak "hello i-joy" --voices=Indonesia
-espeak "hello i-joy" --voices=Indonesian
-espeak --voices=Indonesian
-espeak --voice
-espeak --voices
-espeak --voices=id
-espeak --voices=id 
-espeak --help
-espeak "hello jarvis"
-espeak "recording started"
-espeak "recording stopped"
-espeak "recording started"
-nano .config/qtile/config.py 
-clear
-ll
-bash sync.sh -s
-sudo bash sync.sh -s
-clear
-git status
-vlc
-mpv
-sudo apt-get install mpv
-xrandr -q
-cat /sys/class/graphics/fb0/mode
-cat /sys/class/graphics/fb0/modes 
-cat /sys/class/graphics/fbcon/modes 
-cat /sys/class/graphics/fb0/mode
-cat /sys/class/graphics/fb0/modes 
-cat /sys/class/graphics/fb0/virtual_size 
-cat /sys/class/graphics/fb0/virtual_size | cut -d -f 1
-cat /sys/class/graphics/fb0/virtual_size | cut -f 1
-cat /sys/class/graphics/fb0/virtual_size | awk 'PRINT $1'
-cat /sys/class/graphics/fb0/virtual_size | awk -d ',' 'PRINT $1'
-cat /sys/class/graphics/fb0/virtual_size | cut -d ',' -f 1
-cat /sys/class/graphics/fb0/virtual_size | cut -d ',' -f 2
-subl .config/qtile/config.py 
-subl ~/.config/qtile/config.py 
-subl ~/.config/qtile/scripts/widget.sh 
-a="lmao"
-b="lel"
-echo $a\x$b
-clear
-git status
-sudo bash sync.sh -s
-clear
-git status
-clear
-git status
-clear
-git status
-git add .config/qtile/__pycache__/config.cpython-310.pyc .config/qtile/config.py 
-clear
-git status
-git commit -m "chaning key event from scroll wheel to right click instead"
-clear
-git status
-git add .config/qtile/scripts/widget.sh 
-git commit -m "fix incompatible resoultion with calling sys value instead"
-clear
-git status
-git add .home/.bash_history sync.sh 
-git commit -m "update latest sync + adding elapsed time for each phase taken"
-clear
-git status
-readme 
-git push
-ll
-ll .git
-clear
-ll
-git push
-cd /media/icat/
-clear
-ll
-ll TOSHIBA/
-cd TOSHIBA/
-clear
-df -h
-clear
-du -h
-du -h OTHERS/
-du -h OTHERS/ | sort
-clear
-du -h OTHERS/ | grep "G"
-lear
-ll
-clear
-ll
-cd ..
-ll
-cd
-cd /media/icat/
-clear
-ll
-ll 
-clear
-fdisk -l
-sudo fdisk -k
-sudo fdisk -l
-clear
-sudo fdisk -l
-ll
-clear
-sudo fdisk -l
-sudo mount /dev/sdb1 /media/icat/
-ll
-mount | grep sdb
-mount | grep sdb1
-cd
-cd /media/icat/
-ll
-cd
-sudo umount /media/icat 
-cd /media/icat/
-ll
-sudo mkdir TOSHIBA-64
-clear
-sudo fdisk -l
-sudo mount /dev/sdb1 /media/icat/TOSHIBA-64/
-ll TOSHIBA-64/
-cd TOSHIBA-64/
-clear
-l
-clear
-ll
-clear
-ll
-ll OTHERS/
-clear
-ll
-sudo su
-sudo cp /etc/nanorc ~/Git/dotfile/.home/
-ll
-cd Videos/
-clear
-ll
-killall ffmpeg
-mpv 16_30_32--27_07_23.flv 
-mplayer 16_30_32--27_07_23.flv 
-vlc 16_30_32--27_07_23.flv 
-mpv -fs 16_30_32--27_07_23.flv 
+shutdown --help
+shutdown -H
+sudo shutdown -H
+sudo shutdown -c
+cd Downloads/
+clear
+ll
+mv 2997.jpg night.jpg 
+cp night.jpg /home/icat/.config/qtile/wallpps
+ll
+file the_sky_of_vincent_van_gogh__day3__by_dean_art_dfco74b-fullview.jpg 
+file the_sky_of_vincent_van_gogh__day3__by_dean_art_dfco74b-fullview-transformed.jpeg 
+cp the_sky_of_vincent_van_gogh__day3__by_dean_art_dfco74b-fullview-transformed.jpeg /home/icat/.config/qtile/wallpps/sky.jpeg
+cp night2.jpg /home/icat/.config/qtile/wallpps/
+echo "ayyayaya"
 neofetch 
+uk gang
+ip a
+netstat -ta
+cd ~/Downloads/
+ll
+cp wallpaperflare.com_wallpaper.jpg /home/icat/.config/qtile/wallpps/korea.jpg
+cp wallpaperflare.com_wallpaper\(1\).jpg /home/icat/.config/qtile/wallpps/red.jpg
+cd /tmp/
+tar -xvf kali-wallpapers-kali-master-2020.4-backgrounds.tar.gz 
+cd kali-wallpapers-kali-master-2020.4-backgrounds/
 clear
 ll
-mpv -fs 16_46_28--27_07_23.flv 
-readme 
-cd
-nano .info 
-readme 
-nano .info 
-readme 
-nano .info 
+cd 2020.4/
 clear
-readme 
-readme | tr -s '\t' ' '
-readme | tr -s ' ' '\t'
-cd Documents/
+ll
+cd backgrounds/
+thunar
+cd kali
 clear
 ll
 cd ~/Downloads/
 clear
 ll
-cd fonts/
-clear
-ll
-nano ~/.config/kitty/kitty.conf 
-cd jetbrains/
-clear
-ll
-ll ttf/
-clear
-cd ttf/
-clear
-ll
+cp kali-contours-16x9.jpg /home/icat/.config/qtile/wallpps/kali.jpg
+systemctl suspend
 cd
-ll /usr/local/share/fonts/
-ll ~/.local/share/fonts/
-cp -r Downloads/fonts/jetbrains/ ~/Git/dotfile/.home/
-ll ~/.local/share/fonts/
-ll Downloads/fonts/jetbrains/
-ll Downloads/fonts/jetbrains/ttf/
-du -h Downloads/fonts/jetbrains/
-ll ~/.local/share/fonts/
-ll
-neofetch 
-clear
-ll .config/neofetch/
-ll .config/
-l .config/
-cd /tmp/
-ll
-nano ok.sh 
-vash ok.sh 
-bash ok.sh 
-clear
-sudo bash ok.sh 
-nano ok.sh 
-cp ok.sh ~/Git/dotfile/
-mplayer 
-clear
-cd content/posts/blog/
+cd .config/qtile/
 clear
 ll
-mv thm-cheat-sheet-complete-beginner.md thm-cheat-sheet-1-complete-beginner.md 
-clear
-cd ..
-clear
-git status
-cd themes/nord-hugo-book/
-clear
-git status
-git add assets/_markdown.scss 
-clear
-git status
-git commit -m "adding bullet point separator"
-clear
-git status
-git push
-cd ../..
-clear
-git status
-git add themes/nord-hugo-book/
-clear
-git commit -m "adding bullet point separator"
-clear
-git status
-git add content/posts/blog/thm-cheat-sheet-complete-beginner.md 
-git add content/posts/blog/thm-cheat-sheet-1-complete-beginner.md 
-clear
-git status
-git commit -m "renaming file to follow the id format"
-clear
-git status
-clear
-git status
-clear
-git status
-git add content/posts/
-clear
-git statu
-git status
-clear
-git commit -m "adding new comment section with utteranc.es"
-clear
-git status
-git add resources/
-clear
-git status
-git commit -m "latest build 07/22"
-clear
-git status
-git push
-clear
-echo "Update Whole Directory, ( doc , media , pic , download , git , tool , temp )"
-ll
-cd /tmp/
-ll
-cd
+cd wallpps/
 clear
 ll
-cd Git/
-clear
-git clone https://github.com/Etesam913/slick-fox.git
-cd slick-fox/
-clear
-ll
-cp userChrome.css ~/.mozilla/firefox/skhao9zg.default/
-cd ~/.mozilla/firefox/skhao9zg.default/
-clear
-ll
-mkdir chrome
-mv userChrome.css chrome/
-sudo apt-get install firefox
-clear
-ll
-ll chrome/
-nano prefs.js 
-clear
-ll
-ll | grep .js
-cd Git/
-clear
-ll
-git clone https://github.com/migueravila/SimpleFox.git
-cd SimpleFox/
-clear
-ll
-cp chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
-cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
-cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
-cd ..
-clear
-git clone https://github.com/manilarome/blurredfox.git
-cd blurredfox/
-clear
-ll
-cp user* /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
-cp -r parts/ colors/ scrots/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
-cd ..
-git clone https://github.com/andreasgrafen/cascade.git
-cd cascade/
-clear
-ll
-cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
-ll chrome/
-cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
-cd ..
-git clone https://github.com/Godiesc/firefox-gx.git
-cd firefox-gx/
-clear
-ll
-cp -r chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
-cd ..
-clear
-ll
-cd blurredfox/
-clear
-l
-clear
-ll
-cp user* /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome
-cp -r colors/ parts/ scrots/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
-cp -r colors/ parts/ scrots/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release/chrome/
-cd ..
-clear
-git clone https://github.com/AdamXweb/WhiteSurFirefoxThemeMacOS.git
-cd WhiteSurFirefoxThemeMacOS/
-clear
-ll
-cp -r chrome/ configuration/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release
-ll
-bash install.sh -c
-cd ..
-clear
-ll
-cd SimpleFox/
-clear
-ll
-cp assets/ chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release
-cp -r assets/ chrome/ /home/icat/.mozilla/firefox/1gyh7x9a.default-release
-which firefox 
-cd /opt/
-clear
-ll
-sudo rm firefox/
-sudo rm -r firefox/
-which firefox
-ll /usr/local/bin/firefox 
-sudo rm /usr/local/bin/firefox 
-clear
-ll
-cd
-clear
-cd .mozilla/
-clear
-ll
-cd ..
-sudo rm -r .mozilla/
-clear
-sudo apt-get update 
-clear
-sudo apt-get install firefox
-which firefox 
-ll
-cd .mozilla
-ll
-which firefox 
-cat /usr/bin/firefox 
-cd /usr/lib/firefox/
-clear
-ll
-cd /home/icat/.mozilla/firefox/1gyh7x9a.default-release/
-clear
-ll
-mkdir chrome
+xdg-open aris.jpg 
+file tokyo.jpg 
 pwd
-cp ~/Git/slick-fox/userChrome.css chrome/
+ll
+chmod +x night.jpg 
+clear
+ll
+file tokyo.jpg 
+ll
+clear
+ll
+cd ..
+clear
+ll
+cd scripts/
+clear
+ll
+subl compton.conf 
+killall compton 
+source ~/.bashrc 
+killall compton 
+source ~/.bashrc 
+clear
+ifconfig 
+cd ..
+ll wallpps/
+subl config.py 
+ll wallpps/
+cd wallpps/
+clear
+ll
+pwd
+ll
+pwd
+killall compton 
+cd 
+clear
+source .bashrc 
+killall compton 
+source .bashrc 
+killall compton 
+source .bashrc 
+cd /home/icat/.mozilla/firefox/9w07ygyj.default-release
+clear
+ll
+clear
 ll
 cd chrome/
-clear
-ll
-pwd
-ll
-rm -r chrome/
-clear
-ll
-pwd
-ll
-pwd
-ll
-cll
-clear
-ll
-cd ..
-rm -r chrome/
-cd chrome/
-clear
-ll
-cd ..
-rm -r chrome/
-cd c
-cd chrome/
-clear
-ll
-cd ..
-rm -r chrome/
-clear
-ll
-mkdir chrome
-cd chrome/
-pwd
-ll
-cd ..
-clear
-ll
-ll crashes/
-ll chrome/
-rm -r chrome/
-ll
-pwd
-ll chrome/
-ll
-rm -r chrome/
-clear
-ll
-clear
-pwd
-ll
-cd chrome/
-clear
-ll
 clear
 ll
 nano userChrome.css 
+cd
 clear
-,,
-ll
-firefox 
+subl .config/kitty/kitty.conf 
 clear
+cd ~/.config/kitty/
 ll
-cd 
+nano pwd.session 
+kitty -e alsamixer
+launch
+kitty --help
 cd .config/
-clear
 ll
-cd xfce4/
-clear
+cd kitty/
 ll
-cd terminal/
-cler
-clear
-ll
-cat terminalrc 
-accessdb 
-cat accels.scm 
-clear
-ll
-cd
-cd Git/dotfile/
-clear
-cd
-espeak 
-subl .config/qtile/scripts/widget.sh 
+subl kitty.conf 
+alsamixer 
 ranger 
-lear
 clear
-cd -
+kitty alsamixer 
+kitty -o
+kitty -o alsamixer
+xfce4-terminal -e alsamixer
+xfce4-terminal -h
+xfce4-terminal man
+man xfce4-terminal 
 clear
-git status
+kitty @ launch 
+kitty @ launch alsamixer
+kitty --help
+kitty @ launch alsamixer --detach
+kitty alsamixer
+alsamixer 
+kitty -e
+kitty -e alsamixer
+kitty cat
 clear
-git status
-sudo bash sync.sh -s
+kitty --dump-bytes /tmp/log alsamixer
 clear
-git status
-cat .home/.info 
+kitty alsamixer
+kitty alsamxer
+kitty alsamixer
 clear
 ll
-git status
-cat .home/.info 
-rm .home/.info 
-clear
-git status
-clearclear
-cler
-clear
-xrandr | grep '*' | awk '{ print $1 }'
-tar xjf .etc/firefox-*.tar.bz2
-ll
-rm -r firefox/
+cd .config/qt
+cd .config/qtile/
 clear
 ll
-git status
-cd ..
+cd scripts/
+clear
+ll
+subl compton.conf 
+clear
+clear
+cd .config/
+ll
+c;ear
+cd
+c;ear
+;;
 clear
 ll
 cd
-cd Git/do
-cd Git/dotfile/
 clear
-ll
-cp .etc/firefox-115.0.2.tar.bz2 /tmp/
-cd /tmp/
+l
+mv Desktop/ desktop
+c;ear
 clear
-tar xjf .etc/firefox-*.tar.bz2
-ll
+l
+cp -r Downloads/* download/
+ll download/
+ll Downloads/
+rm -r Downloads/
 clear
-tar xjf firefox-*.tar.bz2
-clear
-crontab -l
-a="0 0 * * * rm /home/icat/Downloads/temp/* && rm -r /home/icat/Downloads/temp/*
-"
-echo $a
-clear
-ll
-clear
-ll
-clear
-a="0 0 * * * rm /home/icat/Downloads/temp/\* && rm -r /home/icat/Downloads/temp/\*
-"
-echo $a
-clear
-a="0 0 * * * rm /home/icat/Downloads/temp/* && rm -r /home/icat/Downloads/temp/*
-"
-(crontab -l; printf "$a\n") | crontab -
-crontab -l
-cd
-clear
-cd -
-sudo mv firefox /opt/
-sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
-firefox 
-cd /opt/
-ll
-cd firefox/
 ll
 clear
 l
-cd
-sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
-cd /usr/local/share/applications/
+crontab -l
+crontab -e
+ll /home/icat/download/
+clear
+crontab -l
+clear
+sudo service cron status
 clear
 ll
-nano firefox.desktop 
-ll
-cd
+cd .config/
 clear
 ll
-cd /opt/firefox/
+cd qtile/scripts/
+clear
 ll
-cd defaults/pref/
+subl sub-deviceconf.sh 
+subl widget.sh 
+whatis mplayer 
+espeak aa
+espeak "good morning"
+ d
+
+espeak 
+espeak Cdecr
+whatis ffmpeg
+ll ~/
+ckear
+ll -d
+clear
+ll -d ~
+ll -d ~.
+ll -d ~/
+ll -d ~/*
+cd 
+cp resource/ media
+mv resource/ media
+clear
+ll -d ~/*
+cd -
+killall compton 
+source ~/.bashrc 
+clear
+cd /tmp/
+clear
+git clone git clone https://github.com/dracula/xfce4-terminal.git
+clear
+git clone https://github.com/dracula/xfce4-terminal.git
+cd xfce4-terminal/
+clear
 ll
-nano channel-prefs.js 
+mkdir ~/.local/share/xfce4/terminal/colorschemes
+clear
+cd
+cd dotfile/
+clear
+ll
+cd .config/
+ll
+cd -
+cd /tmp/xfce4-terminal/
+clear
+cd ~/.local/share/
+ll
+mkdir xfce4
+cd xfce4/
+ll
+mkdir terminal
+mkdir colorschemes
+ll
+rm -r colorschemes/
+cd terminal/
+mkdir colorschemes
+cd colorschemes/
+clear
+ll
+cd
+cd .local/
+cd
+cd .config/
+ll
+cd xfce4/
+ll
+cd terminal/
+ll
+clear
+ll
+pwd
+cd ~/.local/share/xfce4/terminal/colorschemes/
+pwd
+cd /tmp/xfce4-terminal/
+cp Dracula.theme ~/.local/share/xfce4/terminal/colorschemes/
+cp Dracula.theme ~/.config/xfce4/terminal/
+ll
+clear
+ll
+clear
+cd .config/qtile/scripts/
+clear
+ll
+subl sub-deviceconf.sh 
+clear
+bluetoothctl devices
+timelimit
+sudo apt-get install timelimit 
+clear
+xrandr 
+clear
+xrandr --listactivemonitors
+xrandr --list
+xrandr --listmonitor
+xrandr --listmonitors
+clear
+xrandr 
+xrandr -q
+xrandr --output HDMI-1
+xrandr --output eDP-1
+xrandr --output HDMI-1 --mode 1280x720 --rate 60.00
+xrandr --output HDMI-1 --mode 1360x768 --rate 60.00
+xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00
+xrandr --output HDMI-1 --mode 1280x720 --rate 60.00
+clear
+xrandr --output HDMI-1
+xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode "1366x768"
+xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode 1366x768
+xrandr 
+xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode 1360x768
+xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode 1920x1080
+cd
+clear
+cargo install --git https://github.com/asciinema/agg
+clear
+which agg
+cat .bashrc | grep rec
+clear
+recascii /tmp/lel.gif
+cat .recascii 
+nano .bashrc 
+source .bashrc 
+clear
+recascii /tmp/lel.gif
+which agg
+nano .recascii 
+cd /tmp/
+clear
+ll
+clear
+cat ~/.recascii 
+whatis agg
+which agg
+clear
+recascii /tmp/lel.gif
+xdg-open lel.gif 
+clear
+cd
+clear
+cat .touchpad-speed 
+bash .touchpad-speed 
+clear
+ll Downloads/
+cd Downloads/
+clear
+ll
+mv kali-wallpapers-kali-master-2020.4-backgrounds.tar.gz /tmp/
+cd /tmp/
+clear
+ll
+cd
+nano .bashrc 
+cd dotfile/
+cllear
+nano sync.sh 
+ll
+ll .etc/
+clear
+ll
+cd .config/
+ll
+cd asciinema/
+ll
+clear
+ll
 cd ..
 clear
+l
+ll
+ll .cofn
+ll .config/
+clear
+ll
+cd .etc/
 ll
 cd .
 cd ..
 clear
 ll
-ranger
+cd .home/
+ll
+cat .recascii 
+cat ~/.recascii 
 clear
+cat ~/.recascii 
+ll
+cat .recascii 
+whatis asciinema 
 clear
-sudo apt-get remove --purge firefox
-rm -r .mozilla/firefox/
-sudo apt-get install firefox
-cd Git/
-cler
+cat .recascii 
+ll
+cd /media/icat/TOSHIBA/
 clear
 ll
-cd SimpleFox/
-clear
+cd .other/
 ll
-cp -r chrome/ assets/ ~/.mozilla/firefox/*.default-release/
-ll assets/
 cd ..
-cd -
 clear
-git status
 ll
+cd .secret/
+l
+ll
+cat tabgroup.json 
+clear
+l
+ll
+cd
+clear
+cd download/
+clear
+ll
+sudo apt-get install ./zoom_amd64.deb 
+xrandr 
+clear
+ll
+clear
+cd /
+okular
+sudo apt-get install okular -i
+sudo apt-get install okular
+clear
+df -h
+sudo apt-get install okular
+man zathura
+cd .config/
+mkdir zathura
+cd zathura/
+touch zathurarc
+nao zathurarc 
+nano zathurarc 
+history 
+clear
+nano zathurarc 
+ps axjf 
+ps axjf grep zathura
+ps axjf | grep zathura
+clear
+nano zathurarc 
+cd /media/icat/TOSHIBA/doc/career/appendix/
+clear
+ll
+rm Surat\ Lamaran\ 2021\ BSSN_Umum.docx
+ll
+mv Surat\ Lamaran\ 2021\ BSSN_Umum.docx_ Surat\ Lamaran\ 2021\ BSSN_Umum.docx
+clear
+ll
+cd download/
+clear
+ll
+zathura Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf 
+cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf /media/icat/TOSHIBA/doc/bio/resume.pdf 
+cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf /media/icat/TOSHIBA/doc/career/cpns-2023/Resume\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cd /media/icat/TOSHIBA/doc/career/cpns-2023/
+clear
+zathura Resume\ -\ Muhammad\ Nur\ Irsyad.pdf 
+steghide
+readme 
+clear
+ncat
+nmap
+socat
+hugo
+hugo --v
+hugo --version
+clear
+readme
+sudo readme
+cd /usr/bin/X11
+cd ..
+cat readme 
+cat ~/.info 
+clear
+ll
+ll | grep readme 
+chmod +x readme 
+sudo chmod +x readme 
+ll | grep readme 
+cd
+clear
+readme 
+nano .info 
+clear
+readme 
+openbox
+opendistro
+nano .info 
+readme 
+nano .info 
+readme 
+clear
+nano .info 
+readme 
+distrobox
+clear
+nano .info 
+clear
+nano .info 
+readme 
+clear
+df -h
+clear
+neofetch 
+clear
+whatis distrobox
+man distrobox
+clear
+ll
+clear
+which onlyoffice-desktopeditors 
+cd /usr/bin/
+sudo mv onlyoffice-desktopeditors onlyoffice
+nano .info 
+clear
+killall compton 
+source .bashrc 
+cd /media/
+clear
+cd icat/TOSHIBA/
+clear
+ll
+cd doc/career/
+clear
+ll
+cd cpns-2023/
+clear
+ll
+okular Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+sudo apt-get purge okular
+sudo apt-get purge okular*
+sudo apt-get autoremove 
+clear
+sudo apt-get install zathura
+clear
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+man zathura
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+zathura --help
+man zathura
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+man zathura
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+history 
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+killall compton 
+source ~/.bashrc 
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+cdd
+cd
+clear
+ll
+cd /media/icat/
+ll
+kk
+ll
+cd TOSHIBA/doc/career/
+clear
+ll
+cd cpns-2023/
+clear
+ll
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+xdg-open KTP\ -\ Muhammad\ Nur\ Irsyad.jpg 
+zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+cp Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.docx 
+clear
+ll
+readme 
+clear
+readme 
+clear
+readme 
+clear
+readme 
+clear
+readme 
+clear
+readme 
+clear
+readme 
+clear
+readme 
+readmeclear 
+clear
+readme 
+clear
+readme 
+clear
+readme 
+clear
+ll
+clear
+ll
+mkdir BSSN
+mv Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.* BSSN/
+clear
+ll
+mkdir KOMINFO
+clear
+ll
+mv Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.* KOMINFO/
+clear
+ll
+cd BSSN/
+clear
+ll
+mv Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.docx 
+ll
+mv Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+cd ..
+cd KOMINFO/
+clear
+ll
+mv Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ KOMINFO\ -\ Muhammad\ Nur\ Irsyad.docx 
+ll
+mv Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.pdf Surat\ Formasi\ KOMINFO\ -\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+zathura Surat\ Formasi\ KOMINFO\ -\ Muhammad\ Nur\ Irsyad.pdf 
+readme 
+podman
+clear
+readme 
+clear
+sudo apt-get update 
+clear
+export TERM=xterm
+clear
+ll
+clear
+sudo apt-get upgrade 
+clear
+ll
+sudo apt-get install exa
+exa
+curl
+clear
+ll
+clear
+nano .bashrc 
+cp .bashrc .bashrc.main
+EXA_VERSION=$(curl -s "https://api.github.com/repos/ogham/exa/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
+which exa
+curl -Lo exa.zip "https://github.com/ogham/exa/releases/latest/download/exa-linux-x86_64-v${EXA_VERSION}.zip"
+ls
+mv exa.zip /tmp/
+cd /tmp/
+clear
+ll
+clear
+ls
+clear
+ls -l
+sudo unzip -q exa.zip bin/exa -d /usr/local
+exa --version
+cd
+clear
+ifconfig
+clear
+ll
+clear
+source .bashrc
+sudo apt-get install ranger net-tools
+clear
+l
+clear
+ll /d
+ll -d
+ll
+ll -d
+clear
+l
+mkdir distrobox
+cd distrobox/
+clear
+ll
+ifconfig 
+clear
+cd
+clear
+exit
+ranger 
+clear
+export TERM=xterm
+clear
+ll
+clear
+source .bashrc
+clear
+exit
+distrobox list 
+clear
+distrobox create -i quay.io/toolbx-images/ubuntu-toolbox:20.04 -n pwnbuntu 
+distrobox ls
+distrobox list
+distrobox list --all
+distrobox list all
+distrobox enter 
+clear
+distrobox enter pwnbuntu
+distrobox list
+distrobox stop pwnbuntu 
+distrobox list
+distrobox enter pwnbuntu 
+distrobox stop pwnbuntu 
+nano .info 
+readme 
+clear
+podman images list
+podman images list all
+podman container list
+clear
+distrobox-list 
+ll
+cd /tmp/
+l
+ll
+ll /usr/local/
+which exa
+cd
+clear
+l
+clear
+nano .bashrc
+echo $TERM
+export TERM=xterm
+clear
+ll
+clear
+echo $TERM
+nano .bashrc
+source .bashrc
+echo $TERM
+clear
+ll
+cd distrobox/
+clear
+ll
+cd /media/
+clear
+ll
+cd icat/TOSHIBA/
+clear
+ll
+cd
+clear
+cd distrobox/
+clear
+sudo apt-get install neofetch
+clear
+apt list --installed | wc -l
+exit
+distrobox list
+distrobox ls
+podman container ls
+podman container ls -a
+clear
+distrobox-enter pwnbuntu
+distrobox-stop pwnbuntu 
+readme 
+clear
+readme 
+ncat
+sudo apt-get install netcat
+sudo apt-get install ncat
+sudo apt-get purge netcat
+sudo apt-get purge netcat*
+sudo apt-get purge netcat
+clear
+ncat
+clear
+clear
+readme
+clear
+cat .info 
+nano .bashrc
+clear
+source .bashrc
+clear
+readme 
+clear
+readme 
+sudo apt-get install socat nmap ncat steghide
+exit
+clear
+ll
+pwd
+clear
+netstat 
+clear
+ll
+clear
+l
+l App/
+exit
+clear
+cd
+sudo su icat
+exit
+clear
+readme 
+clear
+readme 
+readme clear
+clear
+readme
+clear
+l
+rm -r desktop/
+clear
+ll
+clear
+l
+mv app/ App
+which burpsuite 
+ll App/
+burpsuite 
+sudo nano /usr/bin/burpsuite 
+burpsuite 
+clear
+ll
+l
+clear
+ls 
+ls l
+clear
+ls -l
+mv distrobox/ Distrobox/
+clear
+ls -l
+ll doc/
+clear
+ls -l
+mv dotfile/ App/
+clear
+ll
+ll App/
+clear
+l
+l download/
+crontab -l
+clear
+l
+crontab -l
+rm -r /home/icat/download
+ll dow
+clear
+ll
+clear
+crontab -e
+crontab -l
+clear
+ll
+l
+cat ok.txt 
+clear
+l
+mv doc/ Documents/
+crontab -e
+ll Downloads/
+crontab -l
+rm -r /home/icat/Downloads/*
+mkdir lmao ~/Downloads/
+ll Downloads/
+mkdir lmao ~/Downloads/
+ll Downloads/
+ll
+rm -r lmao/
+rm ok.txt 
+clear
+l
+mkdir Downloads/lmao
+touch Downloads/okok
+crontab -l
+clear
+ll Downloads/
+l
+ll Downloads/
+l
+ll Downloads/
+l
+cd media/
+ll
+clear
+l
+clear
+cd ..
+mv media/ Media
+clear
+l
+which recascii 
+nano .recascii 
+subl .config/qtile/scripts/widget.sh 
+ll Downloads/
+clear
+ll
+clear
+l
+clear
+distrobox-enter pwnbuntu
+distrobox-stop pwnbuntu
+ps axjf | grep distro
+ps axjf | grep podman
+killall podman 
+ps axjf | grep podman
+podman
+clear
+ps axjf | grep podman
+killall podman 
+kill -9 1188796
+killall podman 
+ps axjf | grep podman
+clear
+readme 
+clear
+nano .info
+readme 
+nano .info
+clear
+readme 
+nano .info
+readme 
+clear
+readme 
+nano .info
+clear
+readme 
+clear
+nano .info
+readme 
+nano .info
+readme 
+clear
+readme 
+nano .info
+clear
+readme 
+nano .info
+clear
+readme 
+cd App/
+clear
+ll
+git
+clear
+git clone https://github.com/hotpotcookie/docksmoll.git
+cd docksmoll/
+clear
+ll
+nano docksmoll
+cd source/
+clear
+ll
+nanoo run-menu.sh 
+cd ..
+cd docksmoll/source/
+clear
+ll
+nano run-menu.sh 
+nano run-init.sh 
+cd ..
+clear
+ll
+bash docksmoll
+bash docksmoll -h
+./docksmoll 
+cat docksmoll
+clear
+sudo ./docksmoll 
+podman container l
+podman container list 
+podman container list -a
+clear
+subl source/run-menu.sh 
+cat tmp/container.lst 
+which podman 
+podman container ls -a
+podman container ls -a | awk 'NR!=1'
+podman container ls -a | awk 'NR!=1' | tr -s ' ' '@'
+podman container ls -a | awk 'NR!=1' | tr -s ' ' '@' > tmp/container.lst 
+cat tmp/container.
+cat tmp/container.lst 
+clear
+sudo ./docksmoll 
+clear
+cat tmp/container.lst 
+cat tmp/container.stat 
+podman image ls
+podman image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1')
+podman image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1'
+cear
+clear
+sudo ./docksmoll 
+clear
+docker_=$(which podman)	
+		"$docker_" image ls | awk 'NR!=1' | tr -s ' ' '@' > tmp/image.lst & wait
+cat tmp/image.lst 
+		"$docker_" container ls -a | awk 'NR!=1' | tr -s ' ' '@' > tmp/container.lst & wait
+cat tmp/container.lst 
+echo $docker_ 
+		body_img=$("$docker_" image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1')
+echo $body_img 
+clear
+nano docksmoll
+bash docksmoll
+ckear
+clear
+body_img=$("$docker_" image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1')
+echo $body_img 
+echo -e $body_img 
+clear
+bash docksmoll
+body_img=$("$docker_" image ls --format "table {{.Repository}}:{{.Tag}} | {{.ID}} | {{.Size}}" | awk 'NR!=1')
+echo $body_img 
+echo -e $body_img 
+./docksmoll 
+podman image ls --format "table"
+podman image ls --format "table {{.Repository}}"
+podman image ls --format "table {{.Repository}} | {{.Id}}"
+podman image ls --format "table {{.Repository}} | {{.ID}}"
+podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1'
+podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -d '\t'
+podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -d ' '
+podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -r ' '' '
+podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -r ' ' ' '
+podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -s ' ' ' '
+./docksmoll 
+clear
+./docksmoll 
+clear
+./docksmoll 
+nano tmp/container.lst 
+cat tmp/container.lst | column -t ','
+cat tmp/container.lst | column -t '@'
+cat tmp/container.lst | column -d '@'
+cat tmp/container.lst | column -c '@'
+cat tmp/container.lst | column -t -s '@'
+cat tmp/image.lst 
+column -t -s '@' tmp/image.lst 
+column -t -s '@' tmp/container.lst 
+clear
+ll
+cd ..
+clear
+ll
+podman image ls -a
+podman container ls -a
+clear
+ll
+ll ~/Downloads/
+ll
+clear
+cd do
+cd docksmoll/
+clear
+lll
+clear
+subl source/run-menu.sh 
+clear
+cd ..
+clear
+touch boxpod.sh
+clear
+ll
+chmod +x boxpod.sh 
+clear
+subl boxpod.sh 
+ifconfig 
+sudo service networking status
+clear
+ifconfig 
+clear
+cat .local/share/qtile/qtile.log 
+firefox 
+cd .config/
+cd qtile/
+subl config.py 
+cat .local/share/qtile/qtile.log 
+dbus-next
+reboot 
+qtile start
+qtile 
+cd App/
+ll
+cd dotfile/
+clear
+ll
+cd bin/
+ll
+qtile 
+pwd
+cd ..
+clear
+ll
+pwd
+clear
+nano ~/.local/bin/qtile 
+qtile
+nano ~/.local/bin/qtile 
+reboot 
+qtile 
+clear
+sudo apt-get install nikto
+nano .info 
+logout 
+cd /media/icat/
+ll
+clear
 fdisk -l
 clear
 sudo fdisk -l
-mount /dev/sdb1 /media/icat/
+sudo mount /dev/sdb1 /media/icat/
+ll
+thunar
+cd ..
+clear
+ll
+cd icat/
+clear
+ll
+clear
+cd
+clear
+readme 
+podman container ls -a
+podman image ls -a
+clear
+podman container ls
+podman container ls -a
+clear
+readme 
+clear
+distrobox-enter pwnbuntu
+clear
+sudo apt-get install masscan
+nano .info 
+masscan 
+clear
+sudo apt-get install hydra john wireshark-qt exif sqlmap
+exit
+distrobox enter pwnbuntu
+distrobox-stop pwnbuntu
+clear
+amass
+subfinder
+masscan
+assetfinder
+dnsx
+naabu
+httpx
+gowitness
+hydra
+john
+wireshark
+exif
+clear
+sqlmap
+w3af
+nano .info 
+readme 
+nano .info 
+readme 
+nano .info 
+readme 
+nano .info 
+readme 
+clera
+readme 
+nano .info 
+clear
+readme 
+clear
+cd App/
+clear
+ll
+nano boxpod.sh 
+ln -s boxpod.sh /usr/bin/boxpod
+sudo ln -s boxpod.sh /usr/bin/boxpod
+boxpod
+ll /usr/bin/
+ll /usr/bin/ | grep box
+clear
+ll
+cd /usr/bin/
+l
+clear
+chmod +x boxpod 
+./boxpod
+nano boxpod 
+ll
+cat yacc 
+clear
+cd ~/App/
+clear
+ll
+rm /usr/bin/boxpod 
+sudo rm /usr/bin/boxpod 
+./boxpod.sh 
+ln -s boxpod.sh boxx
+cat box
+cat boxx
+clear
+ll
+./boxx
+rm boxx 
+clear
+ll
+ll /usr/local/bin/
+clear
+ll
+ln -s boxpod.sh /usr/local/bin/
+sudo ln -s boxpod.sh /usr/local/bin/boxpod
+cd /usr/local/bin/
+ll
+./boxpod
+ll
+bash boxpod 
+cat boxpod 
+clear
+ll
+cat firefox 
+clear
+ls -Ol
+ls -ol
+boxpo
+boxpod
+echo $PATH
+export PATH=$PATH
+echo $PATH
+boxpod
+cd ~/App/
+clear
+ll
+rm boxpod.sh 
+ll /usr/local/bin/
+rm /usr/local/bin/boxpod 
+sudo rm /usr/local/bin/boxpod 
+cd
+clear
+nano .bashrc
+burpsuite 
+which burpsuite 
+ll /usr/bin/ | grep burp
+cat /usr/bin/burpsuite 
+clear
+ll
+cd App/
+clear
+ll
+touch boxpod
+clear
+ll
+nano boxpod 
+chmod +x boxpod 
+clear
+ll
+pwd
+sudo ln -s /home/icat/App/boxpod /usr/local/bin/
+boxpod 
+nano boxpod 
+boxpod 
+clear
+ll
+git clone https://github.com/polarpwn/polarpwn.gg.git
+clear
+readme 
+nano ~/.info 
+readme 
+clear
+readme 
+clear
+cd App/
+clear
+ll
+cd polarpwn.gg/
+clear
+ll
+clear
+git clone
+clear
+ll
+ll themes/
+ll themes/nord-hugo-book/
+cd themes/
+clear
+ll
+rm -r nord-hugo-book/
+git clone https://github.com/hotpotcookie/nord-hugo-book.git
+cd ..
+clear
+ll
+hugo server --minify
+cd App/
+clear
+ll
+clear
+git clone https://github.com/monsieurDuke/cli-pos.git
+cd cli-pos/
+clear
+ll
+./pos.sh 
+clear
+ll
+cd ..
+clear
+ll
+bash cli-pos/pos.sh 
+cd Downloads/
+clear
+ll
+l
+ll
+cp podman-desktop-1.3.1.tar.gz ~/App/
+nano .config/qtile/scripts/sub-deviceconf.sh 
+bluetoothctl 
+bluetoothctl devices
+bluetoothctl scan on
+bluetoothctl power on
+sudo bluetoothctl power on
+rfkill unblock all
+sudo bluetoothctl power on
+bluetoothctl scan on
+sudo service bluetooth restart 
+sudo service bluetooth status
+clear
+sudo apt-get purge ranger 
+clear
+ranger
+clear
+ll
+cd .local/bin/
+ll
+exit
+subl .config/qtile/scripts/compton.conf 
+killall compton 
+source .bashrc
+clear
+ll .local/bin/
+nano .info 
+readme 
+which subl
+sudo ln -s $(which burpsuite) .local/bin/
+ll .local/bin/
+which burpsuite 
+nano .info 
+clear
+readme 
+nano .info 
+clear
+readme 
+sudo ln -s $(which openvpn) .local/bin/
+which openvpn 
+openvpn 
+clear
+ll
+clear
+readme 
+sudo ln -s $(which zathura) .local/bin/
+ll .local/bin/
+which subl 
+sudo ln -s $(which subl) .local/bin/
+clear
+sudo ln -s $(which ranger) .local/bin/
+clera
+clear
+ll .local/
+ll .local/bin/
+clear
+ll
+cd App/
+clear
+ll
+cd dotfile/
+ll
+cd .config/
+ll
+cd ..
+clear
+ll
+cd .etc/
+ll
+cd ..
+clear
+ll
+cd .home/
+ll
+cd
+clear
+distrobox-enter pwnbuntu
+clear
+distrobox-enter pwnbuntu
+cd App/cli-pos/
+./pos.sh 
+go
+clear
+cd ..
+clear
+ll
+go get -u github.com/gulyasm/jsonui
+go install github.com/gulyasm/jsonui
+go install github.com/gulyasm/jsonui@latest
+ll
+git clone https://github.com/gulyasm/jsonui.git
+clera
+ll
+cd jsonui/
+clear
+ll
+go jsonui.go 
+go build
+clear
+go mod init
+clear
+ll
+go build jsonui.
+go build jsonui.go 
+sudo go mod init
+go tree.go 
+go run jsonui.go 
+go mod init jsonui
+go mod tidy
+go env | grep GOPATH
+nano ~/.bashrc
+go mod tidy
+sudo go mod tidy
+cd /opt/go/
+clear
+ll
+cd ..
+clear
+l
+ll
+sudo chown -R icat:icat go/
+ll
+cd -
+cd ~/App/jsonui/
+clear
+ll
+go mod tidy
+clear
+ll
+go build -o main
+clear
+ll
+./main < test_list.json 
+./main < test_big.json 
+clear
+ll
+./main 
+clear
+ll
+pwd
+sudo ln -s /home/icat/App/jsonui/main /home/icat/.local/bin/jsonui
+jsonui < test_list.json 
+cd
+nano .info 
+clear
+readme 
+clear
+ll
+cd App/
+ll
+clear
+l
+clear
+ll
+sudo rm /usr/local/bin/boxpod 
+clear
+ll
+rm boxpod 
+clear
+ll
+clear
+ll
+tar -xvf podman-desktop-1.3.1.tar.gz -o podman-desktop
+clear
+ll
+tar -xvf podman-desktop-1.3.1.tar.gz -d podman-desktop
+tar -xvf podman-desktop-1.3.1.tar.gz -C podman-desktop
+mkdir podman-desktop
+clear
+ll
+tar -xvf podman-desktop-1.3.1.tar.gz -C podman-desktop
+clear
+ll
+ll podman-desktop
+rm -r podman-desktop
+clear
+ll
+tar -xvf podman-desktop-1.3.1.tar.gz
+clear
+ll
+mv podman-desktop-1.3.1.tar.gz podman-desktop-1.3.1
+clear
+ll
+cd po
+cd podman-desktop-1.3.1/
+clear
+ll
+./podman-desktop 
+clear
+ll
+clear
+ll
+pwd
+ln -s /home/icat/App/podman-desktop-1.3.1/podman-desktop /home/icat/.local/bin/podman-desktop
+sudo ln -s /home/icat/App/podman-desktop-1.3.1/podman-desktop /usr/local/bin/
+cd
+clear
+cd .local/bin/
+clear
+ll
+rm podman-desktop 
+clear
+podman-desktop 
+clear
+ll
+rm zathura 
+rm subl 
+rm ranger 
+clear
+ll
+rm openvpn 
+clear
+ll
+rm burpsuite 
+nano ~/.info 
+which burpsuite 
+ll
+clear
+ll
+readme 
+ranger
+which ranger
+clear
+ll .local/bin/
+subl
+jsonui 
+ll /usr/bin/
+clear
+ll
+ll .local/bin/
+clear
+podman-desktop 
+apt install libnss
+sudo apt install libnss
+clear
+ll
+cd App/do
+cd App/dotfile/
+clear
+ll
+cd .home/
+clear
+ll
+sudo cp nanorc /etc/
+cd
+clear
+ll
+nano .bashrc
+sudo nano /etc/nanorc 
+clear
+subl App/polarpwn.gg/
+podman image ls
+podman image ls | awk 'print $1'
+podman image ls | awk '{print $1}'
+podman image ls | awk '{print $3}'
+podman image ls | awk '{print $4}'
+clear
+podman image ls
+podman image ls | awk 'NR!=1'
+podman image ls | awk 'NR!=1{print $1@$2@$3}'
+podman image ls | awk 'NR!=1{print $1@$ 2@ $3}'
+podman image ls | awk 'NR!=1{print $1 ":" $2 ":" $3}'
+clear
+podman image ls | awk 'NR!=1{print $1 "@" $2 "@" $3}'
+podman image ls | awk 'NR!=1{print $1 "@" $2 "@" $3}' | column -t -s '@'
+cd /tmp/
+nano ok
+column -t -s '@' ok 
+podman image ls
+podman image ls | awk 'NR!=1{print $1 "@" $2 "@" $3}' | column -t -s '@'
+column -t -s '@' ok 
+podman container ls -a
+podman search docker.io/ubuntu
+podman search docker.io/library/ubuntu
+podman search docker.io/ubuntu
+clear
+podman container ls -a
+cd /media/icat/
+clear
+ll
+cd doc/
+cd
+cd Downloads/
+clear
+ll
+cp Skripsi_2_NoIndent_1807422020_Muhammad\ Nur\ Irsyad_Git_Word_Update_A4.pdf ../Documents/
+cd ..
+clear
+cd Documents/
+clear
+ll
+firefox Skripsi_2_NoIndent_1807422020_Muhammad\ Nur\ Irsyad_Git_Word_Update_A4.pdf 
+podman build
+ll /media/icat/
+fdisk -l
+sudo fdisk -l
+sudo mount /dev/sdc1 /media/icat/
+cd /media/icat/
+clear
+ll
+cd doc/
+ll
+cd bio/
+ll
+zathura bpjs.pdf 
+crontab -e
+xrandr 
+xrandr --output HDMI-1 --pos -1366x0 --rotate normal --mode 1366x768
+claar
+clear
+ll
+ler
+clr
+clera
+cler
+clear
+cler
+cleS
+cl sdrfv['W
+clear
+xrandr 
+history | grep xrandr
+nano .config/qtile/scripts/sub-deviceconf.sh 
+xrandr 
+clear
+pwd
+clear
+neofetch 
+clear
+blueman
+blueman-manager 
+xinput 
+lsmod 
+usb-devices 
+cd Downloads/
+clear\
+clear
+ll
+tar -xvf LibreOffice_7.6.1_Linux_x86-64_deb.tar.gz -C Libre
+tar -xvf LibreOffice_7.6.1_Linux_x86-64_deb.tar.gz
+clear
+ll
+cd LibreOffice_7.6.1.2_Linux_x86-64_deb/
+cl;ear
+clear
+ll
+cd DEBS/
+clear
+ll
+sudo apt-get install ./libreoffice7.6-draw_7.6.1.2-2_amd64.deb 
+sudo apt-get update 
+clear
+sudo apt-get install ./libreoffice7.6-draw_7.6.1.2-2_amd64.deb 
+sudo apt-get install ./libobasis7.6-draw_7.6.1.2-2_amd64.deb 
+ll
+ll 
+ll | grep core
+sudo apt-get install ./libobasis7.6-draw_7.6.1.2-2_amd64.deb 
+sudo apt-get install ./libobasis7.6-core_7.6.1.2-2_amd64.deb 
+clear
+c ..
+cd ..
+clear
+ll
+sudo apt-get install libreoffice-draw
+libreoffice 
+sudo apt-get purge libreoffice-*
+clear
+inkscape
+sudo apt-get install inkscape
+cd Downloads/
+clear
+ll
+unrar
+sudo apt-get install unrar
+unrar e Use_1234_As_PassWord.rar 
+clear
+lll
+clear
+ll
+rm *.dll
+clear
+ll
+rm *.config
+clear
+ll
+rm POS.xml Use_1234_As_PassWord.rar 
+ll
+sudo apt-get install ./master-pdf-editor-5.9.61-qt5.9.x86_64.deb 
+clear
+sudo apt-get install ./master-pdf-editor-5.9.61-qt5.9.x86_64.deb 
+masterpdfeditor5 
+blueman-manager 
+sudo service bluetooth restart 
+blueman-manager 
+bluetoothctl 
+bluetoothctl scan
+bluetoothctl scan a
+bluetoothctl scan all
+bluetoothctl --help
+bluetoothctl scan discoverable
+bluetoothctl scan uuids
+clear
+blueman-manager 
+rfkill unblock bluetooth
+rfkill list 
+blueman-manager 
+hugo server --minify
+reboot 
+blueman-manager 
+rfkill unblock blueman
+rfkill unblock bluetooth
+blueman-manager 
+sudo service bluetooth status
+sudo service bluetooth restart
+sudo service bluetooth status
+sudo service blueman-mechanism restart
+sudo service bluetooth status
+systemctl unmask bluetooth.service
+sudo systemctl start bluetooth.service 
+sudo systemctl enable bluetooth.service 
+sudo systemctl status bluetooth.service 
+bluez
+bluetoothctl scan on
+bluetoothctl 
+reboot ]
+sudo reboot 
+sudo service bluetooth status
+sudo service bluetooth restart
+sudo service bluetooth status
+sudo rfkill unblock bluetooh
+sudo rfkill unblock bluetooth
+sudo service bluetooth status
+sudo service bluetooth restart
+sudo service bluetooth status
+sudo nano /etc/bluetooth/main.conf 
+clear
+journalctl 
+journalctl  | egrep -i 'blue'
+sudo service blueman-mechanism status
+sudo service blueman-mechanism restart
+sudo service blueman-mechanism status
+bluetoothctl scan on
+bluetoothctl 
+sudo service bluetooth restart
+sudo service bluetooth status
+modprobe btusb 
+sudo modprobe btusb 
+sudo service bluetooth restart
+sudo service bluetooth status
+nano /etc/modules
+sudo nano /etc/modules
+clear
+sudo service bluetooth status
+sudo service blueman-mechanism status
+bluetoothctl scan on
+sudo service blueman-mechanism restart
+sudo service blueman-mechanism status
+sudo service bluetooth status
+bluetoothctl scan on
+clear
+blueman-manager 
+sudo rfkill list
+bluetoothctl scan on
+systemctl reboot 
+sudo service bluetooth status
+sudo service blueman-mechanism status
+bluetoothctl scan on
+sudo service blueman-mechanism restart
+sudo service blueman-mechanism status
+sudo service bluetooth status
+bluetoothctl scan on
+blueman-manager 
+bluetoothh
+bluetoothd 
+bluez
+hciconfig 
+bluetoothctl scan on
+sudo bluetoothctl scan on
+bluetoothctl list
+sudo rfkill unblock 0
+bluetoothctl list
+blueman-manager 
+sudo service bluetooth status
+blueman
+blueman-adapters 
+bluetooth
+sudo shutdown -h now
+sudo service bluetooth status
+sudo service blueman-mechanism status
+sudo service blueman-mechanism enable
+sudo service blueman-mechanism restart
+sudo service blueman-mechanism status
+blueman-manager 
+dbus
+blueman-adapters 
+bluetoothctl list
+lsusb 
+firefox 
+cd /media/icat/
+ll
+cd
+sudo fdisk -l
 sudo mount /dev/sdb1 /media/icat/
 cd /media/icat/
 clear
 ll
-cd OTHERS/
-ll
-clear
-ll
-cd ..
-clear
-ll
-ll OTHERS/
-clear
-ll
-ll SKCK/
-clear
-ll
-mv SKCK/ OTHERS/
-sudo mv SKCK/ OTHERS/
-clear
-ll
-mkdir SECRET
-sudo su
-cd Git/dotfile/
-clear
-ll
-nano sync.sh 
-bash sync.sh -s
-sudo bash sync.sh -s
-nano sync.sh 
-clear
-ll
-nano sync.sh 
-ll .etc/
-cat sync.sh | grep mozilla
-nano sync.sh 
-clear
-git status
-ll
-ll .home/
-sudo chown -R icat:icat *
-ll
-ll .etc/
-ll .home/
-chown -R icat:icat .home/
-sudo chown -R icat:icat .home/
-ll .home/
-clear
-sudo chown -R icat:icat .
-clear
-ll
-git status
-clear
-git status
-nano sync.sh 
-clear
-ll
-nano .config/
-nano sync.sh 
+sudo fdisk -l
+sudo mount /dev/sda2 /media/icat/
 cd /media/icat/
 ll
+cd .secret/
+clear
+ll
 cd
-sudo umount /media/icat
-cd Git/dotfile/
-clear
-nano sync.sh 
-cd .mozilla/extensions/
-clear
-ll
-cat manual-stg-backup-2023-07-29@drive4ik.json 
-clear
-ll
-cd ..
-clear
-ll
-ll *.default
-ll *.default*
-clear
-ll
-ll firefox/
-cd extensions/
-clear
-ll
-ll manual-stg-backup-2023-07-29@drive4ik.json 
-pwd
-cd ..
-ll firefox/zooa6hgr.default-release/chrome/
-cd firefox/zooa6hgr.default-release/chrome/
-clear
-pwd
-cd ~/Git/dotfile/
-clear
-ll
-ll .etc/
-rm .etc/firefox-115.0.2.tar.bz2 
-clear
-ll
-ll .etc/
-cd  ~/.mozilla/firefox/zooa6hgr.default-release/
-clear
-ll
-ll chrome/
-clear
-pwd
-cd -
-ll
-ll .etc/
-ll .etc/extensions/
-sudo chown -R icat:icat .etc/
-ll .etc/extensions/
-clear
-git status
-cd ~/.mozilla/firefox/7hglb80r.default/
-clear
-ll
-cd ..
-kk
-ll
-cd zooa6hgr.default-release/
-clear
-ll
-cat times.json 
-ckear
-cd ..
-cear
-ll
-clear
-ll
-cd 7hglb80r.default/
-clear
-ll
-touch user.js
-nano user.js 
-firefox 
-ll
-cd ..
-clear
-ll
-cat zooa6hgr.default-release/chrome/userContent.css 
-lear
-cd zooa6hgr.default-release/
-clear
-ll
-cd chrome/
-ll
-cat userContent.css 
-clear
-ll
-cat userChrome.css 
-clear
-cd
-cd Downloads/temp/
-clear
-ll
-mv firefox-115.0.3.tar.bz2 ~/Git/dotfile/.etc/
-cd ~/Git/dotfile/
-clear
-git status
-lear
-clear
-ll .etc/
-ll .etc/extensions/
-ll
-ll .home/
-cd
-cd Documents/
-ll
-cd CAREER/
-clear
-pwd
-nano ~/.config/kitty/pwd.session
-cat ~/.config/kitty/pwd.session
-nano ~/.config/kitty/kitty.conf 
-cd Script/
-clear
-ll
-bash touchpad-speed.sh 
-cat .i
-cat .info 
-nano .info 
-readme 
-clear
-nano .info 
-readme 
-clear
-sudo mv .info /media/icat/SECRET/
-ll
-readme 
-clear
-ll
-clear
+sudo umount /media/icat 
 cd Downloads/
+ll
+cp manual-stg-backup-2023-09-16@drive4ik.json /media/icat/.secret/tabgroup-2.json 
+sudo cp manual-stg-backup-2023-09-16@drive4ik.json /media/icat/.secret/tabgroup-2.json 
+ll
+sudo cp logins.csv /media/icat/.secret/.firefox-pass.csv 
+cd Downloads/
+ll
+cp sync.sh ~/App/dotfile/
+clear
+cd App/
 clear
 ll
-cd temp/
+rm -r cli-pos/]
 clear
 ll
-sudo cp Brave\ Passwords.csv /media/icat/SECRET/
-fdisk -l
-sudo fdisk -l
-sudo mount /dev/sdb1 /media/icat/TOSHIBA-64/
-cd /media/icat/TOSHIBA-64/
+rm -r cli-pos/
 clear
-ll
-ll SECRET/
-clear
-ll
 l
-cear
-clear
 ll
-ll OTHERS/
-clear
+cd jsonui/
 ll
-mv OTHERS/ .other
-sudo mv OTHERS/ .other
-clear
-ll
-ll .other/
-clear
-ll
-sudo mv SECRET/ .secret
-clear
-ll
-ll .secret/
-cat .secret/.info 
-clear
-ll
-sudo chmod +x *
-ll
-sudo chmod +w *
-clear
-ll
-sudo chmod o+w *
-ll
-ll .secret/
-sudo chmod u+w .secret/
-ll .secret/
-sudo chmod g+w .secret/
-ll .secret/
-sudo chmod o+w .secret/
-ll .secret/
+cd ..
+rm -r jsonui/
 clear
 ll
 clear
-cd Script/
+ll
+rm -r podman-desktop-1.3.1/
 clear
 ll
-nano ~/.bashrc 
+rm -r BurpSuiteCommunity/
+sudo rm -r BurpSuiteCommunity/
 clear
 ll
-mv recascii .recascii 
-clear
-ll
-mv touchpad-speed.sh .touchpad-speed
-clear
-ll
-cp .recascii .touchpad-speed ~/Git/bu-dotfile/.home/
-cd Downloads/temp/
-clear
-ll
-chmod +x balenaEtcher-1.18.11-x64.AppImage 
-clear
-ll
-./balenaEtcher-1.18.11-x64.AppImage 
+cd docksmoll/
 cd ..
 clear
 ll
-cd CAREER/
-clear
-ll
-clear
-ll
-clear
-l
-clear
-cp -r CERT/* /media/icat/TOSHIBA-64/doc/career/cert
-clear
-sudo cp -r CERT/* /media/icat/TOSHIBA-64/doc/career/cert
-ll
-vlrst
-clear
-ll
-cd PSIKOTES/
-ll
-cd ..
-clear
-ll
-clear
-l
-l INFO/
-cd ..
-clear
-ll
-cd SYN9/
-clear
-ll
-clear
-l
-xdg-open Cyberwarrior
-xdg-open Cyberwarrior*
-clear
-ll
-clear
-ll
-ranger
-clear
-ll
-sudo cp Cyberwarrior* /media/icat/TOSHIBA-64/doc/career/cert
-ll
-cd ..
-clear
-ll
-cd SYN9/
-clear
-ll
-du -h
-ll
-du SYN9/
-clear
-ll
-cd SYN9/
-clear
-ll
-clear
-l
-clear
-ll
-cd Git/
-clear
-git lfs clone https://github.com/monsieurDuke/dotfile.git bu-dotfile/
-ll
-cd bu-dotfile/
-clear
-git status
-ll
-nano sync.sh 
-cat sync.sh 
-ll
-cd ..
-clear
-ll
-cd dotfile/
-clear
-ll
-mkdir backup
-cd ..
-cp -r bu-dotfile/ dotfile/backup/
-cd dotfile/
-clear
-ll
-cd backup/
-clear
-ll
-cd ../../bu-dotfile/
-clear
-ll
-git status
-clear
-nano sync.sh 
-ll
-sudo bash sync.sh -s
-nano sync.sh 
-sudo bash sync.sh -s
-clear
-git status
-nano sync.sh 
-ll .home/
-ll
-ll .home/
-nano .home/.bashrc 
-clear
-ll
-clear
-git status
-nano .home/.bashrc 
-nano sync.sh 
-clear
-git status
-clear
-ll
-clear
-git status
-rm .config/sublime-text-3/Local/Session.sublime_session 
-clear
-ll
-git status
-ll .config/
-ll .config/sublime-text-3/
-clear
-ll
-sudo chown -R icat:icat *
-clear
-git status
-sudo chown -R icat:icat .config/sublime-text-3/
-clear
-git status
-rm .config/sublime-text-3/Local/Session.sublime_session 
-clear
-nano .gitignore 
-clea
-clear
-git status
-git add .home/.bash*
-clear
-git status
-git add .config/sublime-text-3/
-clear
-git status
-git commit -m "update latest sync"
-clear
-git status
-git add .config/kitty/
-clear
-git status
-git commit -m "setting up current dir on new session"
-clear
-git status
-rm .home/.info 
-clear
-git status
-git add .home/
-clear
-git status
-git commit -m "adding up new custom script"
-clear
-git status
-subl sync.sh 
-git commit -m "fixing cron entry and utilities for x11"
-git add sync.sh 
-git commit -m "fixing cron entry and utilities for x11"
-clear
-git status
-readme 
-git push
-cd ..
-clear
-ll
-clear
-ll
-cd ..
-clear
-l
-cd Pictures/
-ll
-ll wallpp/
-cd
-clear
-l
-cd Documents/
-clear
-ll
-cd CAREER/
-clear
-ll
-cd ..
-clear
-ll
-ll SYN9/
-ll CAREER/
-ll
-cd SYN9/
-clear
-ll
-clear
-ll
-cp -r * /media/icat/TOSHIBA-64/doc/project/syn9-csw2023
-clear
-sudo cp -r * /media/icat/TOSHIBA-64/doc/project/syn9-csw2023
-fg
-clear
-ll
-clear
-l
-cd 
-clear
-cd -
-clear
-ll
-cd
-cd Downloads/temp/
-ll
-sudo cp Projek\ Red\ Team\ 9\ -\ CW2023.pdf /media/icat/TOSHIBA-64/doc/project/syn9-csw2023
-ll
-clear
-l
-ll
-sudo cp SKCK.pdf KTP.* Pas\ Foto\ -\ 3x4\ -\ Blue.jpg Ijazah\ -\ * Certs\ \&\ Transcripts\ -\ Muhammad\ Nur\ Irsyad.pdf Trans* /media/icat/TOSHIBA-64/doc/bio
-clear
-l
-sudo cp BPJS\ Kesehatan.pdf /media/icat/TOSHIBA-64/doc/bio
-clear
-l
-clear
-l
-l INFO/
-clear
-l
-cd ..
-clear
-ll
-cd CAREER/
-clear
-cd INFO/
-ll
-cd ..
-clear
-ll
-cd ~/Downloads/temp/
-clear
-l
-mv SIM_Irsyad.pdf sim.pdf
-sudo mv sim.pdf /media/icat/TOSHIBA-64/doc/bio
-clear
-mv Pas\ Foto_4\ x\ 6_BLUE_Irsyad.jpg foto-4x6_blue.jpg
-sudo mv foto-4x6_blue.jpg /media/icat/TOSHIBA-64/doc/bio
-mv Pas\ Foto_3\ x\ 4_BW_Irsyad.jpg foto-3x4_black.jpg
-sudo mv foto-3x4_black.jpg /media/icat/TOSHIBA-64/doc/bio
-clear
-mv KK_Irsyad.pdf kk.pdf
-sudo mv kk.pdf /media/icat/TOSHIBA-64/doc/bio
-clear
-ll
-clear
-mv KTM\ PNJ_Irsyad.pdf ktm.pdf
-clear
-ll
-sudo mv ktm.pdf /media/icat/TOSHIBA-64/doc/bio
-clear
-mv Bahasa\ -\ TOEIC_Irsyad.pdf toeic-pnj.pdf
-sudo mv toeic-pnj.pdf /media/icat/TOSHIBA-64/doc/bio
-mv Dewatalk_Automated\ Threat\ Defense.pdf Dewatalk-automated_threat_defense.pdf
-sudo mv Dewatalk-automated_threat_defense.pdf /media/icat/TOSHIBA-64/doc/career/cert
-sudo mv Google_Kickstarter\ 3.pdf /media/icat/TOSHIBA-64/doc/career/cert
-sudo mv IEEE_IC2E\ Conference.pdf /media/icat/TOSHIBA-64/doc/career/cert
-sudo mv Intern_Automate\ All.pdf /media/icat/TOSHIBA-64/doc/career/cert
-sudo mv Shopee_CodeLeague\ 2022.pdf /media/icat/TOSHIBA-64/doc/career/cert
-sudo mv SoloLearn_Go.pdf /media/icat/TOSHIBA-64/doc/career/cert
-sudo mv SoloLearn_SQL.pdf /media/icat/TOSHIBA-64/doc/career/cert
-cd /media/icat/TOSHIBA-64/
-clear
-ll
-cat .secret/.info 
-cp .secret/.info ~/Git/dotfile/
-bat
-CLEAR
-clear
-ll
-clear
-ll
-clear
-ll
-mkdir .docs
-sudo mkdir doc
-clear
-ll
-cd doc/
-clear
-l
-ll
-ll -a
-clear
-ll
-ll -a
-mkdir proj
-sudo su
-clear
-cd
-cd Git/dotfile/
-clear
-ll
-nano sync.sh 
-cd ..
-cd bu-dotfile/
-clear
-nano sync.sh 
-clear
-sudo umount /media/icat/TOSHIBA-64 
-clear
-git status
-clear
-ll
-git status
-subl sync.sh 
-clear
-git status
-git add sync.sh 
-clear
-git status
-git commit -m "final push on baremetal"
-clear
-git status
-readme 
-git push
-clear
-cd ..
-clear
-ll
-ll agg/
-nano ~/.bashrc 
-nano ~/Script/.recascii 
-which asciinema 
-clear
-ll
-nano ~/Script/.recascii 
-sudo cp -r agg/ /media/icat/TOSHIBA-64/app
-ll
-clear
-l
-cd cli-pos/
-git status
-git add .
-git commit -m "rebase on new machine"
-clear
-git status
-ll
-cat ok.
-cat ok.sh 
-ll ~/.dialogrc 
-readme 
-git push
-clear
-cd ..
+rm -r docksmoll/
+sudo rm -r docksmoll/
 clear
 ll
 cd polarpwn.gg/
 clear
 git status
-git add content/
+cd themes/nord-hugo-book/
 clear
 git status
-git commit -m "rebase on new machine"
+subl assets/_markdown.scss 
+git add .
+git commit -m "add table indent on pointers"
+readme 
+git push
+cd ../..
 clear
+git status
+git add themes/ resources/
+clear
+git status
+git commit -m "add table indent on pointers"
+git add content/posts/
+clear
+git status
+git commit -m "update latest exec summary"
+clear
+git statis
 git status
 readme 
 git push
-clear
-cd ..
-clear
-ll
-cd shared-consulting/
+sudo fdisk -l
+sudo mount /dev/sdc1 /media/icat/
+cd Downloads/
 clear
 ll
-git status
-cat README.md 
-git add .
-clear
-git status
-git commit -m "rebase on new machine"
-clea
-clear
-git status
-git push
-clear
-sudo mount /dev/sdb1 /media/icat/TOSHIBA-64/
-cd /media/icat/TOSHIBA-64/
-clear
-ll
-sudo su
+sudo cp sertifikat.pdf /media/icat/doc/career/cert/TOEFL-elskill.pdf 
+sudo cp sertifikat.pdf /media/icat/doc/career/cpns-2023/TOEFL\ -\ Muhammad\ Nur\ Irsyad.pdf 
 cd
-sudo umount /media/icat/TOSHIBA-64 
-cd Downloads/temp/
-clear
-ll
-clear
-cp go1.20.6.linux-amd64.tar.gz /home/icat/Git/bu-dotfile/.etc
-cp jdk-8u371-linux-x64.tar.gz /home/icat/Git/bu-dotfile/.etc
-sudo cp -rf ~/Git/bu-dotfile/.etc/jdk-8u371-linux-x64.tar.gz /opt/jdk
-clear
-sudo cp -rf ~/Git/bu-dotfile/.etc/jdk-8u371-linux-x64.tar.gz /opt/jdk/
-sudo tar -zxf /opt/jdk/jdk-8u371-linux-x64.tar.gz 
-ll
-sudo tar -zxf /opt/jdk/jdk-8u371-linux-x64.tar.gz -C /opt/jdk/
-nano .bashrc 
-ll Git/bu-dotfile/.etc/
-cd Git/bu-dotfile/
-clear
-ll
-sudo mkdir /opt/go
-sudo tar -zxf .etc/go1.20.6.linux-amd64.tar.gz -C /opt/go/
-nano ~/Script/.recascii 
-cargo
-clear
-sudo apt-get install cargo
-which cargo
-nano ~/Git/bu-dotfile/
-nano ~/Git/bu-dotfile/sync.sh 
-sudo apt-get install asciinema
-ll
-ll .cargo/
-cargo
-curl https://sh.rustup.rs -sSf | sh
-nano ~/Git/bu-dotfile/sync.sh 
-clear
-ll
-cd go/
-clear
-ll
-cd pkg/
-clear
-cd ..
+sudo umount /media/icat 
 cd
-cd Git/bu-dotfile/
-clear
-git status
-clear
-cd .etc/
+cd App/
 clear
 ll
+cd dotfile/
 clear
-l
-clear
-l
-pwd
-clear
-l
-git lfs track go1.20.6.linux-amd64.tar.gz
-clear
-git status
+l,l
 clear
 ll
-rm .gitattributes 
-clear
-ll
-cd ..
-clear
-git lfs track .etc/go1.20.6.linux-amd64.tar.gz
-clear
-git lfs track .etc/jdk-8u371-linux-x64.tar.gz
-clear
-git status
-ll
-clear
-git status
 cat .gitattributes 
+clear
+ll
+rm -r bin/
+clear
+ll
+rm -r lib lib64
+clear
+ll
+rm pyvenv.cfg qtile sync.sh 
+rm pyvenv.cfg
+ll
+clear
+ll
+chmod +x sync.sh 
+clear
+ll
+rm -r qtile/ include/
+clear
+ll
+rm -r distrobox/
+clear
+ll
+./sync.sh -h
+./sync.sh -s
+clear
+sudo ./sync.sh -s
 nano sync.sh 
-cat /etc/environment
-echo $PATH
-cd
-cat .bashrc 
-clear
-java --version
-sudo update-alternatives --display java
-clear
-sudo update-alternatives --display java
-which java
-clear
-cd Git/dotfile/
-clear
-cd .etc/
+sudo ./sync.sh -s
 clear
 ll
-clear
-ll
-cd ..
-clear
-ll
-cat .info 
-cd ..
-cd bu-dotfile/
-clear
-ll
-cat sync.sh | grep java
-clear
 ll .home/
 clear
 ll
+ll .config/
+ll .etc/
+ll .home/
+clear
+subl sync.sh 
 cd .etc/
-clear
-ll
-clear
-l
-cd /opt/
-ll
-sudo rm jdk 
-clear
-ll
-mkdir /opt/jdk
-sudo mkdir /opt/jdk
-clear
-ll
-cd jdk/
-clear
-ll
-javac --version
-clear
-ll
-cd jdk1.8.0_371/
-clear
-ll
-clear
 ll
 cd ..
+cd .home/
 clear
 ll
-cat /etc/environment
-ll
-cd jdk1.8.0_371/
-clear
-ll
-cd jre/
-clear
-ll
-cd bin/
-clear
-pwd
-cd
-cd ..
-cd -
-cd /opt/jdk/jdk1.8.0_371/bin/
-clear
-pwd
-echo GOPATH="/opt/go/"
-GOBIN="/opt/go/bin/"
-cd ..
-clear
-ll
-cd go
-ll
-ll go/
-cd go/
-ll
-pwd
-echo GOPATH="/opt/go/"
-echo GOBIN="/opt/go/bin/"
-cd
 nano .bashrc 
+cd ..
+cd .config/
+clear
+ll
+cd qtile/
+clear
+ll
+nano config.py 
+cd wallpps/
+ll
+cd ../
+cd ..
+clear
+ll
+readme 
+cd
+cat .info 
+sudo fdisk -l
+sudo mount /dev/sdc1 /media/icat/
+sudo cp .info /media/icat/.secret/.info 
+sudo umount /media/icat 
+clear
+cd App/do
+cd App/dotfile/
+clear
+git status
+git add .
+clear
+ll
+sudo chown -r icat:icat .config/
+sudo chown -R icat:icat .config/
+sudo chown -R icat:icat .etc/
+sudo chown -R icat:icat .home/
+clear
+git add .
+ll /media/icat/

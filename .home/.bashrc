@@ -1,8 +1,8 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-
-PATH="$HOME/.local/bin:/opt/jdk/jdk1.8.0_371/jre/bin:/opt/jdk/jdk1.8.0_371/bin:/opt/go/go/bin/:$PATH"
+export TERM=xterm
+PATH="$HOME/.local/bin:/opt/jdk/jdk1.8.0_371/jre/bin:/opt/jdk/jdk1.8.0_371/bin:/opt/go/go/bin/:/opt/go/go:$PATH"
 
 # If not running interactively, don't do anything
 case $- in
@@ -94,9 +94,9 @@ alias ll='exa -alF'
 alias la='exa -A'
 alias l='exa -F'
 alias readme='cat /home/icat/.info'
-alias burpsuite='bash /home/icat/Script/BurpSuiteCommunity/BurpSuiteCommunity & disown'
+# alias burpsuite='bash /home/icat/App/BurpSuiteCommunity/BurpSuiteCommunity & disown'
 alias zoom='zoom & disown'
-alias recascii='bash /home/icat/Script/recascii'
+alias recascii='bash /home/icat/.recascii'
 alias bat='batcat'
 
 # Add an "alert" alias for long running commands.  Use like so:
@@ -126,3 +126,4 @@ fi
 compton -b --config /home/icat/.config/qtile/scripts/compton.conf &> /dev/null
 export EDITOR="/usr/bin/nano"
 ranger
+. "$HOME/.cargo/env"
