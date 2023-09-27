@@ -66,22 +66,24 @@ backup_sync() {
 			cp $home/$i ./.home
 			done
 			sudo cp /usr/share/xsessions/qtile.desktop ./.home
-		bu_dirs=(asciinema gtk-3.0 kitty neofetch qtile ranger sublime-text-3)
+		bu_dirs=(asciinema gtk-3.0 kitty neofetch qtile ranger sublime-text-3 onlyoffice xfce4 zathura)
 		for j in ${bu_dirs[@]}; do
 			cp -r $home/.config/$j ./.config
 			done
-		bu_fox=(.mozilla/extensions .mozilla/firefox/9w07ygyj.default-release/chrome)
+		bu_fox=(.mozilla/extensions .mozilla/firefox/uam5b38j.default-release/chrome)
 		for k in ${bu_fox[@]}; do
 			cp -r $home/$k ./.etc
 			done
-		((inc++)); } ; echo -en "${ENDCOLOR}" ; }
+		((inc++)); } ; echo -en "${ENDCOLOR}" ; 
+		cp -r /home/icat/.local/share/xfce4 ./.home 	## /home/icat/.local/share
+		}
 #----------
 # programming: java & go
 install_app() {
 	echo -e "--------------------\n$(date)\n--------------------" >> error.log
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing essential ${GREEN}utilities${ENDCOLOR} ... ${BLUE}"
 	time {
-		apps="curl wget asciinema neofetch espeak x11-xserver-utils mpv python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential"
+		apps="curl wget asciinema neofetch espeak x11-xserver-utils mpv python3-pip python3-venv bat ranger git git-lfs openvpn podman compton exa hugo kitty calcurse pulseaudio network-manager x11-xserver-utils bluez mplayer ffmpeg net-tools build-essential deluge"
 		sudo apt-get update 2>> error.log > /dev/null
 		sudo apt-get install $apps -y 2>> error.log > /dev/null
 		wget -q https://sh.rustup.rs -O /tmp/rust-init.sh > /dev/null
