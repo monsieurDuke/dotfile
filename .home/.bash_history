@@ -1,1453 +1,3 @@
-clear
-shutdown --help
-shutdown -H
-sudo shutdown -H
-sudo shutdown -c
-cd Downloads/
-clear
-ll
-mv 2997.jpg night.jpg 
-cp night.jpg /home/icat/.config/qtile/wallpps
-ll
-file the_sky_of_vincent_van_gogh__day3__by_dean_art_dfco74b-fullview.jpg 
-file the_sky_of_vincent_van_gogh__day3__by_dean_art_dfco74b-fullview-transformed.jpeg 
-cp the_sky_of_vincent_van_gogh__day3__by_dean_art_dfco74b-fullview-transformed.jpeg /home/icat/.config/qtile/wallpps/sky.jpeg
-cp night2.jpg /home/icat/.config/qtile/wallpps/
-echo "ayyayaya"
-neofetch 
-uk gang
-ip a
-netstat -ta
-cd ~/Downloads/
-ll
-cp wallpaperflare.com_wallpaper.jpg /home/icat/.config/qtile/wallpps/korea.jpg
-cp wallpaperflare.com_wallpaper\(1\).jpg /home/icat/.config/qtile/wallpps/red.jpg
-cd /tmp/
-tar -xvf kali-wallpapers-kali-master-2020.4-backgrounds.tar.gz 
-cd kali-wallpapers-kali-master-2020.4-backgrounds/
-clear
-ll
-cd 2020.4/
-clear
-ll
-cd backgrounds/
-thunar
-cd kali
-clear
-ll
-cd ~/Downloads/
-clear
-ll
-cp kali-contours-16x9.jpg /home/icat/.config/qtile/wallpps/kali.jpg
-systemctl suspend
-cd
-cd .config/qtile/
-clear
-ll
-cd wallpps/
-clear
-ll
-xdg-open aris.jpg 
-file tokyo.jpg 
-pwd
-ll
-chmod +x night.jpg 
-clear
-ll
-file tokyo.jpg 
-ll
-clear
-ll
-cd ..
-clear
-ll
-cd scripts/
-clear
-ll
-subl compton.conf 
-killall compton 
-source ~/.bashrc 
-killall compton 
-source ~/.bashrc 
-clear
-ifconfig 
-cd ..
-ll wallpps/
-subl config.py 
-ll wallpps/
-cd wallpps/
-clear
-ll
-pwd
-ll
-pwd
-killall compton 
-cd 
-clear
-source .bashrc 
-killall compton 
-source .bashrc 
-killall compton 
-source .bashrc 
-cd /home/icat/.mozilla/firefox/9w07ygyj.default-release
-clear
-ll
-clear
-ll
-cd chrome/
-clear
-ll
-nano userChrome.css 
-cd
-clear
-subl .config/kitty/kitty.conf 
-clear
-cd ~/.config/kitty/
-ll
-nano pwd.session 
-kitty -e alsamixer
-launch
-kitty --help
-cd .config/
-ll
-cd kitty/
-ll
-subl kitty.conf 
-alsamixer 
-ranger 
-clear
-kitty alsamixer 
-kitty -o
-kitty -o alsamixer
-xfce4-terminal -e alsamixer
-xfce4-terminal -h
-xfce4-terminal man
-man xfce4-terminal 
-clear
-kitty @ launch 
-kitty @ launch alsamixer
-kitty --help
-kitty @ launch alsamixer --detach
-kitty alsamixer
-alsamixer 
-kitty -e
-kitty -e alsamixer
-kitty cat
-clear
-kitty --dump-bytes /tmp/log alsamixer
-clear
-kitty alsamixer
-kitty alsamxer
-kitty alsamixer
-clear
-ll
-cd .config/qt
-cd .config/qtile/
-clear
-ll
-cd scripts/
-clear
-ll
-subl compton.conf 
-clear
-clear
-cd .config/
-ll
-c;ear
-cd
-c;ear
-;;
-clear
-ll
-cd
-clear
-l
-mv Desktop/ desktop
-c;ear
-clear
-l
-cp -r Downloads/* download/
-ll download/
-ll Downloads/
-rm -r Downloads/
-clear
-ll
-clear
-l
-crontab -l
-crontab -e
-ll /home/icat/download/
-clear
-crontab -l
-clear
-sudo service cron status
-clear
-ll
-cd .config/
-clear
-ll
-cd qtile/scripts/
-clear
-ll
-subl sub-deviceconf.sh 
-subl widget.sh 
-whatis mplayer 
-espeak aa
-espeak "good morning"
- d
-
-espeak 
-espeak Cdecr
-whatis ffmpeg
-ll ~/
-ckear
-ll -d
-clear
-ll -d ~
-ll -d ~.
-ll -d ~/
-ll -d ~/*
-cd 
-cp resource/ media
-mv resource/ media
-clear
-ll -d ~/*
-cd -
-killall compton 
-source ~/.bashrc 
-clear
-cd /tmp/
-clear
-git clone git clone https://github.com/dracula/xfce4-terminal.git
-clear
-git clone https://github.com/dracula/xfce4-terminal.git
-cd xfce4-terminal/
-clear
-ll
-mkdir ~/.local/share/xfce4/terminal/colorschemes
-clear
-cd
-cd dotfile/
-clear
-ll
-cd .config/
-ll
-cd -
-cd /tmp/xfce4-terminal/
-clear
-cd ~/.local/share/
-ll
-mkdir xfce4
-cd xfce4/
-ll
-mkdir terminal
-mkdir colorschemes
-ll
-rm -r colorschemes/
-cd terminal/
-mkdir colorschemes
-cd colorschemes/
-clear
-ll
-cd
-cd .local/
-cd
-cd .config/
-ll
-cd xfce4/
-ll
-cd terminal/
-ll
-clear
-ll
-pwd
-cd ~/.local/share/xfce4/terminal/colorschemes/
-pwd
-cd /tmp/xfce4-terminal/
-cp Dracula.theme ~/.local/share/xfce4/terminal/colorschemes/
-cp Dracula.theme ~/.config/xfce4/terminal/
-ll
-clear
-ll
-clear
-cd .config/qtile/scripts/
-clear
-ll
-subl sub-deviceconf.sh 
-clear
-bluetoothctl devices
-timelimit
-sudo apt-get install timelimit 
-clear
-xrandr 
-clear
-xrandr --listactivemonitors
-xrandr --list
-xrandr --listmonitor
-xrandr --listmonitors
-clear
-xrandr 
-xrandr -q
-xrandr --output HDMI-1
-xrandr --output eDP-1
-xrandr --output HDMI-1 --mode 1280x720 --rate 60.00
-xrandr --output HDMI-1 --mode 1360x768 --rate 60.00
-xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00
-xrandr --output HDMI-1 --mode 1280x720 --rate 60.00
-clear
-xrandr --output HDMI-1
-xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode "1366x768"
-xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode 1366x768
-xrandr 
-xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode 1360x768
-xrandr --output HDMI-1 --pos "1366x0" --rotate normal --mode 1920x1080
-cd
-clear
-cargo install --git https://github.com/asciinema/agg
-clear
-which agg
-cat .bashrc | grep rec
-clear
-recascii /tmp/lel.gif
-cat .recascii 
-nano .bashrc 
-source .bashrc 
-clear
-recascii /tmp/lel.gif
-which agg
-nano .recascii 
-cd /tmp/
-clear
-ll
-clear
-cat ~/.recascii 
-whatis agg
-which agg
-clear
-recascii /tmp/lel.gif
-xdg-open lel.gif 
-clear
-cd
-clear
-cat .touchpad-speed 
-bash .touchpad-speed 
-clear
-ll Downloads/
-cd Downloads/
-clear
-ll
-mv kali-wallpapers-kali-master-2020.4-backgrounds.tar.gz /tmp/
-cd /tmp/
-clear
-ll
-cd
-nano .bashrc 
-cd dotfile/
-cllear
-nano sync.sh 
-ll
-ll .etc/
-clear
-ll
-cd .config/
-ll
-cd asciinema/
-ll
-clear
-ll
-cd ..
-clear
-l
-ll
-ll .cofn
-ll .config/
-clear
-ll
-cd .etc/
-ll
-cd .
-cd ..
-clear
-ll
-cd .home/
-ll
-cat .recascii 
-cat ~/.recascii 
-clear
-cat ~/.recascii 
-ll
-cat .recascii 
-whatis asciinema 
-clear
-cat .recascii 
-ll
-cd /media/icat/TOSHIBA/
-clear
-ll
-cd .other/
-ll
-cd ..
-clear
-ll
-cd .secret/
-l
-ll
-cat tabgroup.json 
-clear
-l
-ll
-cd
-clear
-cd download/
-clear
-ll
-sudo apt-get install ./zoom_amd64.deb 
-xrandr 
-clear
-ll
-clear
-cd /
-okular
-sudo apt-get install okular -i
-sudo apt-get install okular
-clear
-df -h
-sudo apt-get install okular
-man zathura
-cd .config/
-mkdir zathura
-cd zathura/
-touch zathurarc
-nao zathurarc 
-nano zathurarc 
-history 
-clear
-nano zathurarc 
-ps axjf 
-ps axjf grep zathura
-ps axjf | grep zathura
-clear
-nano zathurarc 
-cd /media/icat/TOSHIBA/doc/career/appendix/
-clear
-ll
-rm Surat\ Lamaran\ 2021\ BSSN_Umum.docx
-ll
-mv Surat\ Lamaran\ 2021\ BSSN_Umum.docx_ Surat\ Lamaran\ 2021\ BSSN_Umum.docx
-clear
-ll
-cd download/
-clear
-ll
-zathura Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf 
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf /media/icat/TOSHIBA/doc/bio/resume.pdf 
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf /media/icat/TOSHIBA/doc/career/cpns-2023/Resume\ -\ Muhammad\ Nur\ Irsyad.pdf 
-cd /media/icat/TOSHIBA/doc/career/cpns-2023/
-clear
-zathura Resume\ -\ Muhammad\ Nur\ Irsyad.pdf 
-steghide
-readme 
-clear
-ncat
-nmap
-socat
-hugo
-hugo --v
-hugo --version
-clear
-readme
-sudo readme
-cd /usr/bin/X11
-cd ..
-cat readme 
-cat ~/.info 
-clear
-ll
-ll | grep readme 
-chmod +x readme 
-sudo chmod +x readme 
-ll | grep readme 
-cd
-clear
-readme 
-nano .info 
-clear
-readme 
-openbox
-opendistro
-nano .info 
-readme 
-nano .info 
-readme 
-clear
-nano .info 
-readme 
-distrobox
-clear
-nano .info 
-clear
-nano .info 
-readme 
-clear
-df -h
-clear
-neofetch 
-clear
-whatis distrobox
-man distrobox
-clear
-ll
-clear
-which onlyoffice-desktopeditors 
-cd /usr/bin/
-sudo mv onlyoffice-desktopeditors onlyoffice
-nano .info 
-clear
-killall compton 
-source .bashrc 
-cd /media/
-clear
-cd icat/TOSHIBA/
-clear
-ll
-cd doc/career/
-clear
-ll
-cd cpns-2023/
-clear
-ll
-okular Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-sudo apt-get purge okular
-sudo apt-get purge okular*
-sudo apt-get autoremove 
-clear
-sudo apt-get install zathura
-clear
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-man zathura
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-zathura --help
-man zathura
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-man zathura
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-history 
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-killall compton 
-source ~/.bashrc 
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-cdd
-cd
-clear
-ll
-cd /media/icat/
-ll
-kk
-ll
-cd TOSHIBA/doc/career/
-clear
-ll
-cd cpns-2023/
-clear
-ll
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-xdg-open KTP\ -\ Muhammad\ Nur\ Irsyad.jpg 
-zathura Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-cp Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.docx 
-clear
-ll
-readme 
-clear
-readme 
-clear
-readme 
-clear
-readme 
-clear
-readme 
-clear
-readme 
-clear
-readme 
-clear
-readme 
-readmeclear 
-clear
-readme 
-clear
-readme 
-clear
-readme 
-clear
-ll
-clear
-ll
-mkdir BSSN
-mv Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.* BSSN/
-clear
-ll
-mkdir KOMINFO
-clear
-ll
-mv Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.* KOMINFO/
-clear
-ll
-cd BSSN/
-clear
-ll
-mv Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.docx 
-ll
-mv Surat\ Formasi\ BSSN-\ Muhammad\ Nur\ Irsyad.pdf Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-cd ..
-cd KOMINFO/
-clear
-ll
-mv Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ KOMINFO\ -\ Muhammad\ Nur\ Irsyad.docx 
-ll
-mv Surat\ Formasi\ KOMINFO-\ Muhammad\ Nur\ Irsyad.pdf Surat\ Formasi\ KOMINFO\ -\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-zathura Surat\ Formasi\ KOMINFO\ -\ Muhammad\ Nur\ Irsyad.pdf 
-readme 
-podman
-clear
-readme 
-clear
-sudo apt-get update 
-clear
-export TERM=xterm
-clear
-ll
-clear
-sudo apt-get upgrade 
-clear
-ll
-sudo apt-get install exa
-exa
-curl
-clear
-ll
-clear
-nano .bashrc 
-cp .bashrc .bashrc.main
-EXA_VERSION=$(curl -s "https://api.github.com/repos/ogham/exa/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
-which exa
-curl -Lo exa.zip "https://github.com/ogham/exa/releases/latest/download/exa-linux-x86_64-v${EXA_VERSION}.zip"
-ls
-mv exa.zip /tmp/
-cd /tmp/
-clear
-ll
-clear
-ls
-clear
-ls -l
-sudo unzip -q exa.zip bin/exa -d /usr/local
-exa --version
-cd
-clear
-ifconfig
-clear
-ll
-clear
-source .bashrc
-sudo apt-get install ranger net-tools
-clear
-l
-clear
-ll /d
-ll -d
-ll
-ll -d
-clear
-l
-mkdir distrobox
-cd distrobox/
-clear
-ll
-ifconfig 
-clear
-cd
-clear
-exit
-ranger 
-clear
-export TERM=xterm
-clear
-ll
-clear
-source .bashrc
-clear
-exit
-distrobox list 
-clear
-distrobox create -i quay.io/toolbx-images/ubuntu-toolbox:20.04 -n pwnbuntu 
-distrobox ls
-distrobox list
-distrobox list --all
-distrobox list all
-distrobox enter 
-clear
-distrobox enter pwnbuntu
-distrobox list
-distrobox stop pwnbuntu 
-distrobox list
-distrobox enter pwnbuntu 
-distrobox stop pwnbuntu 
-nano .info 
-readme 
-clear
-podman images list
-podman images list all
-podman container list
-clear
-distrobox-list 
-ll
-cd /tmp/
-l
-ll
-ll /usr/local/
-which exa
-cd
-clear
-l
-clear
-nano .bashrc
-echo $TERM
-export TERM=xterm
-clear
-ll
-clear
-echo $TERM
-nano .bashrc
-source .bashrc
-echo $TERM
-clear
-ll
-cd distrobox/
-clear
-ll
-cd /media/
-clear
-ll
-cd icat/TOSHIBA/
-clear
-ll
-cd
-clear
-cd distrobox/
-clear
-sudo apt-get install neofetch
-clear
-apt list --installed | wc -l
-exit
-distrobox list
-distrobox ls
-podman container ls
-podman container ls -a
-clear
-distrobox-enter pwnbuntu
-distrobox-stop pwnbuntu 
-readme 
-clear
-readme 
-ncat
-sudo apt-get install netcat
-sudo apt-get install ncat
-sudo apt-get purge netcat
-sudo apt-get purge netcat*
-sudo apt-get purge netcat
-clear
-ncat
-clear
-clear
-readme
-clear
-cat .info 
-nano .bashrc
-clear
-source .bashrc
-clear
-readme 
-clear
-readme 
-sudo apt-get install socat nmap ncat steghide
-exit
-clear
-ll
-pwd
-clear
-netstat 
-clear
-ll
-clear
-l
-l App/
-exit
-clear
-cd
-sudo su icat
-exit
-clear
-readme 
-clear
-readme 
-readme clear
-clear
-readme
-clear
-l
-rm -r desktop/
-clear
-ll
-clear
-l
-mv app/ App
-which burpsuite 
-ll App/
-burpsuite 
-sudo nano /usr/bin/burpsuite 
-burpsuite 
-clear
-ll
-l
-clear
-ls 
-ls l
-clear
-ls -l
-mv distrobox/ Distrobox/
-clear
-ls -l
-ll doc/
-clear
-ls -l
-mv dotfile/ App/
-clear
-ll
-ll App/
-clear
-l
-l download/
-crontab -l
-clear
-l
-crontab -l
-rm -r /home/icat/download
-ll dow
-clear
-ll
-clear
-crontab -e
-crontab -l
-clear
-ll
-l
-cat ok.txt 
-clear
-l
-mv doc/ Documents/
-crontab -e
-ll Downloads/
-crontab -l
-rm -r /home/icat/Downloads/*
-mkdir lmao ~/Downloads/
-ll Downloads/
-mkdir lmao ~/Downloads/
-ll Downloads/
-ll
-rm -r lmao/
-rm ok.txt 
-clear
-l
-mkdir Downloads/lmao
-touch Downloads/okok
-crontab -l
-clear
-ll Downloads/
-l
-ll Downloads/
-l
-ll Downloads/
-l
-cd media/
-ll
-clear
-l
-clear
-cd ..
-mv media/ Media
-clear
-l
-which recascii 
-nano .recascii 
-subl .config/qtile/scripts/widget.sh 
-ll Downloads/
-clear
-ll
-clear
-l
-clear
-distrobox-enter pwnbuntu
-distrobox-stop pwnbuntu
-ps axjf | grep distro
-ps axjf | grep podman
-killall podman 
-ps axjf | grep podman
-podman
-clear
-ps axjf | grep podman
-killall podman 
-kill -9 1188796
-killall podman 
-ps axjf | grep podman
-clear
-readme 
-clear
-nano .info
-readme 
-nano .info
-clear
-readme 
-nano .info
-readme 
-clear
-readme 
-nano .info
-clear
-readme 
-clear
-nano .info
-readme 
-nano .info
-readme 
-clear
-readme 
-nano .info
-clear
-readme 
-nano .info
-clear
-readme 
-cd App/
-clear
-ll
-git
-clear
-git clone https://github.com/hotpotcookie/docksmoll.git
-cd docksmoll/
-clear
-ll
-nano docksmoll
-cd source/
-clear
-ll
-nanoo run-menu.sh 
-cd ..
-cd docksmoll/source/
-clear
-ll
-nano run-menu.sh 
-nano run-init.sh 
-cd ..
-clear
-ll
-bash docksmoll
-bash docksmoll -h
-./docksmoll 
-cat docksmoll
-clear
-sudo ./docksmoll 
-podman container l
-podman container list 
-podman container list -a
-clear
-subl source/run-menu.sh 
-cat tmp/container.lst 
-which podman 
-podman container ls -a
-podman container ls -a | awk 'NR!=1'
-podman container ls -a | awk 'NR!=1' | tr -s ' ' '@'
-podman container ls -a | awk 'NR!=1' | tr -s ' ' '@' > tmp/container.lst 
-cat tmp/container.
-cat tmp/container.lst 
-clear
-sudo ./docksmoll 
-clear
-cat tmp/container.lst 
-cat tmp/container.stat 
-podman image ls
-podman image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1')
-podman image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1'
-cear
-clear
-sudo ./docksmoll 
-clear
-docker_=$(which podman)	
-		"$docker_" image ls | awk 'NR!=1' | tr -s ' ' '@' > tmp/image.lst & wait
-cat tmp/image.lst 
-		"$docker_" container ls -a | awk 'NR!=1' | tr -s ' ' '@' > tmp/container.lst & wait
-cat tmp/container.lst 
-echo $docker_ 
-		body_img=$("$docker_" image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1')
-echo $body_img 
-clear
-nano docksmoll
-bash docksmoll
-ckear
-clear
-body_img=$("$docker_" image ls --format "table {{.Repository}}:{{.Tag}}\t| {{.ID}} | {{.Size}}" | awk 'NR!=1')
-echo $body_img 
-echo -e $body_img 
-clear
-bash docksmoll
-body_img=$("$docker_" image ls --format "table {{.Repository}}:{{.Tag}} | {{.ID}} | {{.Size}}" | awk 'NR!=1')
-echo $body_img 
-echo -e $body_img 
-./docksmoll 
-podman image ls --format "table"
-podman image ls --format "table {{.Repository}}"
-podman image ls --format "table {{.Repository}} | {{.Id}}"
-podman image ls --format "table {{.Repository}} | {{.ID}}"
-podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1'
-podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -d '\t'
-podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -d ' '
-podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -r ' '' '
-podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -r ' ' ' '
-podman image ls --format "table {{.Repository}} | {{.ID}}" | awk 'NR!=1' | tr -s ' ' ' '
-./docksmoll 
-clear
-./docksmoll 
-clear
-./docksmoll 
-nano tmp/container.lst 
-cat tmp/container.lst | column -t ','
-cat tmp/container.lst | column -t '@'
-cat tmp/container.lst | column -d '@'
-cat tmp/container.lst | column -c '@'
-cat tmp/container.lst | column -t -s '@'
-cat tmp/image.lst 
-column -t -s '@' tmp/image.lst 
-column -t -s '@' tmp/container.lst 
-clear
-ll
-cd ..
-clear
-ll
-podman image ls -a
-podman container ls -a
-clear
-ll
-ll ~/Downloads/
-ll
-clear
-cd do
-cd docksmoll/
-clear
-lll
-clear
-subl source/run-menu.sh 
-clear
-cd ..
-clear
-touch boxpod.sh
-clear
-ll
-chmod +x boxpod.sh 
-clear
-subl boxpod.sh 
-ifconfig 
-sudo service networking status
-clear
-ifconfig 
-clear
-cat .local/share/qtile/qtile.log 
-firefox 
-cd .config/
-cd qtile/
-subl config.py 
-cat .local/share/qtile/qtile.log 
-dbus-next
-reboot 
-qtile start
-qtile 
-cd App/
-ll
-cd dotfile/
-clear
-ll
-cd bin/
-ll
-qtile 
-pwd
-cd ..
-clear
-ll
-pwd
-clear
-nano ~/.local/bin/qtile 
-qtile
-nano ~/.local/bin/qtile 
-reboot 
-qtile 
-clear
-sudo apt-get install nikto
-nano .info 
-logout 
-cd /media/icat/
-ll
-clear
-fdisk -l
-clear
-sudo fdisk -l
-sudo mount /dev/sdb1 /media/icat/
-ll
-thunar
-cd ..
-clear
-ll
-cd icat/
-clear
-ll
-clear
-cd
-clear
-readme 
-podman container ls -a
-podman image ls -a
-clear
-podman container ls
-podman container ls -a
-clear
-readme 
-clear
-distrobox-enter pwnbuntu
-clear
-sudo apt-get install masscan
-nano .info 
-masscan 
-clear
-sudo apt-get install hydra john wireshark-qt exif sqlmap
-exit
-distrobox enter pwnbuntu
-distrobox-stop pwnbuntu
-clear
-amass
-subfinder
-masscan
-assetfinder
-dnsx
-naabu
-httpx
-gowitness
-hydra
-john
-wireshark
-exif
-clear
-sqlmap
-w3af
-nano .info 
-readme 
-nano .info 
-readme 
-nano .info 
-readme 
-nano .info 
-readme 
-clera
-readme 
-nano .info 
-clear
-readme 
-clear
-cd App/
-clear
-ll
-nano boxpod.sh 
-ln -s boxpod.sh /usr/bin/boxpod
-sudo ln -s boxpod.sh /usr/bin/boxpod
-boxpod
-ll /usr/bin/
-ll /usr/bin/ | grep box
-clear
-ll
-cd /usr/bin/
-l
-clear
-chmod +x boxpod 
-./boxpod
-nano boxpod 
-ll
-cat yacc 
-clear
-cd ~/App/
-clear
-ll
-rm /usr/bin/boxpod 
-sudo rm /usr/bin/boxpod 
-./boxpod.sh 
-ln -s boxpod.sh boxx
-cat box
-cat boxx
-clear
-ll
-./boxx
-rm boxx 
-clear
-ll
-ll /usr/local/bin/
-clear
-ll
-ln -s boxpod.sh /usr/local/bin/
-sudo ln -s boxpod.sh /usr/local/bin/boxpod
-cd /usr/local/bin/
-ll
-./boxpod
-ll
-bash boxpod 
-cat boxpod 
-clear
-ll
-cat firefox 
-clear
-ls -Ol
-ls -ol
-boxpo
-boxpod
-echo $PATH
-export PATH=$PATH
-echo $PATH
-boxpod
-cd ~/App/
-clear
-ll
-rm boxpod.sh 
-ll /usr/local/bin/
-rm /usr/local/bin/boxpod 
-sudo rm /usr/local/bin/boxpod 
-cd
-clear
-nano .bashrc
-burpsuite 
-which burpsuite 
-ll /usr/bin/ | grep burp
-cat /usr/bin/burpsuite 
-clear
-ll
-cd App/
-clear
-ll
-touch boxpod
-clear
-ll
-nano boxpod 
-chmod +x boxpod 
-clear
-ll
-pwd
-sudo ln -s /home/icat/App/boxpod /usr/local/bin/
-boxpod 
-nano boxpod 
-boxpod 
-clear
-ll
-git clone https://github.com/polarpwn/polarpwn.gg.git
-clear
-readme 
-nano ~/.info 
-readme 
-clear
-readme 
-clear
-cd App/
-clear
-ll
-cd polarpwn.gg/
-clear
-ll
-clear
-git clone
-clear
-ll
-ll themes/
-ll themes/nord-hugo-book/
-cd themes/
-clear
-ll
-rm -r nord-hugo-book/
-git clone https://github.com/hotpotcookie/nord-hugo-book.git
-cd ..
-clear
-ll
-hugo server --minify
-cd App/
-clear
-ll
-clear
-git clone https://github.com/monsieurDuke/cli-pos.git
-cd cli-pos/
-clear
-ll
-./pos.sh 
-clear
-ll
-cd ..
-clear
-ll
-bash cli-pos/pos.sh 
-cd Downloads/
-clear
-ll
-l
-ll
-cp podman-desktop-1.3.1.tar.gz ~/App/
-nano .config/qtile/scripts/sub-deviceconf.sh 
-bluetoothctl 
-bluetoothctl devices
-bluetoothctl scan on
-bluetoothctl power on
-sudo bluetoothctl power on
-rfkill unblock all
-sudo bluetoothctl power on
-bluetoothctl scan on
-sudo service bluetooth restart 
-sudo service bluetooth status
-clear
-sudo apt-get purge ranger 
-clear
-ranger
-clear
-ll
-cd .local/bin/
-ll
-exit
-subl .config/qtile/scripts/compton.conf 
-killall compton 
-source .bashrc
-clear
-ll .local/bin/
-nano .info 
-readme 
-which subl
-sudo ln -s $(which burpsuite) .local/bin/
-ll .local/bin/
-which burpsuite 
-nano .info 
-clear
-readme 
-nano .info 
-clear
-readme 
-sudo ln -s $(which openvpn) .local/bin/
-which openvpn 
-openvpn 
-clear
-ll
-clear
-readme 
-sudo ln -s $(which zathura) .local/bin/
-ll .local/bin/
-which subl 
-sudo ln -s $(which subl) .local/bin/
-clear
-sudo ln -s $(which ranger) .local/bin/
-clera
-clear
-ll .local/
-ll .local/bin/
-clear
-ll
-cd App/
-clear
-ll
-cd dotfile/
-ll
-cd .config/
-ll
-cd ..
-clear
-ll
-cd .etc/
-ll
-cd ..
-clear
-ll
-cd .home/
-ll
-cd
-clear
-distrobox-enter pwnbuntu
-clear
-distrobox-enter pwnbuntu
-cd App/cli-pos/
-./pos.sh 
-go
-clear
-cd ..
-clear
-ll
-go get -u github.com/gulyasm/jsonui
-go install github.com/gulyasm/jsonui
-go install github.com/gulyasm/jsonui@latest
-ll
-git clone https://github.com/gulyasm/jsonui.git
-clera
-ll
-cd jsonui/
-clear
-ll
-go jsonui.go 
-go build
-clear
-go mod init
-clear
-ll
-go build jsonui.
-go build jsonui.go 
-sudo go mod init
-go tree.go 
-go run jsonui.go 
-go mod init jsonui
-go mod tidy
-go env | grep GOPATH
-nano ~/.bashrc
-go mod tidy
-sudo go mod tidy
-cd /opt/go/
-clear
-ll
-cd ..
-clear
-l
-ll
-sudo chown -R icat:icat go/
-ll
-cd -
-cd ~/App/jsonui/
-clear
-ll
-go mod tidy
-clear
-ll
-go build -o main
-clear
-ll
-./main < test_list.json 
-./main < test_big.json 
-clear
-ll
 ./main 
 clear
 ll
@@ -1998,3 +548,1453 @@ sudo chown -R icat:icat .home/
 clear
 git add .
 ll /media/icat/
+bash /tmp/rust-init.sh 
+source "$HOME/.cargo/env"
+ps axjf | grep firefox
+killall snap
+sudo killall snap
+clear
+ps axjf | grep firefox
+clear
+midori
+sudo apt-get install midori
+clear
+qutebrowser
+clear
+sudo apt-get update 
+sudo apt-get install qutebrowser
+qutebrowser 
+cd Downloads/
+clear
+ll
+cd ..
+clear
+ll
+mkdir App
+clear
+cd App/
+clear
+ll
+git clone https://github.com/monsieurDuke/dotfiles
+clear
+cd /media/icat/TOSHIBA/
+ll
+cd .secret/
+clear
+ll
+cat .info 
+cd ~/App/
+git clone https://github.com/monsieurDuke/dotfiles
+git clone https://github.com/monsieurDuke/dotfile
+cd ../Do
+cd ../Downloads/
+clear
+ll
+cp firefox-117.0.1.tar.bz2 go1.21.1.linux-amd64.tar.gz jdk-8u371-linux-x64.tar.gz ../App/dotfile/.etc/
+cd ../App/dotfile/.etc/
+clear
+ll
+cd ..
+clear
+ll
+timeshift
+sudo apt-get install timeshift 
+clear
+sudo timeshift-gtk 
+clear
+sudo apt-get remove qutebrowser*
+sudo apt-get purge qutebrowser*
+sudo apt-get autoremove 
+clear
+ll
+nano sync.sh 
+ll .etc/
+nano sync.sh 
+sudo apt-get install python3-venv 
+clear
+ll
+sudo bash sync.sh -r
+cp -r .etc/chrome/ /home/icat/.mozilla/firefox/uam5b38j.default-release
+cp -r .etc/extensions/ ~/.mozilla/
+cd /tmp/
+clear
+git clone https://github.com/dracula/xfce4-terminal.git
+cd xfce4-terminal/
+cd
+cd .local/share/
+clear
+ll
+mkdir xfce4
+mkdir xfce4/terminal
+mkdir xfce4/terminal/colorschemes
+cd -
+cd /tmp/
+cd xfce4-terminal/
+clear
+ll
+cp Dracula.theme ~/.local/share/xfce4/terminal/colorschemes/
+firefox
+which qtile 
+qtile 
+qtile start
+clear
+neofetch 
+subl .config/qtile/
+clear
+espeak "hellow"
+alsamixer 
+l
+ncmli
+sudo apt-get install network-manager
+nmcli
+clear
+subl .config/kitty/kitty.conf 
+espeak "lmao"
+xfce4-mouse-settings 
+synclient 
+synclient | grep Vert
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf 
+reboot 
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf 
+sudo service lightdm restart 
+sudo nano /usr/share/X11/xorg.conf.d/40-libinput.conf 
+sudo service lightdm restart 
+startx
+xinput 
+clear
+synclient HorizScrollDelta=-100
+synclient VertScrollDelta=-100
+synclient VertScrollDelta=100
+synclient HorizScrollDelta=100
+sudo apt-get install gnome-tweaks 
+synclient HorizTwoFingerScroll=1
+nano .bashrc 
+subl .bashrc 
+source .bashrc 
+cd Videos/
+clear
+ll
+l
+cd ..
+clear
+ll
+cd Downloads/
+ll
+cd ..
+clear
+ll
+l
+l Videos/
+clear
+ffmpeg -video_size $res -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/Videos/$(date +"%H_%M_%S--%d_%m_%y").flv &
+killall ffmpeg 
+xrandr | grep *
+xrandr | grep '*'
+xrandr | grep '*' awk '{print $1}'
+xrandr | grep '*' | awk '{print $1}'
+xrandr | grep '*' | awk '{print $1}' | head -n 1
+res=1366x768
+ffmpeg -video_size $res -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/Videos/$(date +"%H_%M_%S--%d_%m_%y").flv &
+ffmpeg -video_size $res -framerate 60 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental -c:v libx264rgb -crf 0 -preset ultrafast /home/icat/Videos/$(date +"%H_%M_%S--%d_%m_%y").flv
+ll Videos/
+clear
+xdg-open Videos/21_47_22--16_09_23.flv 
+clear
+ll Videos/
+xdg-open Videos/21_49_09--16_09_23.flv 
+clear
+cd /media/icat/
+clear
+ll
+mkdir TOSHINBA
+sudo mkdir TOSHIBA
+clear
+ll
+sudo chown -R icat:icat TOSHIBA/
+clear
+ll
+sudo nano /etc/fstab 
+mount -a
+sudo systemctl daemon-reload 
+mount -a
+sudo mount -a
+sudo nano /etc/fstab 
+sudo mount /dev/sdb1 /media/icat/TOSHIBA/
+sudo systemctl daemon-reload 
+sudo mount /dev/sdb1 /media/icat/TOSHIBA/
+cd TOSHIBA/
+ll
+cd ..
+clear
+ll
+sudo chown -R icat:icat TOSHIBA/
+clear
+ll
+cd TOSHIBA/
+ll
+cd ..
+clear
+df -h -T
+sudo nano /etc/fstab 
+sudo umount /media/icat/TOSHIBA 
+sudo systemctl daemon-reload 
+ll TOSHIBA/
+mount -a
+sudo mount -a
+ll TOSHIBA/
+sudo timeshift-launcher 
+clear
+egrep -c '(vmx|svm)' /proc/cpuinfo
+sudo kvm
+sudo kvm-ok
+clear
+sudo apt update
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+sudo adduser icat libvirt
+sudo adduser icat kvm
+virsh list --all
+sudo systemctl status libvirtd
+sudo systemctl enable libvirtd
+sudo systemctl restart libvirtd
+sudo systemctl status libvirtd
+clear
+sudo apt-get install virt-manager 
+sudo virt-manager 
+clear
+sudo nano /etc/fstab 
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+clear
+lear
+clear
+systemctl daemon-reload 
+clear
+cd Downloads/
+ll
+clear
+cd
+clear
+cd /media/icat/
+clear
+ll
+clear
+fdisk -l
+sudo fdisk -l
+sudo blkid 
+sudo fdisk -l
+ll TOSHIBA/
+clear
+cd TOSHIBA/
+ll
+cd .secret/
+clear
+ll
+cp .info ~/
+bat
+clear
+bat ~/.bashrc 
+bat --list-themes 
+bat --theme=
+bat --theme="Dracula" .info 
+bat --theme="Dracula" ~/.bashrc 
+nano ~/.bashrc 
+bat ~/.bashrc 
+source ~/.bashrc 
+bat ~/.bashrc 
+ll
+neofetch 
+clear
+readme 
+clear
+readme 
+what, so what, now what
+sudo fdisk -l
+sudo nano /etc/fstab 
+systemctl daemon-reload 
+sudo fdisk -l
+cd Documents/
+clear
+ll
+nano .syncfd.sh
+chmod +x .syncfd.sh 
+clear
+ll
+clear
+ll
+clear
+ll /media/icat/TOSHIBA/
+ll Documents/
+sudo fdisk -l
+clear
+ll /media/icat/TOSHIBA/
+sudo umount /media/icat/TOSHIBA 
+clear
+sudo umount /media/icat/TOSHIBA 
+ll /media/icat/TOSHIBA/
+sudo fdisk -l
+clear
+sudo fdisk -l
+sudo nano /etc/fstab 
+ll /media/icat/TOSHIBA/
+sudo mount -a
+sudo fdisk -l
+clear
+lsusb 
+tail -f /var/log/kern.log 
+tail -f /var/log/syslog 
+tail -f /var/log/dmesg
+tail -f /var/log/kern.log 
+sudo fdisk -l
+sudo nano /etc/fstab 
+lsusb 
+clear
+systemctl daemon-reload 
+clear
+sudo mount -a
+ll /media/icat/TOSHIBA/
+cd Documents/
+ll
+nano .syncfd.sh 
+cd
+clear
+cd Documents/
+clear
+ll
+clear
+ll
+clear
+ll
+clear
+ll
+bash .syncfd.sh 
+clear
+ll
+cd .other/
+ll
+cd ..
+clear
+ll
+rm -r .other/
+sudo rm -r .other/
+clear
+ll
+clear
+ll
+bash .syncfd.sh 
+clear
+bash .syncfd.sh 
+ll
+ll .secret/
+ll bio/
+clear
+ll
+clear
+ll
+bash .syncfd.sh -s
+ll
+btop 
+nano .info 
+readme 
+cd App/
+clear
+ll
+make
+clear
+git clone https://github.com/aristocratos/btop.git
+cd btop/
+clear
+ll
+make install 
+clear
+ll
+sudo make install 
+btop
+sudo make uninstall 
+clear
+ll
+sudo apt-get install btop
+clear
+ll
+btop 
+ll ~/.config/btop/themes/
+cp themes/dracula.theme ~/.config/btop/themes/
+btop 
+cd
+clear
+nano .config/btop/
+nano .config/btop/btop.conf 
+killall virsh 
+ps axjf | grep virsh
+kill -9 97345
+virsh list --all
+virsh start windows-10 
+virsh console --domain windows-10
+virsh start windows-10 
+virt-viewer windows-10 
+virt-viewer windows-10 --full-screen 
+virt-viewer windows-10 --display=:0 
+ps axjf | grep virt
+clear
+bash /home/icat/.config/qtile/scripts/widget.sh -w start
+ps axjf | grep virt
+bash /home/icat/.config/qtile/scripts/widget.sh -w start
+ps axjf | grep virt
+clear
+bash /home/icat/.config/qtile/scripts/widget.sh -w start
+sudo virt-manager 
+cd Documents/
+clear
+ll
+pwd
+clear
+virt-manager 
+virt-viewer windows-10 --display=:0 
+virsh shutdown --domain windows-10 
+virsh start --domain windows-10 && virt-viewer windows-10 
+subl .config/qtile/
+virt-manager 
+virsh console --domain windows-10 --safe 
+virsh edit --domain windows-10 
+clear
+virt-manager --connect qemu:///system --show-domain-console windows-10
+virsh shutdown windows-10 
+ps axjf | grep vir
+kill -9 177597
+ps axjf | grep virsh
+ps axjf | grep virt-manager
+ps a | grep virt-manager
+ps axjf | grep virt-manager
+ps a
+ps axjf | grep virt-manager
+ps axjf | grep virt-manager | tail -n 1
+ps axjf | grep virt-manager | tail -n 1 | awk '{print $2}'
+virsh shutdown windows-10 
+ps axjf | grep virt-manager | tail -n 1 | awk '{print $2}'
+kill -9 $(ps axjf | grep virt-manager | tail -n 1 | awk '{print $2}')
+killall virt-manager
+ps axjf | grep virt
+ps axjf | grep virsh
+btop 
+virt-manager 
+killall virt-manager
+sudo killall virt-manager
+subl .mozilla/firefox/uam5b38j.default-release/chrome/userChrome.css 
+subl /home/icat/.mozilla/firefox/uam5b38j.default-release/chrome/userChrome.css 
+cd /media/icat/TOSHIBA/
+ll
+cd
+clear
+sudo mount -a
+cd /media/icat/TOSHIBA/
+ll
+cd
+clear
+sudo apt-get update 
+sudo apt-get install onlyoffice
+cd Downloads/
+clear
+ll
+sudo apt-get install ./onlyoffice-desktopeditors_amd64.deb 
+nano ~/.bashrc 
+which onlyoffice-desktopeditors 
+nano ~/.bashrc 
+source ~/.bashrc 
+ll
+sudo apt-get install ./zoom_amd64.deb 
+zoom 
+cd Documents/
+clear
+ll
+bash .syncfd.sh -s
+clear
+ll
+cd career/
+ll
+cd cpns-2023/
+clear
+l
+clear
+ll
+mkdir BIN
+cp BSSN/Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.docx BIN/
+cd BIN/
+clear
+ll
+mv Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.docx Surat\ Formasi\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+clear
+ll
+onlyoffice Surat\ Formasi\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+ps axjf | grep zoom
+killall zoom
+clear
+cd Documents/
+clear
+ll
+sudo mount -a
+sudo fdisk -l
+clear
+sudo fdisk -l
+sudo mount -a
+clear
+ll
+nano .syncfd.sh 
+cd ~/Documents/
+clear
+ll
+clear
+bash .syncfd.sh -r
+clear
+ll
+clear
+bash .syncfd.sh -r
+clear
+sudo bash .syncfd.sh -r
+clear
+cd /media/icat/TOSHIBA/
+clear
+ll
+cd doc/
+clear
+ll
+subl ~/Documents/.syncfd.sh 
+clear
+ll
+ll ..
+cd ..
+clear
+ll
+clear
+ll
+cd doc/
+clear
+ll
+cd career/cpns-2023/
+clear
+ll
+ll BIN/
+onlyoffice BIN/Surat\ Formasi\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+onlyoffice-desktopeditors BIN/Surat\ Formasi\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+nano ~/.bashrc 
+source ~/.bashrc 
+clear
+ll
+cd
+clear
+readme 
+subl .config/kitty/kitty.conf 
+cd
+cd Downloads/
+clear
+ll
+mv Podman-basics-cheat-sheet-Red-Hat-Developer.pdf ~/Documents/other/
+bat /etc/environment
+sudo nano /etc/environment
+nano .info 
+cd App/
+cler
+clear
+ll
+cat ~/.bashrc | grep json
+git clone https://github.com/gulyasm/jsonui.git
+cd jsonui/
+clear
+ll
+go build
+go mod init jsonui
+go mod tidy
+go build
+go get -u github.com/gulyasm/jsonui
+sudo go get -u github.com/gulyasm/jsonui
+go mod tidy
+sudo go mod tidy
+ll
+cat go.mod 
+readme 
+clear
+podman image ls
+clear
+ll .local/bin/
+podman container ls -a
+which synclient 
+whatis synclient 
+which ranger 
+sudo mv /usr/bin/ranger ~/.local/bin/
+which ranger 
+which synclient 
+which synclient ~/.local/bin/
+sudo mv $(which synclient) ~/.local/bin/
+sudo mv $(which ranger) /usr/bin/ 
+sudo mv $(which synclient) /usr/bin/ 
+clear
+source ~/.bashrc 
+nano ~/.bashrc 
+which exa
+sudo mv $(which exa) ~/.local/bin/
+sudo mv $(which exa) /usr/bin/
+ll
+clear
+ll
+go version
+java --version
+java -version
+javac -version
+nano .bashrc 
+cat .bashrc | grep sync
+nano .profile 
+nano .bashrc 
+which bat
+bat .bashrc 
+nano .bashrc 
+source .bashrc 
+bat .bashrc 
+nano .bashrc 
+source .bashrc 
+bat .bashrc 
+readme 
+netstat -tan
+clear
+readme 
+nmap
+clear
+readme 
+cd Downloads/
+clear
+l
+mv burpsuite_community_linux_v2023_10_1_1.sh ~/App/
+cd ~/App/
+clear
+ll
+mkdir burpsuite
+mv burpsuite_community_linux_v2023_10_1_1.sh burpsuite
+clear
+ll
+cd burpsuite/
+bash burpsuite_community_linux_v2023_10_1_1.sh 
+cd
+cd App/b
+cd App/burpsuite/
+ll
+cd BurpSuiteCommunity/
+ll
+cd
+ln -s /home/icat/App/burpsuite/BurpSuiteCommunity/BurpSuiteCommunity /home/icat/.local/bin/
+clear
+BurpSuiteCommunity 
+which java
+which go
+cd /opt/go/go/
+ll
+cd bin/
+ll
+./go version
+cd
+go version
+cd /opt/
+ll
+ll go/
+ll go/go/
+clear
+ll
+ll jdk/
+ll jdk/jdk1.8.0_371/
+CLEAR
+cd
+subl .bashrc 
+cd /opt/
+clear
+ll
+export PATH
+echo $PATH
+sudo nano /etc/environment
+cclear
+clear
+ll
+clear
+ll
+sudo mv go/ ~/.local/share/
+sudo mv jdk/ ~/.local/share/
+ll
+cd ~/.local/share/
+pwd
+source ~/.bashrc 
+go version
+java -version
+javac -version
+which go
+which java
+which BurpSuiteCommunity 
+cd ../bin/
+mv BurpSuiteCommunity burpsuite
+source ~/.bashrc 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install bash-completion apt-file
+source ~/.bashrc 
+ranger
+sudo apt-get install ranger
+source ~/.bashrc 
+synclient
+ll
+wget
+ll
+cd ..
+clear
+ll
+cd
+clear
+ll
+source ~/.bashrc 
+ll
+clear
+cd App/
+clear
+ll
+ls
+mkdir exa
+cd exa/
+wget https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
+clear
+ll
+ls
+unzip
+sudo apt-get install unzip
+unzip exa-linux-x86_64-v0.10.0.zip 
+clear
+l
+ls -la
+cd bin/
+ls
+sudo mv exa /usr/bin/
+ll
+cd
+ll
+clear
+ll
+ll | grep bash
+ll | grep profile
+cat .profile 
+bat
+sudo apt install bat
+ll
+bat .bashrc 
+source .bashrc 
+bat .bashrc 
+bat --list-themes
+source .bashrc 
+bat --list-themes
+bat .bashrc 
+clear
+sudo apt-get install nmap socat ncat
+ncat -lnvp 666
+ncat -lnvp 6666
+clear
+sudo apt-get install steghide nikto masscan hydra john
+sudo apt-get install exif sqlmap
+clear
+wireshark
+sudo apt-get install wireshark
+wireshark 
+clear
+go version
+source .bashrc 
+go version
+java -version
+clear
+readme 
+tcpdump
+sudo apt-get install tcpdump
+readme 
+clear
+burpsuite 
+exit
+ll
+cd App/
+clear
+ll
+mkdir distrobox
+cd distrobox/
+clear
+podman search docker.io/library/ubuntu:20.04
+podman search docker.io/ubuntu:20.04
+clear
+podman image ls
+clear
+podman pull docker.io/library/ubuntu:20.04
+clear
+htop
+btop 
+clear
+ll
+clear
+podman image ls
+subl 
+killall compton 
+source ~/.bashrc 
+clear
+podman image ls
+podman search docker.io/ubuntu:20.04
+clear
+podman search docker.io/ubuntu:20.04
+clear
+podman image ls
+distrobox create --image docker.io/library/ubuntu:20.04 --name pwnbuntu
+distrobox enter pwnbuntu
+distrobox stop pwnbuntu
+reboot 
+echo $PATH
+clear
+cd App/
+mkdir .config/zathura
+touch .config/zathura/zathurarc
+nano .config/zathura/zathurarc 
+cd App/jsonui/
+clear
+ll
+rm go.mod 
+clear
+go build
+go mod init
+go mod init .
+ll
+make
+clear
+go build .
+go mod init jsonui
+go mod tidy
+sudo chown -R icat:icat ~/.local/share/go
+go mod tidy
+clear
+ll
+go build .
+ll
+./jsonui test_big.json 
+./jsonui < test_big.json 
+ln -s /home/icat/App/jsonui/jsonui /home/icat/.local/bin/
+ll
+cd ..
+clear
+ll
+sudo fdisk -l
+clear
+ll
+clear
+cd
+clear
+readme 
+zathura
+sudo apt-get install zathura
+zathura --help
+man zathura
+zathura Documents/bio/resume.pdf 
+subl 
+subl .config/kitty/kitty.conf 
+xinput list
+cd Documents/
+ll
+cd project/
+cd ..
+cd career/
+clear
+ll
+cd ..
+cd project/
+clear
+ll
+mkdir visionet
+clear
+ll
+cd visionet/
+cd
+tree /
+clear
+btop 
+subl Documents/project/visionet/
+deluge
+sudo apt-get install deluge
+ll
+pwd
+nano .info 
+cd /home/icat/Documents/Zoom/2023-09-19 14.50.05 Visionet CyberSec Bootcamp
+cd /home/icat/Documents/Zoom/2023-09-19\ 14.50.05\ Visionet\ CyberSec\ Bootcamp/
+clear
+sudo virt-manager 
+killall zoom
+cd Downloads/
+ll
+cd /media/icat/TOSHIBA/
+clear
+ll
+cd Downloads/
+7z
+sudo apt-get install p7zip-full 
+vlear
+clear
+ll
+htop
+clear
+ll
+subl ~/.config/kitty/kitty.conf 
+htop
+cd Downloads/
+clear
+ll
+clear
+cd /media/icat/TOSHIBA/
+clear
+clear
+cd Downloads/
+clear
+cd /media/icat/
+cd
+cd Downloads/
+clear
+ll
+clear
+cd Downloads/
+clear
+ll
+mkdir ubuntu
+mv 64bit.7z ubuntu/
+cd ubuntu/
+clear
+ll
+7z x 64bit.7z 
+cd Downloads/
+clear
+ll
+clear
+l
+clear
+mkdir kali
+mv kali*7z kali/
+cd kali/
+ll
+clear
+7z x kali-linux-2023.3-vmware-amd64.7z 
+sudo virt-manager 
+cd Downloads/ubuntu/
+clear
+ll
+cd 64bit/
+clear
+ll
+btop 
+cd Downloads/
+mkdir xubuntu
+mv 64bit.7z xubuntu/
+cd xubuntu/
+clear
+ll
+7z x 64bit.7z 
+distrobox enter pwnbuntu 
+cd Downloads/
+clear
+du -h
+clear
+ll
+crontab -e
+pwd
+crontab -e
+mkdir lmao
+mkdir lmao/maoawd
+rm -r lmao/*
+ll lmao/
+clear
+ll
+rm ZAP_2_13_0_unix.sh 
+clear
+ll
+clear
+ll
+cd Downloads/
+clear
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.13.0/ZAP_2_13_0_unix.sh
+chmod +x ZAP_2_13_0_unix.sh 
+./ZAP_2_13_0_unix.sh 
+rm ZAP_2_13_0_unix.sh 
+clear
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.11.1/ZAP_2_11_1_unix.sh
+clear
+ll
+chmod +x ZAP_2_11_1_unix.sh 
+clear
+ll
+./ZAP_2_11_1_unix.sh 
+clear
+sudo ./ZAP_2_11_1_unix.sh 
+java --version
+java -version
+javac -version
+which java
+export INSTALL4J_JAVA_HOME=/home/icat/.local/share/jdk/jdk1.8.0_371/jre
+sudo ./ZAP_2_11_1_unix.sh 
+echo $PATH
+nano /etc/environment
+sudo apt-get install nano
+nano /etc/environment
+sudo nano /etc/environment
+nano ~/.bashrc 
+source ~/.bashrc 
+clear
+sudo ./ZAP_2_11_1_unix.sh 
+echo $INSTALL4J_JAVA_HOME 
+$INSTALL4J_JAVA_HOME/bin/java -version 
+nano ~/.bashrc 
+source ~/.bashrc 
+ll
+clear
+java --alternative
+sudo apt-get install default-jdk
+exit
+clear
+java -version
+javac -version
+sudo update-alternatives --config java
+exit
+java -version
+javac -version
+clear
+cd Downloads/
+clear
+ll
+rm ZAP_2_11_1_unix.sh 
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.13.0/ZAP_2_13_0_unix.sh
+clear
+chmod +x ZAP_2_13_0_unix.sh 
+cler
+clear
+ll
+sudo ./ZAP_2_13_0_unix.sh 
+xhost +local:
+sudo apt-get install x11-xserver-utils
+xhost +local:
+sudo ./ZAP_2_13_0_unix.sh 
+zap
+sudo ./ZAP_2_13_0_unix.sh 
+zaproxy
+cd /usr/bin/
+ll
+exit
+zap.sh 
+which zap.sh 
+sudo mv /usr/local/bin/zap.sh /usr/local/bin/zaproxy
+clear
+exit
+distrobox enter pwnbuntu 
+distrobox stop pwnbuntu 
+distrobox enter pwnbuntu 
+distrobox stop pwnbuntu 
+distrobox enter pwnbuntu 
+distrobox stop pwnbuntu 
+distrobox enter pwnbuntu 
+distrobox stop pwnbuntu 
+sudo nano /etc/environment
+cd /opt/
+ll
+sudo nano /etc/environment
+nano ~/.bashrc 
+source ~/.bashrc 
+java -version
+javac -version
+clear
+which java
+which javac
+cd .local/share/
+clear
+ll
+sudo mv jdk/ /opt/
+ll
+cd /opt/
+clear
+ll
+pwd
+cd jdk/
+pwd
+cd ..
+clear
+pwd
+ll jdk/jdk1.8.0_371/
+cd jdk/jdk1.8.0_371/
+clear
+pwd
+systemctl suspend
+cd App/
+clear
+ll
+git clone https://github.com/polarpwn/polarpwn.gg.git
+subl polarpwn.gg/
+btop 
+podman container ls -a
+cd /tmp/
+clear
+bash ok.sh 
+clear
+bash ok.sh 
+clear
+bash ok.sh 
+cd /tmp/
+nano num.txt
+clear
+cat num.txt 
+clear
+a=2 && while IFS= read -r line; do echo $line ;done < num.txt 
+clear
+a=2 && while IFS= read -r line; do  ;done < num.txt 
+b=5
+for i in {2..$b}; do echo $i; done
+for i in {2..b}; do echo $i; done
+for i in `seq 2 $b`; do echo $i; done
+clear
+for i in `seq 2 $b`; do echo $i; done
+a=2 && while IFS= read -r line; do for i in `seq 2 $line` do if [[ $((line%i)) -eq 0 ]] then break; fi; echo $line; done; done < num.txt 
+a=2 && while IFS= read -r line; do for i in `seq 2 $line` do if [[ $((line%i)) -eq 0 ]] then break fi; echo $line; done; done < num.txt 
+while IFS= read -r line; do for i in `seq 2 $line` do if [[ $((line%i)) -eq 0 ]] then break; fi; echo $line; done; done < num.txt 
+nano ok.sh
+ssh
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+cd Documents/
+clear
+ll
+bash .syncfd.sh -r
+cd ~/Downloads/
+clear
+l
+cp Formasi\ CASN\ BIN\ 2023\ lowongankerja15com.pdf ~/Documents/career/appendix/
+cd -
+clear
+ll /media/icat/TOSHIBA/
+rm -r /media/icat/TOSHIBA/
+rm -r /media/icat/TOSHIBA/*
+ll /media/icat/TOSHIBA/
+clear
+sudo mount -a
+sudo fdisk -l
+sudo systemctl daemon-reload 
+clea
+clear
+sudo mount -a
+ll
+bash .syncfd.sh -r
+clear
+sudo bash .syncfd.sh -r
+cd /media/icat/TOSHIBA/doc/career/appendix/
+ll
+cd
+cd -
+ll
+cd Documents/
+clear
+ll
+cd career/cpns-2023/
+clear
+ll
+zathura Ijazah\ -\ Muhammad\ Nur\ Irsyad.pdf 
+find / -type f -regex '.*.' 
+find / -type f -regex '.*.' -exec ls -la {} \;
+find / -type f -regex '.*.' -exec ls -la {} \; | grep -E 'doc'
+find / -type f -regex '.*.' -exec ls -la {} \; | grep -e '.doc'
+find / -type f -regex '.*.' -exec ls -la {} \; | grep '.doc'
+find / -type f -regex '.*.' -exec ls -la {} \; | grep '.doc' > ok.txt
+clear
+ll
+rm ok.txt 
+clear
+ll
+ps axjf | grep ssh
+kill -9 740009
+ps axjf | grep ssh
+ll
+cd /tmp/
+clear
+ll
+strings ok.sh 
+file tmpaddon a
+file tmpaddon 
+strings tmpaddon 
+cat tmpaddon 
+ps axjf
+ps axjf | grep ssh
+clear
+cd
+clear
+man ls
+cd Documents/career/cpns-2023/
+clear
+ll
+clear
+zathura KK\ -\ Muhammad\ Nur\ Irsyad.pdf 
+xdg-open ~/Downloads/WhatsApp\ Image\ 2023-09-21\ at\ 21.01.09\(1\)\(1\).jpeg 
+cd  ~/Downloads/WhatsApp\ Image\ 2023-09-21\ at\ 21.01.09\(1\)\(1\).jpeg KTP.jpeg
+cp  ~/Downloads/WhatsApp\ Image\ 2023-09-21\ at\ 21.01.09\(1\)\(1\).jpeg KTP.jpeg
+ll
+mv KTP.jpeg KTP\ -\ Muhammad\ Nur\ Irsyad.jpeg 
+clear
+ll
+zathura KK\ -\ Muhammad\ Nur\ Irsyad.pdf 
+ll
+onlyoffice-desktopeditors Surat\ Pernyataan\ Belum\ Menikah\ -\ Muhammad\ Nur\ Irsyad.docx 
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+killall zoom
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+sudo umount /media/icat/TOSHIBA 
+killall firefox
+ps axjf | grep fire
+killall firefox
+killall firefox-bin 
+cd Downloads/
+ll
+mv CTF.zip ~/Documents/project/visionet/
+cd Documents/career/cpns-2023/
+clear
+zathura Ijazah\ -\ Muhammad\ Nur\ Irsyad.pdf 
+zathura Transkrip\ -\ Muhammad\ Nur\ Irsyad.pdf 
+zathura Ijazah\ -\ Muhammad\ Nur\ Irsyad.pdf 
+ll
+cd ../../
+cd bio/
+ll
+cd ..
+cd career/cert/
+clea
+clear
+ll
+zathura AutomateAll-intern.pdf 
+cp ~/Downloads/Signed_53_Muhammad\ Nur\ Irsyad.pdf ../cpns-2023/PKWT Automate All - Muhammad Nur Irsyad
+cp ~/Downloads/Signed_53_Muhammad\ Nur\ Irsyad.pdf ../cpns-2023/PKWT\ Automate\ All\ -\ Muhammad\ Nur\ Irsyad.pdf
+cd ../../
+cd career/cpns-2023/
+zathura PKWT\ Automate\ All\ -\ Muhammad\ Nur\ Irsyad.pdf 
+ll
+cp ~/Downloads/Signed_53_Muhammad\ Nur\ Irsyad_11zon.pdf ../cpns-2023/PKWT\ Automate\ All\ -\ Muhammad\ Nur\ Irsyad.pdf
+ll
+cp ~/Downloads/Pi7_Signed_53_Muhammad_Nur_Irsyad_11zon.pdf ../cpns-2023/PKWT\ Automate\ All\ -\ Muhammad\ Nur\ Irsyad.pdf
+zathura PKWT\ Automate\ All\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cp ~/Downloads/Muhammad\ Nur\ Irsyad\ -\ Perjanjian\ Pemagangan-3_11zon.pdf ../../career/cpns-2023/PKWT\ Visionet -\ Muhammad\ Nur\ Irsyad.pdf 
+cp ~/Downloads/Muhammad\ Nur\ Irsyad\ -\ Perjanjian\ Pemagangan-3_11zon.pdf ../../career/cpns-2023/PKWT\ Visionet\ -\ Muhammad\ Nur\ Irsyad.pdf 
+ll
+clear
+zathura PKWT\ Visionet\ -\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+sudo apt-get update
+sudo apt-get install bash-completion build-essential
+sudo apt-get install snap
+sudo snap install powershell --classic
+snap
+whatis snap
+sudo apt-get install snapd
+sudo snap install powershell --classic
+snap help login
+clear
+sudo apt-get install powershell --classic
+sudo apt-get install powershell 
+snap help login
+sudo snap install powershell --classic
+snap login
+sudo snap login
+snap help login
+exit
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 22
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 2230
+ssh bandit18@bandit.labs.overthewire.org -p 2220
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+ssh bandit18@bandit.labs.overthewire.org -p 2220 "ls -la"
+ssh bandit17@bandit.labs.overthewire.org -p 2220 "cat .bashrc"
+ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit21@bandit.labs.overthewire.org -p 2220
+ssh bandit22@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit23@bandit.labs.overthewire.org -p 2220
+ssh bandit24@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit24@bandit.labs.overthewire.org -p 2220
+distrobox create winpwn
+podman image ls
+distrobox create winpwn --image docker.io/library/ubuntu:20.04
+distrobox enter winpwn 
+podman stop winpwn 
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit250@bandit.labs.overthewire.org -p 2220
+ssh bandit25@bandit.labs.overthewire.org -p 2220
+clear
+ssh bandit25@bandit.labs.overthewire.org -p 2220
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+cp Downloads/TOEFL\ -\ Muhammad\ Nur\ Irsyad_11zon.pdf Documents/career/cpns-2023/TOEFL\ -\ Comp\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cd Documents/career/cpns-2023/
+clear
+zathura Ijazah\ -\ Muhammad\ Nur\ Irsyad.pdf 
+zathura Transkrip\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cp ~/Downloads/Transkrip\ -\ Muhammad\ Nur\ Irsyad_11zon.pdf ./Transkrip\ -\ Comp\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cd BIN/
+clear
+ll
+onlyoffice-desktopeditors Surat\ Formasi\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+mv Surat\ Formasi\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx Surat\ Lamaran\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+onlyoffice-desktopeditors Surat\ Lamaran\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+cd Documents/project/
+clear
+ll
+cd visionet/
+clear
+ll
+mkdir doc
+cd Documents/bio/
+clear
+ll
+zathura transkrip-pnj.pdf 
+cp transkrip-pnj.pdf ../career/cpns-2023/Transkrip\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cd ../career/cpns-2023/
+clear
+ll
+cd ..
+clear
+ll
+cd ..
+cd bio/
+clear
+ll
+btop
+cd Downloads/
+clear
+ls -la
+cp 08d860f7-ca32-4677-ae6e-5f997ff3bf72.pdf ~/Documents/career/cpns-2023/BIN/Lampiran.pdf
+ll ~/Documents/career/cpns-2023/BIN/
+clear
+cp Irsyad.png ~/Documents/bio/signature.png
+cd Documents/career/appendix/
+clear
+ll
+mv Formasi\ CASN\ BIN\ 2023\ lowongankerja15com.pdf Formasi.pdf
+cp Formasi.pdf ../cpns-2023/BIN/
+clear
+cd ../cpns-2023/BIN/
+clear
+ll
+clear
+l
+cp Surat\ Lamaran\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx Surat\ Pernyataan\ BIN\ -\ Muhammad\ Nur\ Irsyad.docx 
+clear
+ll
+reboot 
+ls -la
+clear
+ifconfig 
+clear
+ssh hotpo@192.168.122.125 -p 22
+cd Documents/career/co
+cd Documents/career/cpns-2023/
+clear
+ll
+cd ../../project/
+clear
+l
+cd visionet/
+clear
+ll
+rm Windows\ Fundamental\ Test\ -\ Muhammad\ Nur\ Irsyad.pdf 
+clear
+ll
+cd doc/
+clear
+ll
+cp Windows\ Fundamental\ Test.docx Windows\ CMD\ Question.docx 
+clear
+ll
+mv Windows\ CMD\ Question.pdf Windows\ CMD\ Question\ -\ Muhammad.pdf 
+mv Windows\ CMD\ Question\ -\ Muhammad.pdf Windows\ CMD\ Question\ -\ Muhammad\ Nur\ Irsyad.pdf 
+cd Pictures/
+ll
+xfce4-screenshooter -w -o win-cmd-8.png
+ll
+sudo virt-manager 
+cd Documents/project/
+clear
+ll
+cd visionet/
+clear
+ll
+unzip CTF.zip -d CTF
+clear
+ll
+cd CTF/
+clear
+l
+ll
+cd ..
+clear
+ll
+rm -r CTF
+clear
+ll
+unzip CTF.zip
+clear
+ll
+file CTF.zip 
+clear
+ll
+unzip -P CtF112233@VdIll CTF.zip 
+clear
+ll
+unzip -P CtF112233@VdIll CTF.zip 
+7zip
+clear
+sudo apt-get install p7zip-full
+clear
+ll
+7z x CTF.zip 
+clear
+ll
+clear
+ll
+mkdir CTF
+mv CTF* CTF/
+ll
+cd CTF/
+clear
+ll
+tar xvf CTF.ova
+clear
+ll
+clear
+ll
+qemu-img convert -O qcow2 CTF-disk1.vmdk CTF-disk.qcow2
+cat CTF.ovf 
+clear
+killall firefox
+ps axjf | grep firefox
+killall firefox-bin 
+clear
+cd Documents/project/visionet/
+ll
+nano sshkey.26.private 
+clear
+ll
+chmod 600 sshkey.26.private 
+clear
+ll

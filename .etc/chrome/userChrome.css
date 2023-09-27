@@ -150,12 +150,13 @@ by Miguel Avila
 }
 
 /* Bookmarks bar  */
-.bookmark-item .toolbarbutton-icon {
-  display: none;
+/*.bookmark-item .toolbarbutton-icon {
+  display: inherit;
 }
 toolbarbutton.bookmark-item:not(.subviewbutton) {
   min-width: 1.6em;
 }
+*/
 
 /* Toolbar  */
 #tracking-protection-icon-container,
@@ -185,7 +186,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context-inspect-a11y,
 #context-sendlinktodevice,
 #context-openlinkinusercontext-menu,
-#context-bookmarklink,
+/*#context-bookmarklink,*/
 #context-savelink,
 #context-savelinktopocket,
 #context-sendlinktodevice,
@@ -195,7 +196,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   display: none !important;
 }
 
-#context_bookmarkTab,
+/*#context_bookmarkTab,*/
 #context_moveTabOptions,
 #context_sendTabToDevice,
 #context_reopenInContainer,

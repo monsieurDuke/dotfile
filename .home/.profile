@@ -27,3 +27,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 export PATH=$PATH:/usr/local/go/bin
 . "$HOME/.cargo/env"
+
+synclient VertScrollDelta=100
+synclient HorizScrollDelta=100
+synclient HorizTwoFingerScroll=1

@@ -154,6 +154,13 @@ screens = [
                 # widget.StatusNotifier(),
                 # widget.Systray(),
                 widget.TextBox("[[", name="default",foreground="#ffffff"),           
+                widget.TextBox("WIN", name="default",foreground="#9ddcfc",
+                    mouse_callbacks = {
+                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -w start'),
+                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -w stop') 
+                    },                    
+                ),                                                                
+                widget.TextBox("|", name="default",foreground="#ffffff"),                           
                 widget.TextBox("SET", name="default",foreground="#bd93f9", scroll=True,
                     mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-settings-manager')}
                 ),
