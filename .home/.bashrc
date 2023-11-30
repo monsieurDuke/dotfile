@@ -4,7 +4,7 @@
 
 export BAT_THEME="ansi-dark"
 export TERM=xterm
-PATH="$HOME/.local/bin:/opt/jdk/jdk1.8.0_371/jre/bin:/opt/jdk/jdk1.8.0_371/bin:/home/icat/.local/share/go/go/bin/:/home/icat/.local/share/go/go:$PATH"
+PATH="$HOME/.local/bin:/opt/jdk/jdk1.8.0_371/jre/bin:/opt/jdk/jdk1.8.0_371/bin:/opt/go/go/bin:/opt/go/go:$PATH"
 
 # If not running interactively, don't do anything
 case $- in
@@ -99,8 +99,9 @@ alias readme='cat /home/icat/.info'
 # alias burpsuite='bash /home/icat/App/BurpSuiteCommunity/BurpSuiteCommunity & disown'
 alias zoom='zoom & disown'
 alias recascii='bash /home/icat/.recascii'
-alias bat='batcat'
-#alias onlyoffice='/usr/bin/onlyoffice-desktopeditors'
+alias bat='batcat --theme=ansi'
+alias rcp='rsync -ah --progress'
+alias nv='nvim'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
