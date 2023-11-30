@@ -10,17 +10,17 @@
       <property name="RefreshRate" type="double" value="60.003140703517587"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
+      <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
+        <property name="X" type="int" value="1366"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-1" type="string" value="Lenovo 19&quot;">
+    <property name="HDMI-1" type="string" value="Lenovo Group Limited 19&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="c9b4fb5943e6fcb4d17711b258340097ba32e45e"/>
       <property name="Resolution" type="string" value="1366x768"/>
@@ -33,7 +33,7 @@
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="1366"/>
+        <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
@@ -46,17 +46,17 @@
       <property name="RefreshRate" type="double" value="60.003140703517587"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
+      <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
+        <property name="X" type="int" value="1366"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-1" type="string" value="Lenovo 19&quot;">
+    <property name="HDMI-1" type="string" value="Lenovo Group Limited 19&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="c9b4fb5943e6fcb4d17711b258340097ba32e45e"/>
       <property name="Resolution" type="string" value="1366x768"/>
@@ -69,7 +69,7 @@
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="1366"/>
+        <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>

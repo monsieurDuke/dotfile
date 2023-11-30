@@ -1,24 +1,24 @@
-favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop,xfhelp4.desktop
-recent=xfce4-terminal-emulator.desktop,xfce-display-settings.desktop,software-properties-gtk.desktop,xfce4-web-browser.desktop
-button-icon=xubuntu-logo-menu
+favorites=org.gnome.Calculator.desktop,mintinstall.desktop,xfce4-taskmanager.desktop
+recent=mintsources.desktop
+button-icon=linuxmint-logo-ring-symbolic
 button-single-row=false
 show-button-title=false
 show-button-icon=true
 launcher-show-name=true
-launcher-show-description=false
+launcher-show-description=true
 launcher-show-tooltip=true
-launcher-icon-size=1
-hover-switch-category=false
+launcher-icon-size=2
+hover-switch-category=true
 category-show-name=true
-category-icon-size=0
-sort-categories=false
-view-mode=2
+category-icon-size=1
+sort-categories=true
+view-mode=1
 default-category=0
 recent-items-max=10
 favorites-in-recent=true
 position-search-alternate=true
 position-commands-alternate=false
-position-categories-alternate=false
+position-categories-alternate=true
 position-categories-horizontal=false
 stay-on-focus-out=false
 profile-shape=0
@@ -48,7 +48,7 @@ command-menueditor=menulibre
 show-command-menueditor=true
 command-profile=mugshot
 show-command-profile=true
-search-actions=5
+search-actions=6
 
 [action0]
 name=Man Pages
@@ -57,26 +57,32 @@ command=exo-open --launch TerminalEmulator man %s
 regex=false
 
 [action1]
+name=Search the Web
+pattern=?
+command=exo-open --launch WebBrowser https://duckduckgo.com/?q=%u
+regex=false
+
+[action2]
+name=Search for Files
+pattern=-
+command=catfish --path=~ --start %s
+regex=false
+
+[action3]
 name=Wikipedia
 pattern=!w
 command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
 regex=false
 
-[action2]
+[action4]
 name=Run in Terminal
 pattern=!
 command=exo-open --launch TerminalEmulator %s
 regex=false
 
-[action3]
+[action5]
 name=Open URI
 pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true
-
-[action4]
-name=Search for files
-pattern=-
-command=catfish --path=~ --start %s
-regex=false
 

@@ -32,8 +32,10 @@ ffmpeg_record() { ## -f \\ start & stop
 virt_win10() {
 	case $1 in
 		"start")
+			export LIBVIRT_DEFAULT_URI="qemu:///system"
 			virsh start windows-10 &&
-			virt-manager --connect qemu:///system --show-domain-console windows-10
+			virt-viewer -f -w -a windows-10
+			## virt-manager --connect qemu:///system --show-domain-console windows-10
 			;;
 		"stop")
 			virsh shutdown windows-10 &&

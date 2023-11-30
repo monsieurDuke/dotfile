@@ -1,0 +1,2 @@
+hi Normal guibg=NONE ctermbg=NONE
+autocmd bufwritepost .vimrc source ~/.vimrc

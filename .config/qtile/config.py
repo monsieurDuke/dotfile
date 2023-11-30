@@ -187,7 +187,8 @@ screens = [
                 ),                                
                 widget.TextBox("]]", name="default",foreground="#ffffff"),                           
                 widget.Pomodoro(color_inactive='#BF616A', color_active='#50fa7b', color_break='#ffb86c'),
-				widget.Net(interface="wlp2s0", format='{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}', prefix='M',foreground="#f1fa8c",
+				widget.Net(interface="wlp2s0",format='{down:4.2f}{down_suffix:<2} ↓↑ {up:4.2f}{up_suffix:<2}',prefix='M',foreground="#f1fa8c",
+                                # widget.Net(interface="wlp2s0", format='{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}', prefix='M',foreground="#f1fa8c",
                     mouse_callbacks = {'Button1': lambda: qtile.spawn('nm-connection-editor')} 
                 ),
                 widget.Clock(format="%Y-%m-%d | %I:%M:%S %p",foreground="#ff79c6",
