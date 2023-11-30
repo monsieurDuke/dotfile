@@ -12,7 +12,7 @@ ENDCOLOR="\e[0m"
 TIMEFORMAT=%0lR
 #----------
 usage() {
-	echo -e "sync (1.00)\nAuto manager for your DE into a full bloom Qtile WM\n"
+	echo -e "sync (1.11b)\nAuto manager for your DE into a full bloom Qtile WM\n"
 	echo -e "USAGE:\n  bash sync.sh [OPTIONS]\n"	
 	echo -e "OPTIONS:\
          \n  -s (sync)\n\tSyncing local dotfiles to the repository\
@@ -66,7 +66,7 @@ backup_sync() {
 			cp $home/$i ./.home
 			done
 			sudo cp /usr/share/xsessions/qtile.desktop ./.home
-		bu_dirs=(asciinema gtk-3.0 kitty neofetch qtile ranger sublime-text-3 onlyoffice xfce4 zathura)
+		bu_dirs=(asciinema gtk-3.0 kitty neofetch qtile ranger sublime-text-3 onlyoffice xfce4 zathura btop nvim )
 		for j in ${bu_dirs[@]}; do
 			cp -r $home/.config/$j ./.config
 			done
@@ -76,6 +76,7 @@ backup_sync() {
 			done
 		((inc++)); } ; echo -en "${ENDCOLOR}" ; 
 		cp -r /home/icat/.local/share/xfce4 ./.home 	## /home/icat/.local/share
+		cp -r /home/icat/.local/share/nvim ./.home      ## nvim lazy plugins
 		}
 #----------
 # programming: java & go
@@ -92,7 +93,7 @@ install_app() {
 		sudo cp -rf .etc/jdk-8u371-linux-x64.tar.gz /opt/jdk/
 		sudo tar -zxf /opt/jdk/jdk-8u371-linux-x64.tar.gz -C /opt/jdk/
 		echo -e "JAVA_HOME=\"/opt/java/jdk1.8.0_371/\"\nJRE_HOME=\"/opt/jdk/jdk1.8.0_371/jre\"" >> /etc/environment
-		sudo tar -C /opt/go -zxf .etc/go1.20.6.linux-amd64.tar.gz
+		sudo tar -C /opt/go -zxf .etc/go1.21.1.linux-amd64.tar.gz
 		echo -e "GOPATH=\"/opt/go/go\"\nGOBIN=\"/opt/go/go/bin/\"" >> /etc/environment
 		source /etc/environment
 		((inc++)); } ; echo -en "${ENDCOLOR}"
@@ -127,13 +128,13 @@ install_qtile() {
 	echo -en "[${BLUE}$inc/$prc${ENDCOLOR}]: Installing ${GREEN}Qtile${ENDCOLOR} and its dependencies ... ${BLUE}"
 	time {
 		[[ ! -d "$home/.local/bin" ]] && mkdir $home/.local/bin	
-		python3 -m venv .
-		source bin/activate
-		git clone https://github.com/qtile/qtile.git 2>> error.log > /dev/null
-		pip install psutil 2>> error.log > /dev/null
-		pip install qtile/ 2>> error.log > /dev/null
-		cp bin/qtile $home/.local/bin/
-		export PATH="$HOME/.local/bin:$PATH"
+		#python3 -m venv .
+		#source bin/activate
+		#git clone https://github.com/qtile/qtile.git 2>> error.log > /dev/null
+		#pip install psutil 2>> error.log > /dev/null
+		#pip install qtile/ 2>> error.log > /dev/null
+		#cp bin/qtile $home/.local/bin/
+		#export PATH="$HOME/.local/bin:$PATH"
 		((inc++)); } ; echo -en "${ENDCOLOR}" ; }
 #----------
 import_config() {
