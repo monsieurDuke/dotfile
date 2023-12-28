@@ -1,0 +1,2 @@
+#!/bin/bash
+/sbin/iw dev wlp2s0 set power_save off

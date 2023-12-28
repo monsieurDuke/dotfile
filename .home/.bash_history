@@ -1,2000 +1,2000 @@
-ll
-strace ./malware1 
-CLEAR
-LL
+readme 
+git push
+clear
+cd Polarpwn/polarpwn.gg/productionSite/static/script/
 clear
 ll
-rm re1 
-wget https://labs.visionet.co.id/files/ded3226fb478633d43b62e9eaa141f78/re1?token=eyJ1c2VyX2lkIjo4NSwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6NX0.ZUt0sQ.DbbJbW4inpe0uz_R5B-QW0gtn_o -O re1
+./testflag-1.sh 
+./testflag-1.sh -h
+./testflag-1.sh -z
+cd Polarpwn/polarpwn.gg/productionSite/static/script/
 clear
 ll
+./testflag-2.sh --name icat --sex male --age 24 -g
 clear
-r2 -d re1 
+./testflag-2.sh --name icat --sex male --age 24 -g
 clear
-ll
-chmod +x re1 
+./testflag-1.sh -n icat -s male -a 24 -g
 clear
-ll
-clear
-r2 -d re1 
-clear
-ll
-wget https://labs.visionet.co.id/files/6c28f6852896473162ac555f8a60230d/malware2?token=eyJ1c2VyX2lkIjo4NSwidGVhbV9pZCI6bnVsbCwiZmlsZV9pZCI6MTB9.ZUt23A.cdezYBmVSsWZCzzap_0UvDUr0ks -O malware2
-clear
-ll
-chmod +x malware2 
+./testflag-1.sh -n icat -s male -g
 clear
 ll
 clear
-r2 -d malware2 
-clear
 ll
-./malware2 
-distrobox-enter pwnbuntu 
-/qclear
-distrobox-enter pwnbuntu 
-cd App/john/src/
-clear
-ll
-./zip2john.o
-cd App/john/
-cd src/
-clear
-make -s clean && make -sj4
-clear
-ll
-distrobox-stop pwnbuntu 
-clear
-podman container ls -a
-cd Downloads/
-clear
-ll
-cp 3174041911990004_kartuUjian.pdf ~/Documents/career/cpns-2023/Kartu\ Ujian\ -\ Muhammad\ Nur\ Irsyad.pdf 
-echo $((960.000 / 12 * 2))
-echo ((960.000 / 12 * 2))
-echo $((960.000 / 12 ))
-echo $((960.000/12))
-echo ((960.000/12))
-echo (960.000/12)
-echo $(960.000/12)
-echo $((960.000/12))
-echo $((960000/12))
-echo $((960000/12*4))
-960000/24
-echo $((120000*0,5))
-echo $((120000*20/100))
-sudo service spice-vdagent status
-nano .info 
-clear
-ll
-./.touchpad-speed 
-lsmod 
-lsmod | grep mouse
-clear
-ll
-ca .touchpad-speed 
-cat .touchpad-speed 
-xinput --list
-nano .touchpad-speed 
-./.touchpad-speed 
-xinput 17
-xinput list
-btop
-sudo service bluetooth status
-nano .config/qtile/scripts/sub-deviceconf.sh 
-bluetooth scan on
-bluetoothctl scan on
-bluetoothctl connec
-clear
-bluetoothctl scan on
-cd hide/
-history 
-bluetoothctl scan on
-bluetoothctl connect E8:EE:CC:4E:D0:F9
-bluetoothctl disconnect
-nano .touchpad-speed 
-./.touchpad-speed 
-nano .touchpad-speed 
-./.touchpad-speed 
-xinput --list --short
-xinput --list-props 17
-xinput --list-props 17 | grep accel
-xinput --list-props 17 | grep -i accel
-clear
-cd Downloads/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf ~/Documents/bio/resume-2.pdf 
-cd Downloads/
-clea
 clear
 cd
-ll
-cd Documents/
-ll
-cd career/
-ll
-cd
-clear
-cd Downloads/
-cd Documents/project/
+nvim 
+cd -
 clear
 ll
-cd visionet/
+cd Polarpwn/polarpwn.gg/productionSite/static/script/
 clear
-ll
-cd rootme/
 ll
 cd ..
 clear
 ll
-c doc/
+cd ..
 clear
-cd doc/
-ll
+git status
+git add ../assets/css/custom.css 
+git commit -m "fix line-height spacing on li tag"
 clear
-ll
+git status
+git add content/_index.md 
+git commit -m "fix main intro link to /org/"
+clear
+git status
+git add content/blog/optional-flags-in-bash.md 
+git commit -m "[1/2] rebuilding the content + more testing"
+clear
+git status
+readme 
+git push
+cd Polarpwn/polarpwn.gg/productionSite/
+clear
+nvim .
+cd Polarpwn/polarpwn.gg/
+clear
+hugo server --source=productionSite/
+clear
+hugo server --source=productionSite/
+clear
+hugo server --source=productionSite/
+cd Polarpwn/polarpwn.gg/
+clear
+hugo server --source=productionSite/
+sudo pulseaudio 
+sudo alsa force-reload
+clear
+amixer 
+amixer -k
+pulseaudio --kill 
+amixer -k
+pulseaudio --kill 
+pulseaudio 
+sudo service pulseaudio-enable-autospawn status
+xfce4-settings-manager 
+sudo reboot 
+cd Polarpwn/polarpwn.gg/
+clear
+cd Pr
+cd productionSite/
+clear
+nvim .
 cd /tmp/
 clear
-nano 
-bat tmp-f5e.xpi 
+nvim ok.bash
+chmod +x ok.bash 
+clear
+./ok.bash 11
+nvim ok.bash
+clear
+./ok.bash 11
+./ok.bash 11 12
+cd Polarpwn/polarpwn.gg/productionSite/static/script/
 clear
 ll
-bat ok 
+./testflag-2.sh --name icat --sex male --age 24 --generate
 clear
-bat ok 
+./testflag-2.sh --name icat --sex male --generate
+crontab -l
+sudo service cron status
+crontab -e
+clear
+crontab -l
+cd Downloads/
+cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-6-1.pdf ~/Documents/bio/resume.pdf 
 cd Downloads/
 clear
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-2-1.pdf ~/Documents/bio/resume-2.pdf 
-sha1sum aa
-echo "Aa" | sha1sum 
-echo "irsyadndu1A" | sha1sum 
-echo "irsyadndu1" | sha1sum 
-echo "irsyadndu1ABC" | sha1sum 
-echo "irsyadndu1A@" | sha1sum 
-echo "irsyadndu1ABC@!" | sha1sum 
-echo "irsyadndu1ABC@~/App/john/run/./john boom" | sha1sum 
-clear
-cd Downloads/
+ll
+cd Polarpwn/polarpwn.gg/
 clear
 ll
-mv merged-cert-4-11.pdf certs.pdf
-subl App/hex-polarpwn.gg/
 clear
-hugo server --minify
+sudo service pulseaudio-enable-autospawn status
 clear
-ll
-npm run
-l
 hugo server --source=productionSite/
-clear
-cd productionSite/content/
-clear
-l
-cd org/
+cd Polarpwn/polarpwn.gg/productionSite/
 clear
 ll
-subl contrib/_index.md 
-subl _index.md 
-cd ../../..
-hugo server --source=productionSite/
 clear
-nano .bashrc 
-clear
-cd App/hex-polarpwn.gg/
+nvim .
 clear
 git status
 clear
-ll
-clear
-ll
-cd ..
-clear
-ll
-mv polarpwn.gg polarpwn.gg-bak
-clear
-ll
-mv hex-polarpwn.gg/ polarpwn.gg
-clear
-ll
-cd polarpwn.gg
-clear
-ll
-clear
-l
-clear
-ll
-clear
-cd ..
-subl polarpwn.gg
-cd polarpwn.gg
-clear
-l
-cat LICENSE 
-clear
-ll
-clear
-l
-ckear
-clear
-git remote add origin https://github.com/polarpwn/polarpwn.gg.git
-git remote -v
-git remote remove origin 
-git remote -v
-clear
-git remote add origin https://github.com/polarpwn/polarpwn.gg.git
-git remote -v
-git branch -M main
-clear
-nano .github/workflows/pages.yml 
-clear
-ll
-clear
-ll productionSite/
-ll exampleSite/
-clear
-git status
-git add .github/workflows/pages.yml 
-clear
-git commit -m "update source path & rename baseURL"
-clear
-git status
-cat build-changes.txt 
-clear
-ll
-clear
-git status
-git add static/
-clear
-git status
-git commit -m "update the main tab icos"
-clear
-git status
-git add data/icons.yaml 
-git commit -m "add the bear mascot svg"
-clear
-git statu
-git status
-clear
-git status
-git add i18n/
-clear
-git status
-git commit -m "recustomize some of the shorthand strings"
-clear
-git status
-git add build-changes.txt 
+nvim .
 clear
 git status
 clear
 git status
-git commit -m "grep-ing the template, exampleSite, shortcuts"
+git add content/blog/optional-flags-in-bash.md 
 clear
 git status
+git commit -m "[2/2] finishing the overall first post"
 clear
 git status
-clear
-git status
-cd App/polarpwn.gg-bak/
-clear
-ll
-cd content/
-clear
-l
-cd docs/
-clear
-ll
-cd org/
-clear
-l
-clear
-ll
-subl _index.md 
-clear
-ll
-subl _index.md 
-cd ..
-clear
-ll
-cd ..
-clear
-ll
-subl _index.md 
-clear
-netstat -tan
-distrobox-enter pwnbuntu
-clear
-distrobox-enter pwnbuntu
-cd Documents/bio/
-clear
-ll
-zathura resume-2.pdf 
-cp resume-2.pdf resume-muhammad_nur_irsyad.pdf
-cp ~/Downloads/merged-cert-4-11.pdf merged-cert-3.pdf 
-mv merged_cert-muhammad_nur_irsyad.pdf 
-mv merged-cert-3.pdf merged_cert-muhammad_nur_irsyad.pdf 
-clear
-ll
-lmaao
-ifconfig 
-cler
-cleare
-clear
-neofetch 
-clear
-htop
-btop 
-bluetoothctl devices
-sudo service bluetooth status
-bluetoothctl scan on
-sudo bluetoothctl 
-bluetoothctl scan on
-sudo bluetoothctl 
-rfkill list all
-sudo service blueman-mechanism restart
-sudo service bluetooth restart 
-clear
-bluetoothctl scan on
-bluetoothctl list
-sudo service bluetooth status
-bluetoothctl devices
-sudo bluetoothctl 
-bluetoothctl 
-cd .config/qtile/scripts/
-clear
-ll
-bat widget.sh 
-bat sub-deviceconf.sh 
-kear
-clear
-rfkill list all
-lspci
-lspci | grep -i blue
-clear
-lsusb 
-hcitool dev
-dmesg 
-sudo dmesg 
-sudo dmesg | egrep -i "blue"
-sudo apt-get reintall
-sudo apt-get reinstall
-cd Documents/career/cpns-2023/
-clear
-ll
-cd BSSN/
-clear
-ll
-zathura Surat\ Formasi\ BSSN\ -\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-cd ..
-clear
-ll
-zathura cpns-2023/Ijazah\ -\ Muhammad\ Nur\ Irsyad.pdf 
-ll
-zathura cpns-2023/TOEFL\ -\ Muhammad\ Nur\ Irsyad.pdf 
-clear
-ll
-zathura cpns-2023/Resume\ -\ Muhammad\ Nur\ Irsyad.pdf 
-cd Downloads/
-clear
-ll
-subl instagram_logo_icon_173753.svg 
-clear
-ll
-subl ig.svg 
-clear
-ll
-subl linkedin.svg 
-clear
-ll
-subl code_of_conduct.md 
-cd
-clear
-./.touchpad-speed 
-clear
-bluez
-blueman-adapters 
-bluetooth
-bluetoothd 
-sudo bluetoothd 
-clear
-bluetoothctl status
-bluetoothctl devices
-clear
-sudo apt-get update 
-clear
-vim
-cd Downloads/
-clear
-ll
-tar -xzvf nvim-linux64.tar.gz 
-clear
-ll
-./nvim-linux64/bin/nvim --version
-clear
-./nvim-linux64/bin/nvim
-clear
-ll
-mv nvim-linux64 ~/App/
-ll
-cd ~/App/
-clear
-ll
-ln -s /home/icat/App/nvim-linux64/bin/nvim /home/icat/.local/bin/nvim
-clear
-nvim 
-lazygit
-lvim
-cd Dow
-cd ~/Downloads/
-clear
-LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
-curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
-clear
-ll
-tar xf lazygit.tar.gz lazygit
-clear
-ll
-sudo install lazygit /home/icat/.local/bin/
-lazygit 
-clear
-cd ~/App/
-l
-nano ~/.info 
 readme 
-clear
-cd ~/Downloads/
-cler
-clear
-LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
-lvim 
-clear
-ll
-lvim code_of_conduct.md 
-ll ~/.local/share/fonts/
-cd ~/App/
-clear
-git clone https://github.com/ryanoasis/nerd-fonts.git
-clear
-wget https://github.com/ryanoasis/nerd-fonts/tree/3f2de8da0f3be652e87f2533384802fc3bb0a4e5/patched-fonts/CascadiaCode
-ll
-rm CascadiaCode 
-clear
-ll
-cd ~/Downloads/
-wget https://github.com/microsoft/cascadia-code/releases/download/v2111.01/CascadiaCode-2111.01.zip
-clear
-ll
-unzip a CascadiaCode-2111.01.zip 
-unzip CascadiaCode-2111.01.zip 
-clear
-ll
-unzip CascadiaCode-2111.01.zip -d Cascadia
-clear
-ll
-mv Cascadia ~/.local/share/fonts/
-cd ~/.local/share/fonts/
-clear
-l
-ll
-fc-cache -f -v
-clear
-cd
-nano .config/kitty/kitty.conf 
-neofetch 
-clear
-neofetch 
-clear
-lvim .bashrc 
-neofetch 
-nano .config/kitty/kitty.conf 
-lvim .config/kitty/kitty.conf 
-clear
-cd .local/share/fonts/
-clear
-ll
-rm -r Cascadia/
-clear
-fc-cache -f -v
-clear
-lvim 
-lvim /tmp/bluetooth.dump 
-clear
-lvim .bashrc 
-cp .bashrc /tmp/
-lvim /tmp/.bashrc 
-clear
-nvim /tmp/.bashrc 
-clear
-lvim /tmp/.bashrc 
-nano /tmp/.bashrc 
-lvim /tmp/.bashrc 
-clear
-lvim /tmp/.bashrc 
-clear
-which lvim 
-history 
-which lvim 
-file $(which lvim)
-ls $(which lvim)
-rm $(which lvim)
-clear
-lvim
-clear
-nvim
-clear
-mv ~/.config/nvim ~/.config/nvim.bak
-clear
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim
-mv ~/.config/nvim ~/.config/nvim.bak
-clear
-nvim 
-nano
-cd Downloads/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1--1.pdf ~/Documents/bio/resume-muhammad_nur_irsyad.pdf 
-df -h
-apt list
-apt list --isntalled 
-apt list --installed 
-clear
-apt list --installed | wc -l
-clear
-df -h
-btop 
-cd /tmp/wu/
-clear
-identify
-sudo apt-get update
-clear
-ll
-clear
-ll
-exiftool flag.gif 
-clear
-strings flag.gif 
-strings flag.gif | grep flag
-strings flag.gif | grep i flag
-strings flag.gif | grep -i flag
-strings flag.gif | grep -i {
-clear
-binwalk flag.gif 
-clear
-ll
-binwalk flag.rar 
-clear
-xxd -C flag.gif 
-cd App/
-clear
-ll
-mkdir ctf-temp
-subl ctf-temp/
-cd ctf-temp/
-clear
-ll
-mkdir intigriti
-cd intigriti/
-clear
-ll
-mkdir 1337up
-clear
-ll
-cd 1337up/
-clear
-ll
-touch warmup.md
-cd /tmp/
-clear
-ll
-clear
-l
-mdkir pwn
-mkdir pwn
-cd pwn/
-clear
-cd ..
-rm -r pwn/
-mkdir wu
-cd wu/
-clear
-ll
-wget https://ctf.intigriti.io/files/9bb365164e20069ff325786db4428ef9/enc.txt?token=eyJ1c2VyX2lkIjoxNDU2LCJ0ZWFtX2lkIjo3NjUsImZpbGVfaWQiOjE5fQ.ZVgblw.wK7_TEGaJvC61t2H0HlIiDpTbew
-clear
-ll
-rm enc.txt\?token\=eyJ1c2VyX2lkIjoxNDU2LCJ0ZWFtX2lkIjo3NjUsImZpbGVfaWQiOjE5fQ.ZVgblw.wK7_TEGaJvC61t2H0HlIiDpTbew 
-clear
-wget https://ctf.intigriti.io/files/9bb365164e20069ff325786db4428ef9/enc.txt?token=eyJ1c2VyX2lkIjoxNDU2LCJ0ZWFtX2lkIjo3NjUsImZpbGVfaWQiOjE5fQ.ZVgblw.wK7_TEGaJvC61t2H0HlIiDpTbew -O enc.txt
-clear
-ll
-file enc.txt 
-clear
-strings enc.txt 
-nano enc.txt 
-strings enc.txt | grep SJMSF
-strings enc.txt | grep SKMSF
-clear
-wget https://ctf.intigriti.io/files/14b7f59f7f7d5f501ece1e57fa3b7add/flag.rar?token=eyJ1c2VyX2lkIjoxNDU2LCJ0ZWFtX2lkIjo3NjUsImZpbGVfaWQiOjQxfQ.ZVgf4w.S3fJDvvrXpQjQLjAfSKp-AtB7Bg -O flag.rar
-clear
-file flag.rar 
-unrar 
-clear
-unrar a flag.rar 
-clear
-unrar d flag.rar 
-clear
-unrar
-clear
-ll
-unrar e flag.rar 
-clear
-ll
-cat enc.txt 
-clear
-ll
-file flag.tar.xz 
-tar -xf flag.tar.xz
-clear
-ll
-file flag.tar.bz2 
-bzip2 -d flag.tar.bz2 
-clear
-ll
-file flag.tar
-tar -xf flag.tar
-clear
-ll
-file flag.tar.gz 
-gzip -d flag.tar.gz 
-clear
-ll
-file flag.tar
-file flag.tar && tar -xf flag.tar
-clear
-ll
-unzip 
-clear
-ll
-unzip flag.zip 
-clear
-ll
-xdg-open flag.gif 
-clear
-ll
-file flag.gif 
-clear
-exiftool flag.gif 
-xxd flag.gif 
-zathura Downloads/PENG-25_SKD.pdf 
-clear
-btop 
-cd App/
-clear
-nvim polarpwn.gg
-clear
-netstat -tan
-clear
-podman container ls -a
-distrobox-stop pwnbuntu 
-clear
-podman container ls -a
-clear
-btop 
-sudo apt-get remove nessus --purge
-clear
-ll
-sudo apt-get remove nessus --purge
-clear
-cd /var/opt/
-clea
-rll
-clear
-ll
-l
-btop 
-sudo apt-get autoremove 
-clear
-ll
-cd
-find ./
-find / -type d
-find / -type d -regex nessus
-find / -type d -regex ness
-find / -type d -exec grep -i ness
-find / -type d -exec grep -i ness {} \;
-clear
-find / -type d -exec grep -i nessus {} \;
-find / -type f -exec grep -i nessus {} \;
-clear
-rm -rf /opt/nessus/
-clear
-sudo rm -rf /opt/nessus/
-git status
-clear
-df -h
-clear
-btop 
-clear
-which nvim 
-clear
-cd App/
-clear
-ll
-cd ~/Downloads/
-clear
-ll
-cd ~/.local/share/lvim/
-clear
-ll
-cd .
-cd ..
-ll
-cd lunarvim/
-clear
-ll
-cd lvim/
-clear
-ll
-cd utils/installer/
-clear
-ll
-./uninstall.sh 
-cd ..
-nvim 
-ll
-clear
-ll
-cd ..
-rm -r lunarvim/
-clear
-ll
-sudo rm -r lunarvim/
-ll lvim/
-sudo rm -r lvim/
-clear
-ll
-ll nvim/
-which nvim 
-clear
-cd
-clear
-ll .config/
-cd .local/share/
-clear
-ll
-cp nvim/{,.bak}
-cp -rnvim/{,.bak}
-cp -r nvim/{,.bak}
-clear
-ll
-cp -r nvim/ nvim.bak
-clear
-l
-cd ~/Downloads/
-clear
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-nvim 
-clear
-cd ~/App/
-clear
-nvim polarpwn.gg2/
-ifconfig 
-nvim polarpwn.gg2/
-subl 
-btop 
-nvim ~/App/polarpwn.gg2/
-clear
-cd .config/
-clear
-ll
-sudo rm -r nvim
-cp -r nvim.bak/ nvim
-clear
-nvim
-ll
-sudo rm -r nvim
-sudo rm -r nvim.bak/
-clear
-nvim 
-clear
-ll
-cd
-clear
-nvim ~/App/polarpwn.gg2/
-clear
-nano .config/kitty/kitty.conf 
-clear
-nvim 
-clear
-7;10u7;10u
-hugo server --source=productionSite/
-clear
-cd App/polarpwn.gg
-clear
-git status
-git add data/icons.yaml 
-git commit -m "adding linkedin to the pool"
-clear
-git status
-git add productionSite/content/org/_index.md 
-git commit -m "fix backlink on cards"
-clear
-git status
-git add productionSite/content/org/contact.md 
-git commit -m "provide simple contact us page with social handles"
-clear
-git status
-git add productionSite/content/org/contrib/_index.md 
-clear
-git status
-git commit -m "add prologe navigations on starting out to contribute"
-clear
-git status
-clear
-readme 
-clear
-readme | grep git-
-git push
-ckear
-clear
-git status
-git add assets/css/custom.css 
-git commit -m "fix span overflow from border-box"
-clear
-git status
-git add productionSite/content/org/contrib/coc.md 
-clear
-git status
-git commit -m "adapt  code of conduct from contributor covenant v2.1"
-clear
-git status
-clear
-readme | grep git-
 git push
 clear
-cd productionSite/content/
-clear
-ll
-cd org/contrib/
-clear
-ll
-cp coc.md ladder.md
-cd ../../..
-cd ..
-clear
-git status
-git add assets/css/compiled/main.css 
-clear
-git status
-git add assets/css/custom.css 
-clear
-git status
-git commit -m "styling role structure with contrib ladder"
-clear
-git status
-clear
-readme | grep git-
-git push
-clear
-git status
-git add productionSite/content/org/_index.md 
-clear
-git status
-git commit -m "update current roles"
-clear
-git status
-git push
-clear
-git status
-git add productionSite/content/org/contrib/_index.md 
-clear
-git status
-git commit -m "add a ladder nav and fix the other backlinks"
-clear
-git status
-cd productionSite/content/org/
-clear
-git status
-git add community.md 
-clear
-git status
-git commit -m "fix card links template"
-clear
-git status
-clear
-git status
-git add contrib/coc.md 
-git add contrib/starter.md 
-clear
-git status
-git commit -m "fix nav links + adding starter template"
-clear
-git status
-git add contrib/ladder.md 
-clear
-git commit -m "finishing up current hierarchy section of a ladder"
-clear
-git status
-clear
-readme | grep git-
-git push
-clear
-git status
-clear
-cd ..
-clear
-cd productionSite/content/
-clear
-ll
-cd featured/
-clear
-ll
-rm -r advanced/
-rm -r guide/
-clear
-ll
-rm getting-started.md 
-clear
-ll
-clear
-ll
-cd ../..
-cd ..
-clear
-git status
-git add productionSite/content/featured/
-clear
-git status
-git commit -m "reserved 404 for future roadblock"
-clear
-git status
-git add productionSite/content/org/contrib/ladder.md 
-git commit -m "finishing ladder page"
-clear
-git status
-clear
-readme 
-clear
-readme | grep git-
-git push
-clear
-vim
-clear
-lazygit 
-clear
-nano .inf
-nano ~/.info 
-clear
-ll
-clear
-raedm
-reamd
-readme 
-nano ~/.info 
-readme 
-nano ~/.info 
-readme 
-nano ~/.info 
-clear
-cclear
-clear
-c,ear
-clear
-cd App/polarpwn.gg-bak/
-clear
-hugo server
-clear
-nvim 
-neofetch 
-clear
-ifconfig 
-reboot 
-cd .vim/pack/themes/start/dracula/
-clear
-ll
-cd colors/
-ll
-bat dracula.vim 
-cd ..
-nano ~/.vimrc 
-nvim 
-cd .config/
-ll
-mkdir nvim
-cd nvim/
-clear
-ll
-wget https://raw.githubusercontent.com/nvim-lua/kickstart.nvim/master/init.lua -O init.lua
-clear
-ll
-clear
-ll
-nvim 
-nvim ~/App/polarpwn.gg2/
-cd ~/App/polarpwn.gg2/
-clear
 nvim .
-nvim 
-clear
-cd
-clear
-mkdir -p ~/.vim/pack/themes/start
-cd ~/.vim/pack/themes/start
-clear
-ll
-clear
-git clone https://github.com/dracula/vim.git dracula
-cd ..
-nano .vimrc
-bat .vimrc 
-cd .vim/
-clear
-ll
-git submodule add git@github.com:dracula/vim.git bundle/dracula
-cd
-clear
-vim.tiny 
-clear
-nvim 
-clear
-nvim 
-cd .local/
-ll
-cd share/
-ll
-cd nvim
-ll
-cd lazy/
-ll
-clear
-ll
-cd onedark.nvim/
-ll
-cd colors/
-clear
-ll
-nano onedark.lua 
-history | grep drac
-history 
-nano onedark.lua 
-ifconfig 
-clear
-nvim 
-nvim
-clear
-cd git submodule add git@github.com:dracula/vim.git bundle/dracula
-cp .vimrc ~/.config/nvim/init.vim
-cat ~/.config/nvim/init.vim 
-cd .config/nvim/
-clear
-ll
-cat init.lua 
-nano init.lua 
-clear
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-clear
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-bat init.lua 
-clear
-nvim 
-clear
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano init.lua 
-nvim 
-nano .vimrc 
-cd .config/nvim/
-clear
-ll
-cat init.vim 
-cp init.vim bak.init
-clea
-rl
-clear
-ll
-rm init.vim 
-cat bak.init 
-clear
-nano .config/nvim/init.lua 
-nvim App/polarpwn.gg2/
-clear
-nano .config/nvim/init.lua 
-nvim App/polarpwn.gg2/
-nano .config/nvim/init.lua 
-clear
-btop 
-clear
-ll
-clear
-ls
-exit
-clear
-ifconfig 
-clear
-neofetch 
-r
-clear
-ll
-kitty themes
-ll
-clear
-ll
-clear
-ls 
-clear
-ll
-clear
-ll
-clear
-ll
-nvim App/polarpwn.gg2/
-cd App/polarpwn.gg
-clea
-clear
-nvim .
-clear
-nvim .
-clear
-nvim .
-clear
-nvim .
-nvim ~/.config/nvim/init.lua 
-clear
-which nvim 
-neofetch 
-clear
-nvim .
-clear
-nvim ~/.config/nvim/init.lua 
-clear
-nvim .
-nvim ~/.config/nvim/init.lua 
-nvim .
-clear
-nvim ~/.bashrc 
-source ~/.bashrc 
-vi .bashrc 
-vim .bashrc 
-clear
-nvim .bashrc 
-source ~/.bashrc 
-clear
-nv .bashrc 
-nv .config/qtile/scripts/compton.conf 
-nv .config/kitty/kitty.conf 
-killall compton 
-nv .config/kitty/kitty.conf 
-nv .config/qtile/scripts/compton.conf 
-killall compton 
-ifconfig 
-nano .bashrc 
-clear
-cd ../
-cd ,,
-cd ~/.config/
-cd kitty/
-clear
-ll
-nano kitty.conf 
-clear
-ifconfig 
-clear
-neofetch 
-clear
-nv .config/kitty/
-nv .config/qtile/
-cd .config/qtile/
-nv .
-nvim ~/.config/nvim/init.lua 
-clear
-nv .
-clear
-nv .
-clear
-cd ../..
-cd .config/kitty/
-clear
-nv .
-clear
-cd
-nv .config/
-cd .config/
-clear
-ll
-clear
-nv .
-cd ..
-cd .local/share/nvim
-cear
-clear
-ll
-cd lazy/
-ll
-cd ..
-clear
-ll
-nv .
-nv ~/.config/nvim/init.lua 
-nv .
-nv ~/.config/nvim/init.lua 
-nv .
-nv ~/.config/nvim/init.lua 
-bat ~/.config/nvim/init.lua 
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-clear
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-cclear
-clear
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-ll
-cd lazy/
-ll
-clear
-cd ..
-ll
-clear
-cd lazy/
-nv ~/.config/nvim/init.lua 
-cd tokyonight.nvim/
-clear
-ll
-cd colors/
-ll
-nv ~/.config/nvim/init.lua 
 l
-pwd
-nv ~/.config/nvim/init.lua 
-clear
-ll
-nv ~/.config/nvim/init.lua 
-nv ~/App/polarpwn.gg2/
-cclear
-clear
-nv ~/.config/nvim/init.lua 
-clear
 cd
 clear
-btop
-clear
-ll
-clear
-htop
-clear
-bat
-clear
-btop 
-clear
-ll
-clear
-neofetch 
-clear
-bat ~/.bashrc 
-clear
-ll
-clear
-nano ok
-clear
-cd
-clear
-bat .bashrc 
-clear
-ll
-bat .touchpad-speed 
-clear
-ll
-cd App/polarpwn.gg2/
-clear
-vn .
-clear
-nv .
-clear
-clear
-nvim ~/.config/nvim/init.lua 
-clear
-nvim 
-sudo apt-get install konqueror 
-clear
-sudo apt-get install falkon 
-clear
-btop 
-clear
-sudo apt-get remove falkon 
-sudo apt-get autoremove --purge
-clear
-sudo apt-get update 
-clear
-sudo apt-get install konqueror
-clear
-exit
-distrobox-enter pwnbuntu
-distrobox-stop pwnbuntu 
-clear
-netstat -tan
-clear
-nvim ~/.config/nvim/init.lua 
+l
 cd Documents/
+l
+cd project/
+clear
 ll
-cd bio/
+cd hotpotcookie/
+ll
+cd ...
+cd ..
+clear
+ll
+rm -r hotpotcookie/
+clear
 ll
 cd ..
 clear
 ll
 cd other/
 ll
-cd ../resource/
+cd Documents/
 ll
+cd career/
+ll
+cd ..
+clear
+ll
+ll other/
+cd ..
+clear
+ll
+rm -r Documents/
 clear
 ll
 cd ..
 clear
 ll
-ll iso/
 clear
-btop 
-sudo apt-get update 
+cd -
+cd 
+cd Polarpwn/polarpwn.gg/
 clear
-sudo apt-get upgrade 
-sudo apt-get remove google-chrome-stable 
-sudo apt-get remove google-chrome-stable --purge
+ll
+cd productionSite/
 clear
-sudo apt-get remove google-chrome-stable --purge
+nvim .
 clear
-vim .config/
+ll
+cd content/
 clear
-nv .config/
-nv .config/qtile/scripts/compton.conf 
+ll
+cd blog/
 clear
-killall compton 
-nv .config/qtile/scripts/compton.conf 
-killall compton 
+ll
+mv basic-regex.md cheat-sheet/
+clear
+ll
+ll cheat-sheet/
+cd cheat-sheet/
+clear
+ll
+cp basic-regex.md linux-fundamentals.md 
+clear
+cd ../..
+cd ..
+nvim .
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+git add assets/css/custom.css 
+git commit -m "update table styling for a page-width"
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+git commit -m "update boilerplate on regex content"
+clear
+readme 
+git push
+clear
+git status
+cd Apps/dotfile/
+clear
+ll
+bat sync.sh 
+clear
+ifconf
+ip a
+clear
+cd Polarpwn/polarpwn.gg/
+clear
+whatis prove 
+clear
+ll
+clear
+hugo server --source=productionSite/
+cd Polarpwn/polarpwn.gg/
+clear
+ll
+clear
+nvim .
+ip a
+sudo ifconfig wlp2s0
+sudo ifconfig wlp2s0 up
+sudo shutdown -r
+sudo shutdown -c
+sudo shutdown -r now
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+git commit -m "adding text playground for references againts pattern matching"
+clear
+git status
+readme 
+git push
+clear
+ngrok
+cd
 cd Downloads/
 clear
-ll
-rm Ulaa-Browser-v2.7.2-amd64.deb *.pdf
+readme 
 clear
-ll
+ngrok config add-authtoken 22OqTcMo1HHKHs9ZlEhgSipVyPN_7SpdHeWJi95QDcnB7kYsS
 clear
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+ngrok http 1313
 clear
-sudo apt-get update && sudo apt-get upgrade 
+ngrok http 1313
 clear
-sudo apt-get install brave-browser 
+ngrok --help
 clear
-btop 
-killall brave 
-reboot 
-btop 
+ngrok http 1313
 clear
-btop 
-touch main.java
-javac main.java 
-java main
+cd ~/Polarpwn/polarpwn.gg/productionSite/
 clear
-ll
-java --version
-javac --version
-javac -version
-java version
-java -version
+git status
+cd ..
 clear
-ll
-javac main.java 
-java CLEAR
+git status
+git add assets/css/compiled/main.css 
+git commit -m "fix tab highlighting"
 clear
-cp main.java Main.java
-javac Main.java 
-java Main 
-sudo apt-get remove brave-*
+git status
+git add assets/css/custom.css
+git commit -m "fix lineheight of codeblock in table"
 clear
-sudo apt-get autoremove 
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+git commit -m "update current feed + usage of tabs instead of h2s"
 clear
-javac Main.java 
+git status
+readme 
+git status
 clear
-javac Main.java
+readme 
+git push
 clear
-java Main 
-clea
+ngrok http 1313
 clear
-javac Main.java
-java Main 
+git status
+git add assets/css/compiled/main.css 
 clear
-javac Main.java
+git status
+git commit -m "fix greenlit on light mode"
 clear
-javac Main.java
-c
-cear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
 clear
-javac Main.java
-java Main 
+git status
+git commit -m "update on quantifiers section"
 clear
-javac Main.java
-java Main 
-javac Main.java
-java Main 
+git status
+readme 
+git push
+sudo shutdown --help
+sudo shutdown -r now
+cd Polarpwn/polarpwn.gg/
 clear
-javac Main.java 
-java Main 
-lear
+hugo server --source=productionSite/
 clear
-javac Main.java && java Main 
+hugo server --source=productionSite/ && ngrok http 1313
 clear
-javac Main.java && java Main 
+hugo server --source=productionSite/ & wait && ngrok http 1313
 clear
-javac Main.java && java Main 
+hugo server --source=productionSite/ & wait; ngrok http 1313
+fg
 clear
-javac Main.java && java Main 
+hugo server --source=productionSite/ nohup; ngrok http 1313
+fg
 clear
-javac Main.java && java Main 
+hugo server --source=productionSite/
 clear
-javac Main.java && java Main 
+hugo server --source=productionSite/
+cd Polarpwn/polarpwn.gg/
 clear
-javac Main.java && java Main 
+nvim .
+ifconfig
+sudo ifconfig 
+sudo ifconfig wlp2s0 up
+ip a
+nmcli 
+sudo nmcli device show
+sudo service NetworkManager status
+sudo service NetworkManager restart
 clear
-javac Main.java && java Main 
+sudo ifconfig wlp2s0 up
+sudo shutdown -h now
+podman 
+sudo apt-get remove podman 
+cd Polarpwn/polarpwn.gg/
 clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-lear
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-clear
-javac Main.java && java Main 
-javac Main.java && java Main
+hugo server --source=productionSite/
+cat .bashrc 
+cat .bashrc | grep -E 'a'
+cat .bashrc | grep -E '[:upper:]'
+cat .bashrc | grep -E '[[:upper:]]'
 clear
 cd /tmp/
 clear
-l
+ll
+nano ok
+cat ok 
 clear
-nvim Main.java
-cd App/polarpwn.gg2/
+grep -E "[[:upper:]]" ok 
+grep -E "[[:upper:]]+" ok 
 clear
-nv .
-clera
+cat ok | grep -E "[[:upper:]]+"
+cat ok | grep -E "[[:upper:]]\w+"
 clear
+cat ok | grep -E "[[:upper:]]\w+"
+cat ok | grep -E "[\w]\w+"
+clear
+cat ok | grep -E "\b[]\w+"
+cat ok | grep -E "\b[A-Z]\w+"
+cd ~/Polarpwn/polarpwn.gg/
+git status
+git add productionSite/content/blog/basic-regex.md 
+git commit -m "remove POSIX classes & finishing on lookarounds"
+clear
+git status
+readme 
+git push
+clear
+ngrok http 1313
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+clear
+git status
+git commit -m "finishing all regex sections"
+clear
+git status
+readme 
+git push
+cd Polarpwn/polarpwn.gg/
+clear
+nvim .
+sudo shutdown -h now
+podman
+clear
+podman compose
+cd Apps/
+clear
+ll
 cd
 clear
-nv .config/nvim/init.lua 
-cd App/polarpwn.gg2/
-nv .
-clear
-nv
-cd
-nv .config/nvim/init.lua 
-cd -
-clear
 ll
-hugo server --minify
-ckear
-clear
-ll
-ll content/
-ll
-cd ..
-clear
-ll
-cd polarpwn.gg-bak/
-clear
-ll
-clear
-hugo server --minify
-clear
-cd ..
-cd polarpwn.gg
-clear
-hugo server --source=productionSite/
-clear
-cd Downloads/
-clear
-ll
-cp Resume\ \&\ Cover\ Letter\ -\ Muhammad\ Nur\ Irsyad-1.pdf ~/Documents/bio/resume-muhammad_nur_irsyad.pdf 
-cd Downloads/
-ll
-sudo apt-get install ./google-chrome-stable_current_amd64.deb 
-cd App/polarpwn.gg
-clear
-hugo server --source=productionSite/
-cd App/polarpwn.gg
-clear
-nv .
-ifconfig 
-clear
-ifconfig 
-clear
-sudo service NetworkManager restart
-ifconfig 
-clera
-clear
-ifconfig 
-sudo service NetworkManager restart
-clear
-ifconfig 
-nmcli device 
-nmcli device status
-clear
-sudo service NetworkManager status
-clear
-ifconfig 
-lshw
-lshw |  grep -i wi
-lshw -C network
-sudo lshw -C network
-rfkill list
-clear
-ll
-ifconfig 
-clear
-sudo service networking restart 
-sudo service networkd-dispatcher restart
-clear
-ifconfig 
-lspci
-lspci | grep -i wi-fi
-lspci | grep -i wireless
-lspci | grep -i network
-clear
-nmcli 
-nmcli monitor 
-clear
-nmcli device 
-nmcli 
-nmcli networking 
-sudo ifconfig up wlp2s0
-sudo ip link set wlp2s0 up
-reboot 
-ifconfig 
-clear
-ifconfig 
-lshw 
-clear
-sudo lshw 
-clear
-sudo lshw -c network
-sudo apt-get update 
-shutdown -h now
-ifconfig 
-clear
-ll
-clear
-sudo apt-get update 
-cd /etc/apt/sources.list.d/
-clear
-ll
-rm brave-browser-release.list 
-clear
-ll
-sudo rm brave-browser-release.list 
-clear
-cd ..
-ll
-cd keyrings/
-ll
-cd ..
-clear
-ll
-nano sources.list
-ll trusted.gpg.d/
-ll apt.conf.d/
-sudo apt-get update 
-sudo apt-get upgrade 
-clear
-ll
-clear
-l
-sudo lshw -c network
-clear
-sudo lshw -c network
-df -h
-clear
-nv .
-nv
 cd .local/share/
-ll
-cd fonts/
 clear
 ll
-ll ttf/
+touch Docker-Compose.yml
+nano Docker-Compose.yml 
+podman compose
+sudo apt-get update 
+sudo apt-get install podman-compose 
 clear
 ll
-cd ~/Downloads/
+mv Docker-Compose.yml ~/Apps/
+clear
+cd ~/Apps/
 clear
 ll
-unzip a JetBrainsMono.zip 
-unzip JetBrainsMono.zip 
+mkdir Nextcloud
+mv Docker-Compose.yml Nextcloud/
+mv Nextcloud/ NextCloud/
 clear
 ll
-find .
-find . -type f
-find . -type f -regex ttf
-find . -type f -regex *.ttf
-find . -type f -regex .*.ttf
-find . -type f -regex .*.ttf -exec rm {} \;
+cd NextCloud/
 clear
 ll
-unzip -d JetBrainsNerd JetBrainsMono.zip 
+podman-compose up
+mv Docker-Compose.yml docker-compose.yml
 clear
 ll
-cp -r JetBrainsNerd/ ~/.local/share/fonts/
-cd ~/.local/share/f
-cd ~/.local/share/fonts/
+podman-compose up
+podman container ls -a
+podman-compose --version
 clear
 ll
-sudo fc-cache -fv
-fc-cache -fv
-neofetch 
+mv docker-compose.yml ../
+cd ..
 clear
-nv .config/kitty/kitty.conf 
+ll
+rm NextCloud/
+rm -r NextCloud/
+git clone https://github.com/ichiTechs/Dockerized-SSL-NextCloud-with-MariaDB.git
 clear
-neofetch 
-neofetch 
+ll
+cd Dockerized-SSL-NextCloud-with-MariaDB/
 clear
-locate init.lua
-history | nv
-nv .config/nvim/init.lua 
+ll
+nvim docker-compose.yml 
+podman network ls
+podman network rm nextcloud_default 
 clear
-nv
-cd App/polarpwn.gg2/
+podman network ls
+podman network create nginx-proxy
+podman network ls
 clear
-nv .
-ifconfig 
+podman ls
 clear
-ifconfig 
+nvim docker-compose.yml 
 clear
-sudo lshw -c network
-sudo service networking restart 
-sudo service NetworkManager restart
-sudo lshw -c network
-sudo ifconfig wlps2s0
-sudo ifconfig wlps2s0 up
-ifconfig up
-lsmod 
+ll
+cd ..
 clear
-lspci -nnk
+ll
+rm -r Dockerized-SSL-NextCloud-with-MariaDB/
+sudo rm -r Dockerized-SSL-NextCloud-with-MariaDB/
 clear
-lspci -nnk | grep -i -A2 net
-sudo lshw -c network
-sudo ifconfig wlp2s0 up
-sudo lshw -c network
-sudo ifconfig wlp2s0 up
-sudo ip link set wlp2s0 up
+nvim docker-compose.yml 
 clear
-dmesg 
-sudo dmesg 
-sudo ip link set wlp2s0 up
-sudo service networkd-dispatcher restart
-sudo ip link set wlp2s0 up
+sudo su
 clear
-sudo modprobe iwlwifi
-sudo lshw -c network
-neofetch 
-ifconfig 
+cd Apps/Nextcloud/
 clear
-fstab-decode 
-cd /mnt/
+ll
+sudo su
+clear
+bat docker-compose.yml 
+sudo docker compose up -d
+sudo docker container ls -a
+sudo docker container ls
+clear
+sudo docker container ls
+clear
+cat docker-compose.yml 
+nvim docker-compose.yml 
+sudo nvim docker-compose.yml 
+sudo nano docker-compose.yml 
+clear
+sudo docker container ls
+sudo docker container stop nextcloud-nextcloud-1
+sudo docker container stop nextcloud-nextcloud_db-1
+sudo docker container ls -a
+sudo docker container rm nextcloud-nextcloud-1
+sudo docker container rm nextcloud-nextcloud_db-1
+sudo docker container ls -a
+clear
+sudo docker compose up -d
+clear
+bat docker-compose.yml 
+sudo docker container ls -a
+sudo docker container stop nextcloud-nextcloud-1
+sudo docker container stop nextcloud-nextcloud_db-1
+sudo docker container rm nextcloud-nextcloud-1
+sudo docker container rm nextcloud-nextcloud_db-1
+clear
+sudo docker container ls -a
+sudo docker image ls 
+sudo docker image rm mariadb
+sudo docker image rm a9b622a21138
+sudo docker image rm 715f818aed9d
+clear
+sudo docker image ls 
+sudo docker image ls -a
+clear
+sudo docker run -d -p 9090:80 nextcloud
+sudo docker ps
+clear
+ll
+cd ..
+clear
+cd ..
+clear
+ll
+cd Documents/
+clear
+
+sudo apt-get install nextcloud-desktop
+clear
+nextcloud 
+cd Apps/
+ll
+cd dotfile/
+clear
+nvim ~/.config/qtile/config.py 
+cd Documents/
+klk
+kk
+ll
+rm .nextcloudsync.log 
+clear
+ll
+cd .config/
 ll
 clear
-lsusb 
-crontab -e
-cat /etc/fstab 
-lsusb -a
+ll
+cd .config/
+du -h
+ll
+ll project/
+rm -r project/
 clear
-lsmod 
+du -h
 clear
-lshw 
-sudo lsusb 
-cat /etc/fstab 
-fdisk -l
-sudo fdisk -l
-sudo mount /dev/sdb1 /media/icat/TOSHIBA/
-cd /media/icat/TOSHIBA/
+ll
+rm -r career/
+clear
+ll
+rm -r bio/
+clear
+ll
+rm -r other/
+clear
+ll
+clear
+du -h
+ll resource/
+clear
+ll
+rm -r resource/
+clear
+ll
+du -h
 clear
 ll
 cd
-cat Documents/sync.sh 
-cd /media/icat/TOSHIBA/
-cd doc/
-clea
-rll
+cd Documents/
+ll
+ll bio/
+clear
+ll
+cd career/
+clear
+ll
+rm -r Documents/
+clear
+ll
+cd ..
 clear
 ll
 cd bio/
 ll
 cd ..
-ll career/
 clear
+l
+l career/
+l other/
+l project/
+rm -r project/Documents/
+l project/
+l resource/
+cd resource/
+clear
+ll
 cd ..
 ll
-cd doc/
+cd bio/
+ll
+cd ..
+cd other/
+ll
+cd ..
 clear
 ll
-ll career/
-ll career/cpns-2023/
+cd resource/
 clear
+ll
+rm -r career/
+rm -r other/ project/ resource/
+clear
+ll
+rm 016-SkillFront-ISO-IEC-27001-Information-Security.pdf 
+clear
+ll
+cd ..
+clear
+ll
+ll project/
+ll
+ll other/
+ll bio/
+clear
+ll
+cd ..
 cd Documents/
+ll
+ll ~/.config/
 clear
 ll
-cat sync.sh 
-clear
-nv sync.sh 
-./sync.sh -r
-ll /media/icat/TOSHIBA/doc/
-cd doc
+cd ~/.config/
 clear
 ll
-nv sync.sh 
-clear
-sudo ./sync.sh -r
+sudo chown -R icat:icat *
 clear
 ll
-nano sync.sh 
 clear
 ll
-df -h
-du -h
-cd iso/
+clear
+ll
+cat .nextcloudsync.log 
+clear
+cd .config/
+ll
+zathura
+clear
+ll
+clear
+cd Apps/dotfile/
+clear
+ll
+cd .config/
+ll
+cp -r sublime-text-3/ ~/.config/
+clear
+ll
+cd zathura/
+ll
+cat zathurarc 
 clear
 ll
 cd ..
+ll
+cp -r zathura/ ~/.config/
+nvim Apps/dotfile/sync.sh 
+cd .local/
+clear
+ll
+cd share/
+clear
+ll
+cd ~/Apps/d
+cd ~/Apps/dotfile/
+clear
+ll
+ll .etc/
+cd .config/
+clear
+ll
+ll gtk-3.0/
+ll
+cd ..
+clear
+ll
+cd .home/
+ll
+clear
+ll
+cd
+clear
+ll
+cd -
+clea
+clear
+ll
+cd -
+clear
+ll
+cd .cache/
+ll
+clear
+cd ..
+clear
+ll
+cd Videos/
+ll
+cd ..
+clear
+ll
+cd Templates/
+ll
+clear
+ll
+cd ..
+clear
+ll
+clear
+l
+clear
+la
+clear
+l a
+clear
+l -a
+cp .bash* .calibrating .info .profile Templates/
+clear
+ll
+clear
+l -a
+cat .selected_editor 
+clear
+ll Templates/
+cd Apps/dotfile/.home/
+ll
+cd ..
+clear
+ll
+cd .etc/
+ll
+clear
+ll
+cd ~/Downloads/
+ll
+clear
+cd -
+clear
+ll
+cd chrome/
+ll
+pwd
+cd ..
+clear
+ll
+cd chrome/
+clear
+pwd
+cd ..
+cd ~/Downloads/
+clear
+ll
+clear
+l -a
+clear
+mkdir App
+clear
+ll
+clear
+l
+clear
+mv google-chrome-stable_current_amd64.deb go1.21.4.linux-amd64.tar.gz firefox-120.0.1.tar.bz2 jdk-8u381-linux-x64.tar.gz JetBrainsMono.zip hugo_extended_0.120.4_linux-amd64.deb App/
+clear
+cd App/
+clear
+ll
+pwd
+sudo su
+readme 
+cd Downloads/
+clear
+ll
+mkdir ipega
+mv 5cc7e6b4e54e1.zip ipega/
+clear
+cd ipega/
+clear
+ll
+unzip 5cc7e6b4e54e1.zip 
+clear
+ll
+xdg-open 0001.jpg 
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+clear
+git status
+git commit -m "add regexone beginner examples"
+clear
+readme 
+git push
+ip a
+cd Polarpwn/polarpwn.gg/
+clear
+ll
+clear
+hugo server --source=productionSite/
+sudo shutdown -h now
+cd Polarpwn/polarpwn.gg/
+clear
+nvim .
+sudo service docker status
+clear
+cd Polarpwn/polarpwn.gg/
+clear
+hugo server --source=productionSite/
+cd Polarpwn/polarpwn.gg/
+clear
+nvim .
+sudo shutdown -h now
+cd Polarpwn/polarpwn.gg/
+clear
+hugo server --source=productionSite/
+nvim .
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+git commit -m "update 3/4 on the exercise section"
+clear
+readme 
+git push
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+clear
+git status
+git add assets/css/custom.css 
+git commit -m "fix missing corner on overflow table"
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/_index.md 
+clear
+git status
+git commit -m "add interlude section"
+clear
+git status
+git add productionSite/content/blog/cheat-sheet/basic-regex.md 
+clear
+git status
+git commit -m "[2] finishing the regex cheatsheet content"
+clear
+git status
+git add productionSite/content/blog/_index.md 
+git commit -m "update navigation on cheat-sheet"
+clear
+git status
+nvim .
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+clear
+git status
+git add productionSite/content/blog/optional-flags-in-bash.md 
+git commit -m "remove date section. using built-in instead"
+clear
+git status
+clear
+readme 
+git push
+cd
+clear
+ll
+./.calibrating 
+cd Polarpwn/polarpwn.gg/
+clear
+hugo server --source=productionSite/
+cd Polarpwn/polarpwn.gg/
+clear
+nvim .
+sudo shutdown -h now
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+df -h
+cd Polarpwn/polarpwn.gg/
+cd
+sudo ./.calibrating 100
+clear
+cd Polarpwn/polarpwn.gg/
+clear
+nvim .
+cd Polarpwn/polarpwn.gg/
+clear
+git status
+hugo server --source=productionSite/
+clear
+git status
+git add assets/css/custom.css 
+git commit -m "minor fix on missing corner on mobile-view"
+clear
+git status
+readme 
+git push
+clear
+sudo virt-manager 
+history 
+sudo virsh net-start default 
+udo virsh net-autostart default
+sudo virsh net-autostart default
+kill -9 fox
+killall fox
+killall firefox-bin 
+virt-viewer
+sudo apt-get install virt-viewer 
+sudo virt-manager 
+cd .config/qtile/
+clear
+ll
+./vm-manager.sh start windows-10
+cd -
+cd ~/.config/qtile/
+pwd
+ll
+clear
+cd ~/.config/
+clear
+ll
+cd qtile/
+clear
+ll
+ll New\ folder/
+rm -r New\ folder/
+clear
+ll
+touch vm-manager.sh
+chmod +x vm-manager.sh 
+pwd
+cd Apps/dotfile/
+clear
+ll
+cd .config/
+clear
+ll
+cd qtile/
+clear
+ll
+nvim .
+killall firefox-bin 
+clear
+sudo shutdown -h now
+readme 
+cd Polarpwn/
+clear
+ll
+clear
+ll
+clear
+ll
+mv polarpwn.gg/ igloo-core/
+clear
+ll
+git clone https://github.com/polarpwn/polarpwn.gg.git .bak
 clear
 l
 ll
-rm -r bio/
+cd .bak/
 clear
 ll
-du 0h
-clear
-du -h
+cd content/
 clear
 ll
-clear
-sudo apt-get install python-setuptools
-clear
-cd 
-cd /tmp/
-git clone https://github.com/andreafrancia/trash-cli.git
-cd trash-cli/
+cd posts/
 clear
 ll
-sudo python setup.py install
-sudo python3 setup.py install
-clear
-trash-list 
-trash-list | grep -i bio
-trash-list |
-clear
-cd ~/Documents/
+cd write-up/
 clear
 ll
-rm -r iso/
-du -h
+bat overthewire-bandit.md 
 clear
 ll
-clear
-sudo ./sync.sh -r
-ll
-cat sync.sh 
+bat dvwa-brute-force.md 
+lear
 clear
 ll
-md5sum career/
-md5sum career/*
-clear
-md5sum -d career/*
-md5sum -d career/
-ll career/cpns-2023/
+cd ..
 clear
 ll
+cd paper/
+ll
+cd ..
 clear
 ll
-ll resource/
+cd blog/
 clear
 ll
-sudo ./sync.sh -r
-clear
-nv sync.sh 
-bat sync.sh 
-sudo ./sync.sh -r
-ll
-clear
-ll /media/icat/TOSHIBA/
-ll
-ll /media/icat/TOSHIBA/
-nv Documents/sync.sh 
-clear
-cd /media/icat/TOSHIBA/
+cd ..
 clear
 ll
-cd doc/
-clear
-tree
-clrea
-clear
-sudo apt-get install tree
-clear
-tree .
-clrea
-tree
-clear
-ll career/
-ll
-ll career/
-ll Documents/
+cd ..
 clear
 ll
-rm -r Documents/
-sudo rm -r Documents/
+cd docs/
 clear
 ll
+cd ../..
 clear
 ll
-ll career/
-cd
-sudo umount /media/icat/TOSHIBA 
-ps axjf | grep mount
-clear
-ps axjf | grep mount
+cd static/
+ll
+cd ..
 clear
 ll
-cd Documents/
-ll
+cd script/
 clear
 ll
-sudo mount /dev/sdb1 /media/icat/TOSHIBA/
-fdisk -l
-sudo fdisk -l
+cd blog/
+ll
+cd ..
 clear
-fdisk 
-sudo fdisk -l
-reboot 
+ll
+find .
+find . grep dvwa
+find . -regex "dvwa"
+find . -regex "dvwa*"
+clear
+find . -regex "dvwa.*"
+find . -regex ".*dvwa.*"
+clear
+ll
+cd ..
+clear
+ll
+sudo service docker status
+sudo docker container ls -a
+sudo docker container start 191f408731a6
+sudo docker container ls -a
+clear
+sudo docker container ls -a
+sudo ifconfig 
+sudo docker container ls -a
+sudo docker container stop nextcloud
+sudo docker container stop 191f408731a6
+sudo virt-manager 
+ll
+clear
+sudo apt-get install spice-vdagent
+systemctl enable spice-vdagentd.service`
+systemctl enable spice-vdagentd.service
+sudo service spice-vdagent status
+sudo service spice-vdagent restart
+sudo service spice-vdagent status
+clear
+sudo systemctl enable spice-vdagentd
+sudo service spice-vdagent restart
 clear
 neofetch 
+xrandr --listactivemonitors 
 clear
-c;ear
+xrandr --listactivemonitors 
 clear
-cd 
+xrandr --output HDMI-1
+clear
+xrandr --listactivemonitors 
+xrandr --output HDMI-1 --pos 1366x768 --rotate normal --mode 0x0
+xrandr --listactivemonitors 
+clear
+sleep 5 && xrandr -d :0 --output LVDS --auto
+xrandr --listactivemonitors 
+xrandr 
+xrandr --output HDMI-1 --pos 1920x1080 --rotate normal --mode 1920x1980
+xrandr --output HDMI-1 --pos 1920x1080 --rotate normal --mode 1920x1080
+clear
+xrandr --output HDMI-1 --pos 1920x0 --rotate normal --mode 1920x1080
+xrandr 
+xrandr --output HDMI-1 --pos 1366x0 --rotate normal --mode 1920x1080
+cd Polarpwn/
+clear
+pwd
+ll
+clear
+cd Polarpwn/
+pwd
+ll
+cd Apps/dotfile/
 clear
 ll
-cd .config/
 clear
-l
-ll nvim/
-locate nvim
+ll
+cd .config/qtile/
 clear
+ll
+cd scripts/
+clear
+ll
+bat sub-deviceconf.sh 
 cd
-cd .local/share/nvim
+clear
+sudo docker container ps
+sudo docker container ls 
+sudo docker container ls -a
+sudo docker container 191f408731a6 start
+sudo docker container start 191f408731a6
+clear
+cd Documents/
 clear
 ll
-pwd
-cd ~/.local/share/
-clear
-l
-ll fonts/
-ll -h JetBrainsNerd
-ll
-clear
-l
-ll qtile/
-ll ranger/
-ll zathura/
+cd ..
 clear
 ll
 clear
-ll nvim
-pwd
-cd nvim
-pwd
-fdisk -l
-sudo fdisk -l
-sudo mount /dev/sdb1 /media/icat/TOSHIBA/
 ll
-clear
-l
+cd Polarpwn/
 clear
 ll
-cp .info /media/icat/TOSHIBA/.secret/
-sudo cp .info /media/icat/TOSHIBA/.secret/
+mdkir .notes
+mkdir .notes
 clear
 ll
-readme 
+cd .notes/
 clear
 ll
-cat .recascii 
-cp .recascii /media/icat/TOSHIBA/.secret/
-sudo cp .recascii /media/icat/TOSHIBA/.secret/
 clear
 ll
-sudo cp .touchpad-speed /media/icat/TOSHIBA/.secret/
-clear
-l
-l -a
+touch ceh-ehe.md
 clear
 ll
+nvim .
+clear
+cd Polarpwn/
+clear
+ll
+clear
+cd igloo-core/
+clear
+ll
+clear
+hugo server --source=productionSite/
+clear
+ll
+hugo server --source=productionSite/
+nvim productionSite/content/_index.md 
+cd Polarpwn/igloo-core/
+clear
+hugo server --source=productionSite/
+clear
+hugo server --source=productionSite/
+clear
 cd .config/
 ll
-l
-clear
-l -a
-readme 
-readme | grep bin
-clear
-cd .local/share/fonts/
+cd qtile/
 clear
 ll
-cd JetBrainsNerd/
+nvim .
+cd Polarpwn/
+clear
+ll
+clear
+l
+ll
+cd .notes/
+clear
+ll
+mv ceh-ehe.md aws-ce.md
+clear
+l
+ll
+nvim aws-ce.md 
+distrobox --help
+sudo docker container ls -a
+sudo docker container stop 191f408731a6
+clear
+distrobox create --name debipwn --image ubuntu:latest
+sudo distrobox create --name debipwn --image ubuntu:latest
+which distrobox
+sudo /home/icat/.local/bin/distrobox create --name debipwn --image ubuntu:latest
+sudo su
+clear
+distrobox create --name debipwn --image ubuntu:latest
+groups 
+groups icat 
+./.calibrating 
+clear
+./.calibrating 100
+sudo ./.calibrating 100
+clear
+sudo usermod -aG docker icat 
+clear
+distrobox create --name debipwn --image ubuntu:latest
+sg docker -c "bash"
+clear
+c
+clear
+ll
+clear
+distrobox create --name debipwn --image ubuntu:latest
+distrobox enter debipwn 
+sudo docker logs debipwn 
+ip a
+clear
+sudo reboot 
+clear
+docker logs debipwn 
+docker logs debipwn | tail -fs
+docker logs debipwn 
+clear
+docker logs debipwn --follow 
+clear
+ll
+clea
+clear
+ls
+ls -la
+clear
+sudo apt-get update 
+gucview
+guvcview
+exit
+distrobox rm debipwn
+clear
+distrobox create --name debipwn --image ubuntu:latest
+distrobox enter debipwn
+clear
+nvim .config/kitty/kitty.conf 
 clear
 ll
 clear
 df -h
+readme 
 clear
-du -h
+readme 
+clear
+readme 
+df -h
+netstat -tan
+netstat -tan | grep 37
+netstat -tan | grep 3790
+ll
+clear
+cat .bashrc 
+sudo apt-get install exa
+clear
+nvim .bashrc 
+nano .bashrc 
+clear
+vim .bashrc 
+vi .bashrc 
+ll
+clear
+ll
+clear
+cd Apps/
+ll
+clear
+sudo apt-get install nano build-essential iputils-ping net-tools git curl wget lsb-core
+clear
+sudo apt-get install nano build-essential
+clear
+curl
+git
+wget
+clear
+socat
+sudo apt-get upgrade 
+clear
+sudo apt-get install socat nmap ncat
+nikto
+clear
+xx
+xxf
+xxd
+sudo apt-get install hydra john exiftool xxd
+clear
+sudo apt-get install sqlmap 
+clear
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get install wireshark
+clear
+wireshark 
+sudo apt-get install tcpdump
+clear
+python3-pip
+sudo apt-get install python3-pip
+clear
+java -version
+clear
+ll
+cd
+cd Downloads/
+ll
+clear
+ll
+cd ..
+clear
+ll
+cd /opt/
+clear
+ll
+wget wget https://apt.metasploit.com/pool/main/m/metasploit-framework/metasploit-framework_6.2.8%2B20220720103055~1rapid7-1_amd64.deb
+clear
+ll
+clear
+wget http://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
+clear
+ll
+sudo wget http://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
+clear
+ll
+chmod +x metasploit-latest-linux-x64-installer.run 
+sudo chmod +x metasploit-latest-linux-x64-installer.run 
+./metasploit-latest-linux-x64-installer.run 
+clear
+sudo ./metasploit-latest-linux-x64-installer.run 
+clear
+msfconsole 
+clear
+msfdb
+clear
+msfupdate 
+sudo msfupdate 
+sudo service metasploit status
+sudo service metasploit start
+sudo msfupdate 
+msfconsole 
+clear
+msfconsole -v
+clear
+sudo msfupdate 
+clear
+sudo service metasploit status
+clear
+exit
+cd Polarpwn/igloo-core/
+clear
+ll
+cd productionSite/
+clear
+ll
+cd content/
+clea
+rll
+clear
+ll
+cd blog/
+clear
+ll
+cp optional-flags-in-bash.md install-metasploit.md
+clear
+ll
+nvim install-metasploit.md 
+clear
+ll
+cp install-metasploit.md .template.md
+clear
+ll
+mv .template.md _template.md 
+clear
+ll
+cp _template.md install-dvwa.md
+clear
+ll
+nvim install-metasploit.md 
+clear
+ll
+nvim install-dvwa.md 
+clear
+netstat
+netstat -tan
+distrobox enter debipwn 
+clear
+distrobox stop debipwn 
+sudo docker container ls -a
+cd
+cd Polarpwn/
+clear
+ll
+nvim .
+clear
+ll
+mv .bak/ bak
+clear
+ll
+ll .notes/
+rm -r .notes/
+clear
+ll
+nvim .
+nvim .config/nvim/init.lua 
+cd Polarpwn/igloo-core/
+clear
+git status
+cat README.
+cat README.md 
+clear
+l
+clear
+ll
+clear
+git status
+git add productionSite/content/blog/_template.md 
+git commit -m "add template md for upcoming post"
+clear
+git status
+hugo server --source=productionSite/
+clear
+readme 
+git push
+clear
+git status
+git fetch 
+clear
+git status
+git push
+clear
+ll
+git status
+clear
+nano .git
+clear
+ll
+cd .git
+clear
+ll
+cd ..
+clear
+ll
+find .
+find . grep "polarpwn"
+find . -exec grep "polarpwn" {} \;
+find -type f . -exec grep "polarpwn" {} \;
+find -type f -exec grep "polarpwn" {} \;
+cd .git
+clear
+find -type f -exec grep "polarpwn" {} \;
+ll
+cd .conf
+nano config 
+find -type f -exec grep "polarpwn" {} \;
+cd ..
+clear
+git push
+readme 
+git push
+cd 
+distrobox start debipwn
+clear
+sudo docker pull ghcr.io/digininja/dvwa:1fb5078
+readme 
+sudo docker run -p 4280:4280 --privileged --hostname dvwa --name dvwa ghcr.io/digininja/dvwa:1fb5078  /bin/bash
+sudo docker run -p 4280:4280 -it --privileged --hostname dvwa --name dvwa ghcr.io/digininja/dvwa:1fb5078  /bin/bash
+clear
+sudo docker container ls -a
+sudo docker container rm bca3e67e9d24
+sudo docker container ls -a
+sudo docker run -p 4280:4280 -it --privileged --hostname dvwa --name dvwa ghcr.io/digininja/dvwa:1fb5078  /bin/bash
+clear
+sudo docker container ls -a
+sudo docker container rm 6473b7aa20f0
+clear
+sudo docker run -p 4280:80 -it --privileged --hostname dvwa --name dvwa ghcr.io/digininja/dvwa:1fb5078  /bin/bash
+clear
+sudo docker container ls -a
+sudo docker container rm 6e74ba2f1cd4
+clear
+ll
+clear
+sudo docker image ls
+sudo docker image rm ghcr.io/digininja/dvwa
+sudo docker image rm 2f373d9e8244
+clear
+sudo docker image ls
+clear
+cd Apps/
+clear
+ll
+git clone https://github.com/digininja/DVWA.git
+clear
+ll
+cd DVWA/
+clear
+ll
+clear
+ll
+sudo docker compose up -d
+clear
+sudo docker container ls -a
+clear
+sudo docker container ls
+sudo docker ps
+sudo docker exec dvwa-dvwa-1 -it /bin/bash
+sudo docker exec dvwa-dvwa-1 /bin/bash
+sudo docker exec -it dvwa-dvwa-1 /bin/bash
+clear
+docker ps
+clear
+sudo docker exec dvwa-dvwa-1 -it /bin/bash
+sudo docker exec -it dvwa-dvwa-1 /bin/bash
+clear
+sudo docker ps
+sudo docker container stop dvwa-db-1 
+sudo docker container stop dvwa-dvwa-1 
+clear
+sudo docker ps
+sudo docker container ls -a
+killall firefox-bin 
+sudo reboot 
+clear
+sudo docker container ls -a
+sudo docker container start dvwa-db-1 
+sudo docker container start dvwa-dvwa-1 
+sudo docker container ls -a
+sudo docker container ps
+clear
+sudo docker exec dvwa-dvwa-1 sed -i '27s/\x27\x27/\x276LcHpzspAAAAABVWU_mRIPjnC3jaG77BXRxDMDfq\x27/' /var/www/html/config/config.inc.php
+sudo docker exec dvwa-dvwa-1 sed -i '28s/\x27\x27/\x276LcHpzspAAAAAO8EEzI9yDeD_DfBkq-YiQCzXhc3\x27/' /var/www/html/config/config.inc.php 
+sudo docker exec dvwa-dvwa-1 /etc/init.d/apache2 reload
+clear
+cd Polarpwn/igloo-core/
+clear
+ll
+cd productionSite/content/blog/
+clear
+ll
+clear
+ll
+mv _template.md ._template.md 
+clear
+ll
+cd
+cd Downloads/
+clear
+cp dvwa.webp ~/Polarpwn/igloo-core/productionSite/static/images/blog/
+clear
+cd -
+cd Polarpwn/igloo-core/
+clear
+ll
+cd productionSite/
+clear
+cd
+clear
+cd Polarpwn/igloo-core/
+clea
+clear
+nvim .
+ll
+cd productionSite/content/blog/
+clear
+ll
+clear
+ll
+mv install-dvwa.md setting-up-dvwa.md 
+clear
+ll
+cd ../..
+cd ..
+clear
+nvim .
+cd Polarpwn/igloo-core/
+clear
+hugo server --source=productionSite/
+sudo reboot 
+caffeine
+xset q
+gsettings get org.gnome.desktop.session idle-delay
+clear
+gsettings get org.gnome.desktop.session idle-delay
+gsettings set org.gnome.desktop.session idle-delay 0 
+gsettings get org.gnome.desktop.session idle-delay
+systemctl mask suspend.target 
+killall firefox-bin 
+clear
+sudo reboot 
+gsettings get org.gnome.desktop.session idle-delay
+clear
+cd Polarpwn/igloo-core/
+clear
+nvim .
+cd ..
+clear
+nvim .
+cd Polarpwn/igloo-core/
+clear
+git status
+git add productionSite/content/blog/setting-up-dvwa.md 
+git commit -m "add [3] post outline on setting up dvwa in docker"
+clear
+git status
+readme 
+git push
+clear
+readme | grep git
+clear
+readme | grep git-
+git push
+cd Polarpwn/igloo-core/
+clear
+hugo server --source=productionSite/
+clear
+killall firefox-bin 
+sudo shutdown -h now
+sudo reboot 
+sudo ifconfig 
+sudo ifconfig wlp2s0 down
+clear
+ifconf
+sudo ifconfig 
+sudo ifconfig wlp2s0 up
+killall firefox-bin 
+clear
+sudo shutdown -h now
+sudo ifconfig 
+sudo service NetworkManager restart
+sudo service networking restart 
+clera
+sudo ifconfig wlp2s0 up
+sudo ifconfig
+clear
+ll
+cd /etc/network/interfaces.d/
+clear
+ll
+cd ..
+cd
+clear
+locate netplan
+sudo ifconfig
+sudo reboot 
+sudo ifconfig 
+sudo ifconfig wlp2s0 up
+lsusb 
+clear
+sudo lshw
+lscpu 
+cat /etc/NetworkManager/NetworkManager.conf 
+sudo dpkg-reconfigure network-manager
+clear
+sudo ifconfig wlp2s0 up
+sudo ifconfig 
+sudo service networking restart 
+sudo service NetworkManager restart
+clear
+ifconf
+sudo ifconfig 
+clear
+sudo ifconfig wlp2s0 up
+cat /etc/network/interfaces
+ll /etc/network/interfaces.d/
+sudo nano /etc/network/interfaces
+sudo service networking stop
+sudo service NetworkManager stop
+sudo ifconfig wlp2s0 up
+sudo dhclient wlp2s0
+sudo ifconfig -a
+ip address 
+sudo ip link set wlp2s0 up
+sudo shutdown -h now
+sudo ifconfig wlp2s0
+sudo ifconfig 
+sudo ifconfig wlp2s0 up
+ip addr
+clear
+sudo nano /etc/network/interfaces
+clear
+sudo networkctl 
+sudo service networking status
+sudo service systemd-networkd status
+clear
+sudo service systemd-networkd restart
+sudo service systemd-networkd status
+clear
+ip addr
+sudo ifconfig -a
+clear
+sudo ifconfig wlp2s0 up
+sudo service NetworkManager status
+wlp2s0
+networkctl 
+sudo xfce4-settings-manager 
+sudo nm-applet 
+nm-applet 
+nm
+nm-connection-editor 
+sudo ifconfig 
+sudo lshw
+lshw
+sudo apt-get update
+hw
+clear
+lspci 
+lspci | grep netw
+lsattr 
+clear
+ls
+clear
+lsblk 
+lsipc 
+lsusb 
+clear
+lsfd 
+clear
+ip link 
+clear
+ip link 
+sudo ifconfig 
+sudo ifconfig enx*
+clear
+sudo apt-get update 
+sudo apt-get install lshw
+clear
+sudo lshw network
+sudo lshw -C network
+sudo shutdown -h now
+sudo ifconfig 
+clear
+sudo apt-get install firmware-iwlwifi 
+clear
+sudo apt-get update 
+sudo apt-get upgrade 
+clear
+uptime 
+clear
+xscreensaver
+sudo apt-get install xscreensaver
+clear
+whatis xscreensaver
+xscreensaver
+xscreensaver 
+xscreensaver-settings 
+xscreensaver-command 
+xscreensaver-demo 
+xscreensaver --help
+xscreensaver-settings 
+clear
+cd Polarpwn/igloo-core/
+clear
+cd productionSite/
+clear
+ll
+cd static/
+clear
+l
+cd images/
+clear
+ll
+cd blog/
+clear
+ll
+docker container ls -a
+clear
+history 
+history | group
+history | grep icat
+clear
+docker ps
+docker --version
+docker compose --version
+clear
+docker --version
+docker compose version
+cd Polarpwn/igloo-core/
+clear
+cd ..
+clear
+nvim .
+clear
+iwconifg
+iwconfig
+lshw 
+lshw -C network
+clear
+lshw -C network
+clear
+sudo lshw -C network
+cd Polarpwn/igloo-core/
+clear
+hugo server --source=productionSite/
+clear
+git status
+git add assets/css/custom.css 
+git commit -m "fix unwanted padding on image tag"
+clear
+git status
+git add productionSite/content/blog/setting-up-dvwa.md 
+git commit -m "adding the main snippet to be followed on"
+lear
+clear
+git status
+clear
+git status
+clear
+readme | grep git-
+git push
+clear
+sudo shutdown --help
+sudo systemctl hibernate 
+sudo systemctl suspend
+sudo su
+cd .config/qtile/
+clear
+find . -exec grep suspend {} \;
+systemctl suspend
+sudo systemctl suspend
+sudo systemctl halt 
+sudo shutdown -h now
+sudo apt-get update 
+sudo reboot 
+sudo xscreensaver
+xscreensaver
+sudo apt-get update 
+clear
+history 
+clear
+docker ps
+sudo docker container stop 317dc9867e91
+sudo docker container stop 4291ea09e525
+clear
+docker ps
+cd Downloads/
+clear
+cd Downloads/
+clear
+ll]
+ll
+clear
+sudo apt-get install ./zoom_amd64.deb 
+zoom 
+clear
+cp Fuil\ User\ BDP_2024.pdf ~/Documents/career/bca-s/
+cp Jadwal\ BDP\ 2024\ \(IT\ Ops\).pdf ~/Documents/career/bca-s/
+clear
+cd ~/Documents/career/bca-s/
+clear
+ll
+mv Fuil\ User\ BDP_2024.pdf Full\ User\ BDP_2024.pdf 
+clear
+ll
+clear
+ll
+mv Full\ User\ BDP_2024.pdf Full\ User\ BDP_2024\ -\ Muhammad-Nur-Irsyad.pdf 
+clear
+l
+clear
+ll
+clear
+ll
+cd Documents/
+clear
+ll
+cd career/
+clear
+ll
+cd bca-s/
+clear
+ll
+clear
+l
+cd ..
+clear
+ll
+cd bca-s/
+clear
+ll
+clear
+cd ..
+clear
+l
+l appendix/
+cd -
+clear
+ll
+clera
+mkdir etc
+clear
+ll
+mv BDP_2023\ \(IT\).xlsx Form\ * etc/
+clear
+l
+touch overview-bdp-it.md
+clear
+ll
+nvim overview-bdp-it.md 
+sudo apt-get update 
+sudo virt-manager 
+echo $((2x4))
+echo $((2*4))
+echo $((1024*8))
+docker ps
+clear
+top 
+clear
+btop 
+killall zoom 
+clear
+sudo virt-manager 
+cd Documents/career/bca-s/
+cear
+clear
+ll
+clear
+bat overview-bdp-it.md 
+clear
+ll
+nvim overview-bdp-it.md 
+clea
+clear
+bat overview-bdp-it.md 
+touch materi-bdp-it-ops.md
+clear
+ll
+cd Polarpwn/p
+cd Polarpwn/igloo-core/
+clear
+git status
+cd Polarpwn/igloo-core/
+clear
+ll
+cd ..
+clear
+nvim .
+sudo shutdown -h now
+cd Documents/career/
+clear
+ll
+cd bca-s/
+clear
+ll
+nvim .
+sudo apt-get update 
+sudo shutdown -h now
+sudo apt-get update 
+clear
+sudo apt-get update 
+sudo lshw -C network
+clear
+sudo service NetworkManager restart
+sudo lshw -C network
+sudo apt-get update 
+sudo shutdown -h now
+sudo apt-get update 
+iw
+sudo apt-get install iw
+iw dev wlp2s0
+clear
+iw
+sudo apt-get install iw
+sudo iw
+clear
+sudo iw dev wlp2s0
+sudo su
+/sbin/iw dev wlp2s0 info
+sudo /sbin/iw dev wlp2s0 info
+clear
+sudo /sbin/iw dev wlp2s0 set power_save off
+sudo /sbin/iw dev wlp2s0 info
+cd /etc/NetworkManager/
+clear
+ll
+cd dispatcher.d/
+clear
+ll
+touch nopowersafe
+clear
+ll
+touch nopowersafe
+clear
+sudo su
+sudo apt-get update 
+clear
+ifconf
+clear
+ll
+sudo /sbin/iw wlp2s0 get power_safe
+sudo /sbin/iw dev wlp2s0 get power_safe
+sudo /sbin/iw dev wlp2s0 info
+sudo /sbin/iw dev wlp2s0 get
+sudo /sbin/iw dev wlp2s0 show
+sudo /sbin/iw dev wlp2s0 show power_safe
+uf
+if dev wlp2s0 get power_safe; ;
+ll /etc/NetworkManager/conf.d/
+ll /etc/NetworkManager/system-connections/
+cd /etc/NetworkManager/
+clear
+ll
+cat system-connections/IRSYAD.nmconnection 
+sudo su
+./dispatcher.d/nopowersafe 
+sudo su
+sudo reboot 

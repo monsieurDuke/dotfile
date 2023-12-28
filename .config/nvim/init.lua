@@ -739,3 +739,24 @@ vim.api.nvim_exec([[
   augroup END
 ]], false)
 
+-- Toggle CMD Prompt
+-- vim.cmd([[ autocmd CmdlineEnter * set cmdheight=0 ]])
+vim.cmd([[set cmdheight=0]])
+vim.cmd([[set laststatus=3]])
+
+-- Define a function to copy visually selected text to the clipboard using xclip
+function Copy_to_clipboard()
+    local selected_text = vim.fn.getreg("")
+
+    -- If there is visually selected text
+    if selected_text ~= "" then
+        local cmd = string.format('echo "%s" | xclip -selection clipboard', selected_text)
+        vim.fn.system(cmd)
+        print("Text copied to clipboard")
+    else
+        print("No text selected")
+    end
+end
+
+-- Create a keybinding to trigger the copy_to_clipboard function
+vim.api.nvim_set_keymap('x', '<Leader>y', [[:lua Copy_to_clipboard()<CR>]], { noremap = true, silent = true })

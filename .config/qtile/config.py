@@ -55,7 +55,6 @@ keys = [
     Key([mod, "control"], "o", lazy.layout.maximize(), desc="Grow window down"),
     # Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
-    # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
     # multiple stack panes
@@ -72,7 +71,8 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    Key([mod, "control"], "f", lazy.window.bring_to_front()),    
+    Key([mod, "control"], "f", lazy.window.bring_to_front()),
+    Key([mod], "f", lazy.window.toggle_floating()),
 ]
 
 groups = [Group(i) for i in "1234567"]
@@ -127,7 +127,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="JetBrains Mono Medium",
+    font="JetBrainsMono Nerd Font",
     fontsize=9,
     padding=4,
 )
@@ -139,10 +139,10 @@ screens = [
 		wallpaper_mode='fill',
         top=bar.Bar(
             [
-                widget.CurrentLayout(fmt=' Monad', foreground='#8be9fd'),
-                widget.GroupBox(highlight_method='block'),
+                widget.CurrentLayout(fmt='      ', foreground='#8be9fd', fontsize=14),
+                widget.GroupBox(highlight_method='block', active='#c7ffc9', block_highlight_text_color='#eac7ff', this_current_screen_border='#1b262e' ),
                 widget.Prompt(foreground='#bd93f9'),
-                widget.WindowName(foreground='#f8f8f2', for_current_screen=True, max_chars=80),
+                widget.WindowName(foreground='#c7ffcd', for_current_screen=True, max_chars=380),
                 widget.Chord(
                     chords_colors={
                         "launch": ("#ffffff", "#ffffff"),
@@ -153,85 +153,96 @@ screens = [
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
                 # widget.Systray(),
-                widget.TextBox("[[", name="default",foreground="#ffffff"),           
-                widget.TextBox("WIN", name="default",foreground="#9ddcfc",
-                    mouse_callbacks = {
-                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -w start'),
-                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -w stop') 
-                    },                    
-                ),                                                                
-                widget.TextBox("|", name="default",foreground="#ffffff"),                           
-                widget.TextBox("SET", name="default",foreground="#bd93f9", scroll=True,
-                    mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-settings-manager')}
-                ),
-                widget.TextBox("SCR", name="default",foreground="#bd93f9", scroll=True,
-                    mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-screenshooter')}
-                ),
-                widget.TextBox("CON", name="default",foreground="#bd93f9",
+            #    widget.TextBox("[[", name="default",foreground="#ffffff"),           
+            #    widget.TextBox("WIN", name="default",foreground="#9ddcfc",
+            #        mouse_callbacks = {
+            #            'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -w start'),
+            #            'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -w stop') 
+            #        },                    
+            #    ),                                                                
+            #    widget.TextBox("|", name="default",foreground="#ffffff"),                           
+            #    widget.TextBox("SET", name="default",foreground="#bd93f9", scroll=True,
+            #        mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-settings-manager')}
+            #    ),
+            #    widget.TextBox("SCR", name="default",foreground="#bd93f9", scroll=True,
+            #        mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-screenshooter')}
+            #    ),
+            #    widget.TextBox("CON", name="default",foreground="#bd93f9",
                     ## nmcli  -- wifi
                     ## arandr -- screen
                     ##        -- bluetooth
-                    mouse_callbacks = {'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -d')}
-                ),                
-                widget.TextBox("CAM", name="default",foreground="#bd93f9",
+            #        mouse_callbacks = {'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -d')}
+            #    ),                
+            #    widget.TextBox("CAM", name="default",foreground="#bd93f9",
+            #        mouse_callbacks = {
+            #            'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c start'),
+            #            'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c stop')                 
+            #        }, 
+            #    ),                
+            #    widget.TextBox("REC", name="default",foreground="#bd93f9",
+            #        mouse_callbacks = {
+            #            'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f start'),
+            #            'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f stop') 
+            #        },                    
+            #    ),                                
+            #    widget.TextBox("]]", name="default",foreground="#ffffff"),                           
+                widget.TextBox("WINDOWS-10", name="default",foreground="#9ddcfc",
                     mouse_callbacks = {
-                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c start'),
-                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -c stop')                 
-                    }, 
-                ),                
-                widget.TextBox("REC", name="default",foreground="#bd93f9",
-                    mouse_callbacks = {
-                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f start'),
-                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/scripts/widget.sh -f stop') 
+                        'Button1': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/vm-manager.sh start windows-10'),
+                        'Button3': lambda: qtile.spawn('/bin/bash /home/icat/.config/qtile/vm-manager.sh stop windows-10') 
                     },                    
-                ),                                
-                widget.TextBox("]]", name="default",foreground="#ffffff"),                           
-                widget.Pomodoro(color_inactive='#BF616A', color_active='#50fa7b', color_break='#ffb86c'),
-				widget.Net(interface="wlp2s0",format='{down:4.2f}{down_suffix:<2} ↓↑ {up:4.2f}{up_suffix:<2}',prefix='M',foreground="#f1fa8c",
+                ),                                                                
+                widget.Pomodoro(color_inactive='#f590eb', color_active='#f590eb', color_break='#f590eb'),
+				widget.Net(interface="wlp2s0",format='{down:4.2f}{down_suffix:<2} ↓↑ {up:4.2f}{up_suffix:<2}',prefix='M',foreground="#d590f5",
                                 # widget.Net(interface="wlp2s0", format='{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}', prefix='M',foreground="#f1fa8c",
                     mouse_callbacks = {'Button1': lambda: qtile.spawn('nm-connection-editor')} 
                 ),
-                widget.Clock(format="%Y-%m-%d | %I:%M:%S %p",foreground="#ff79c6",
+                widget.Clock(format="%Y-%m-%d | %I:%M:%S %p",foreground="#ad90f5",
                     mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-terminal -e calcurse')}                    
                     ),
 				widget.Battery(format='BAT {percent:2.0%} {hour:d}:{min:02d}', foreground="#88C0D0"),
-				widget.CPU(format='CPU {load_percent}%', foreground="#EBCB8B"),
-				widget.Memory(format='RAM {MemUsed:.0f}{mm}', foreground="#B48EAD"),
-				widget.Volume(fmt='VOL {}', foreground="#BEFB89",
+				widget.CPU(format='CPU {load_percent}%', foreground="#90f5d5"),
+				widget.Memory(format='RAM {MemUsed:.0f}{mm}', foreground="#90f5ae"),
+				widget.Volume(fmt='VOL {}', foreground="#90f592",
                     mouse_callbacks = {'Button1': lambda: qtile.spawn('xfce4-terminal -e alsamixer')}                    
                 ),
-                widget.TextBox("Zzz", name="default",foreground="#bd93f9",
+                widget.ThermalSensor(foreground="#b7f590", threshold=70, update_interval=1),
+                widget.TextBox("Zzz ", name="default",foreground="#c4f590",
                     mouse_callbacks = {'Button1': lambda: qtile.spawn('systemctl suspend')}
-                ),                
+                ),               
                 # widget.QuickExit(foreground="#ff5555"),
             ],
             24,
-            opacity=0.80,
-            margin=[5,0,0,0],
+            opacity=1,
+            margin=[0,0,0,0]
 #            border_width=[2, 2, 2, 2],  # Draw top and bottom borders
-            border_color=["bd93f9", "bd93f9", "bd93f9", "bd93f9"]  # Borders are magenta
+#            border_color=["bd93f9", "bd93f9", "bd93f9", "bd93f9"]  # Borders are magenta
         ),
-    ),
-    Screen(
-        wallpaper='/home/icat/.config/qtile/wallpps/kali.jpg',
-        wallpaper_mode='fill'
     )
+#    Screen(
+#        wallpaper='/home/icat/.config/qtile/wallpps/kali.jpg',
+#        wallpaper_mode='fill'
+#    )
 ]
 
 # Drag floating layouts.
 mouse = [
     Drag([mod, "shift"], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-    Drag([mod, "control"], "Button1", lazy.window.set_size_floating(), start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front()),
+    # Drag([mod, "control"], "Button1", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Click([mod, "control"], "Button1", lazy.group.setgroup("1")),
+    Click([mod], "Button1", lazy.window.bring_to_front()),
 ]
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
 follow_mouse_focus = True
 bring_front_click = False
+floats_kept_above = True
 cursor_warp = False
 floating_layout = layout.Floating(
-    border_width=2, border_focus="#88C0D0", border_normal="#88C0D0",
+    border_focus="#bd93f9", 
+    border_normal="#4c566a", 
+    border_width=2,
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
         *layout.Floating.default_float_rules,

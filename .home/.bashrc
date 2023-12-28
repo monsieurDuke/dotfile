@@ -61,7 +61,8 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='\[\e[01;35m\][\u\[\e[01;32m\]@\[\e[01;34m\]\h\[\e[0m\]:\[\e[01;33m\]\w\[\e[00;32m\]]\$\[\e[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -102,6 +103,8 @@ alias recascii='bash /home/icat/.recascii'
 alias bat='batcat --theme=ansi'
 alias rcp='rsync -ah --progress'
 alias nv='nvim'
+alias claer='clear'
+alias clera='clear'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -127,7 +130,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-compton -b --config /home/icat/.config/qtile/scripts/compton.conf &> /dev/null
-export EDITOR="/usr/bin/nano"
-ranger
+#compton -b --config /home/icat/.config/qtile/scripts/compton.conf &> /dev/null
+#export EDITOR="/home/icat/.local/bin/nvim"
+#ranger
 . "$HOME/.cargo/env"
