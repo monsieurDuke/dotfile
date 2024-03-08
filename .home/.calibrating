@@ -5,3 +5,4 @@ xinput --set-prop $id $attr 0.3
 
 brightnessctl -d "intel_backlight" set $1%
 
+xrandr --output HDMI-1 --pos 1366x0 --rotate normal --mode 1920x1080
